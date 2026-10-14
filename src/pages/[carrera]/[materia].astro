@@ -43,6 +43,10 @@ const toc = headings.filter((h) => h.depth === 2);
         {toc.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)}
       </nav>
       <div>
+        <div class="acciones-unidades">
+          <button type="button" id="abrirTodo">Expandir todo</button>
+          <button type="button" id="cerrarTodo">Colapsar todo</button>
+        </div>
         <div class="prose"><Content /></div>
         {otras.length > 0 && (
           <p class="also">
@@ -54,3 +58,44 @@ const toc = headings.filter((h) => h.depth === 2);
     </div>
   </div>
 </Base>
+
+<script>
+  // Arma los desplegables en el navegador si el servidor no los generó
+  // (así funciona aunque falte el plugin en astro.config.mjs).
+  const prose = document.querySelector('.prose');
+  if (prose && !prose.querySelector('details.unidad') && prose.querySelector(':scope > h2')) {
+    const nodos = [...prose.childNodes];
+    prose.replaceChildren();
+    let cuerpo: HTMLElement | null = null;
+    let primera = true;
+    for (const n of nodos) {
+      if (n.nodeType === 1 && (n as HTMLElement).tagName === 'H2') {
+        const d = document.createElement('details');
+        d.className = 'unidad';
+        if (primera) { d.open = true; primera = false; }
+        const sm = document.createElement('summary');
+        sm.appendChild(n);
+        cuerpo = document.createElement('div');
+        cuerpo.className = 'cuerpo';
+        d.append(sm, cuerpo);
+        prose.appendChild(d);
+      } else {
+        (cuerpo ?? prose).appendChild(n);
+      }
+    }
+  }
+
+  const unidades = () => [...document.querySelectorAll<HTMLDetailsElement>('.prose details.unidad')];
+  document.getElementById('abrirTodo')?.addEventListener('click', () => unidades().forEach((d) => (d.open = true)));
+  document.getElementById('cerrarTodo')?.addEventListener('click', () => unidades().forEach((d) => (d.open = false)));
+
+  // Si se entra por un link con #tema (o desde el índice), abrir esa unidad.
+  function abrirDestino() {
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (!id) return;
+    const d = document.getElementById(id)?.closest('details');
+    if (d) d.open = true;
+  }
+  addEventListener('hashchange', abrirDestino);
+  abrirDestino();
+</script>

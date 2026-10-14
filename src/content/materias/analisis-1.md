@@ -1,6 +1,6 @@
 ---
 nombre: Análisis Matemático I
-code: MAT-01
+code: "01291"
 resumen: Derivadas, integrales, series y ecuaciones diferenciales.
 ---
 

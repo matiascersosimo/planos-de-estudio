@@ -136,3 +136,24 @@ h3.grp:first-of-type{margin-top:22px}
 .also{margin-top:40px;padding-top:20px;border-top:1px solid var(--line-strong);color:var(--ink-dim);font-size:.9rem}
 .also a{color:var(--accent)}
 .cimg img{display:block;width:100%;height:auto}
+
+/* Fórmulas (KaTeX) y tablas dentro de las guías */
+.prose .katex-display{overflow-x:auto;overflow-y:hidden;padding:6px 0;margin:16px 0}
+.prose table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse;margin:18px 0;font-size:.92rem}
+.prose th,.prose td{border:1px solid var(--line-strong);padding:8px 12px;text-align:left;vertical-align:top}
+.prose th{background:var(--panel);font-weight:600}
+
+/* Unidades desplegables dentro de cada guía */
+.acciones-unidades{display:flex;gap:10px;justify-content:flex-end;margin-bottom:14px}
+.acciones-unidades button{font:inherit;font-size:.82rem;color:var(--ink-dim);background:transparent;border:1px solid var(--line-strong);padding:5px 12px;cursor:pointer}
+.acciones-unidades button:hover{color:var(--ink);border-color:var(--accent)}
+.prose details.unidad{border:1px solid var(--line-strong);background:rgba(10,34,67,.55);margin:0 0 10px}
+.prose details.unidad>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:12px;padding:14px 16px}
+.prose details.unidad>summary::-webkit-details-marker{display:none}
+.prose details.unidad>summary::before{content:"+";font-family:var(--mono);color:var(--accent);width:1ch}
+.prose details.unidad[open]>summary::before{content:"\2212"}
+.prose details.unidad>summary:hover{background:var(--panel)}
+.prose details.unidad>summary h2{margin:0;padding:0;border:0;font-size:1.2rem}
+.prose details.unidad[open]>summary{border-bottom:1px solid var(--line)}
+.prose details.unidad .cuerpo{padding:18px 20px 8px}
+.prose details.unidad .cuerpo>:last-child{margin-bottom:12px}

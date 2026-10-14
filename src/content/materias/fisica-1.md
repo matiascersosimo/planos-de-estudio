@@ -1,5 +1,5 @@
 ---
 nombre: Física I
-code: FIS-01
+code: "00131"
 resumen: Cinemática, dinámica y más.
 ---

@@ -8,7 +8,7 @@ const materias = defineCollection({
   schema: z.object({
     nombre: z.string(),
     code: z.string(),
-    resumen: z.string(),
+    resumen: z.string().default(''),
   }),
 });
 
