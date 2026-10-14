@@ -1,0 +1,88 @@
+---
+import '../styles/global.css';
+import { getCollection } from 'astro:content';
+import { ESCUELAS } from '../data/catalogo';
+import { SITE_NAME } from '../data/site';
+import { u } from '../lib/url';
+
+interface Props { title?: string; description?: string }
+const { title, description = 'Guías de estudio con teoría y puntos clave, organizadas por carrera y por materia.' } = Astro.props;
+const pageTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
+const vivas = new Set((await getCollection('carreras')).map((c) => c.id));
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content={description} />
+  <title>{pageTitle}</title>
+  <link rel="icon" type="image/svg+xml" href={u('favicon.svg')} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="wrap bar">
+      <a class="brand" href={u()} aria-label={`${SITE_NAME}, inicio`}>
+        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" stroke="#8fd0ff" stroke-width="1.4" aria-hidden="true"><rect x="2" y="2" width="22" height="22" rx="1.5"/><path d="M2 10h22M2 18h22M10 2v22M18 2v22" stroke-opacity=".45"/><circle cx="14" cy="14" r="3.2" fill="#8fd0ff" stroke="none"/></svg>
+        <span class="bn">{SITE_NAME}</span>
+      </a>
+      <nav class="main" aria-label="Principal">
+        <div class="dd">
+          <button class="dd-btn" id="ddBtn" aria-expanded="false" aria-controls="ddMenu">Carreras <span aria-hidden="true">▾</span></button>
+          <div class="dd-menu" id="ddMenu" hidden>
+            <div class="wrap">
+              {ESCUELAS.map((e) => (
+                <div class="g">
+                  <b>{e.nombre}</b>
+                  {e.areas.map((a) => (
+                    <>
+                      <i>{a.nombre}</i>
+                      {a.carreras.map((c) => (
+                        <a href={u(c.id + '/')}>
+                          <span>{c.nombre}</span>
+                          {vivas.has(c.id) && <span class="status live">Disponible</span>}
+                        </a>
+                      ))}
+                    </>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <a href={u('acerca/')}>Acerca de</a>
+        <a href={u('contacto/')}>Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main><slot /></main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot">
+        <div><b>{SITE_NAME}</b>Guías de estudio con teoría y puntos clave, organizadas por carrera y por materia.</div>
+        <div><b>Carreras</b><a href={u('informatica/')}>Ingeniería en Informática</a><a href={u()}>Ver todas</a></div>
+        <div><b>Proyecto</b><a href={u('acerca/')}>Acerca de</a><a href={u('contacto/')}>Contacto</a></div>
+      </div>
+      <div class="legal">Proyecto estudiantil independiente, sin afiliación oficial a ninguna universidad. El contenido es de apoyo y no reemplaza el material de la cátedra.</div>
+    </div>
+  </footer>
+
+  <script is:inline>
+    (function () {
+      var btn = document.getElementById('ddBtn'), menu = document.getElementById('ddMenu');
+      function close() { menu.hidden = true; btn.setAttribute('aria-expanded', 'false'); }
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var open = menu.hidden; menu.hidden = !open; btn.setAttribute('aria-expanded', String(open));
+      });
+      document.addEventListener('click', function (e) { if (!menu.contains(e.target)) close(); });
+      addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+    })();
+  </script>
+</body>
+</html>

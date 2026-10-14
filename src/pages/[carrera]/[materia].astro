@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+import { todasLasCarreras } from '../../data/catalogo';
+import { u } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const carreras = await getCollection('carreras');
+  const materias = new Map((await getCollection('materias')).map((m) => [m.id, m]));
+  const idsDe = (c: (typeof carreras)[number]) =>
+    new Set(c.data.plan.flatMap((a) => a.cuatrimestres.flatMap((q) => q.materias)));
+
+  // En qué carreras se cursa cada materia (una materia, varias carreras).
+  const usos = new Map<string, string[]>();
+  for (const c of carreras) for (const id of idsDe(c)) usos.set(id, [...(usos.get(id) ?? []), c.id]);
+
+  const paths = [];
+  for (const c of carreras) {
+    const meta = todasLasCarreras.find((x) => x.id === c.id);
+    if (!meta) throw new Error(`La carrera "${c.id}" no está en src/data/catalogo.ts`);
+    for (const id of idsDe(c)) {
+      const m = materias.get(id);
+      if (!m) throw new Error(`La materia "${id}" (carrera ${c.id}) no existe en src/content/materias/`);
+      if (!m.body?.trim()) continue;
+      const otras = (usos.get(id) ?? []).filter((x) => x !== c.id).map((x) => todasLasCarreras.find((y) => y.id === x)!);
+      paths.push({ params: { carrera: c.id, materia: id }, props: { carrera: meta, materia: m, otras } });
+    }
+  }
+  return paths;
+}
+
+const { carrera, materia, otras } = Astro.props;
+const { Content, headings } = await render(materia);
+const toc = headings.filter((h) => h.depth === 2);
+---
+<Base title={`${materia.data.nombre} · ${carrera.nombre}`} description={materia.data.resumen}>
+  <div class="wrap">
+    <div class="crumbs"><a href={u()}>Carreras</a> / <a href={u(carrera.id + '/')}>{carrera.nombre}</a> / {materia.data.nombre}</div>
+    <div class="page-title"><h1>{materia.data.nombre}</h1></div>
+    <div class="layout">
+      <nav class="toc" aria-label="Temas">
+        <b>En esta página</b>
+        {toc.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)}
+      </nav>
+      <div>
+        <div class="prose"><Content /></div>
+        {otras.length > 0 && (
+          <p class="also">
+            Esta materia también forma parte de:{' '}
+            {otras.map((o, i) => (<>{i > 0 && ', '}<a href={u(`${o.id}/${materia.id}/`)}>{o.nombre}</a></>))}.
+          </p>
+        )}
+      </div>
+    </div>
+  </div>
+</Base>

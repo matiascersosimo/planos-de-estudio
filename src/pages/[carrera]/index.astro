@@ -1,0 +1,82 @@
+---
+import Base from '../../layouts/Base.astro';
+import Row from '../../components/Row.astro';
+import IlusChip from '../../components/IlusChip.astro';
+import { getCollection, render } from 'astro:content';
+import { todasLasCarreras } from '../../data/catalogo';
+import { mailto } from '../../data/site';
+import { u } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('carreras');
+  const byId = new Map(entries.map((e) => [e.id, e]));
+  return todasLasCarreras.map((c) => ({ params: { carrera: c.id }, props: { meta: c, entry: byId.get(c.id) ?? null } }));
+}
+
+const { meta, entry } = Astro.props;
+const materias = new Map((await getCollection('materias')).map((m) => [m.id, m]));
+const Intro = entry ? (await render(entry)).Content : null;
+---
+<Base title={meta.nombre}>
+  <div class="wrap">
+    <div class="crumbs"><a href={u()}>Carreras</a> / {meta.nombre}</div>
+    <div class="page-title"><h1>{meta.nombre}</h1></div>
+
+    {entry && Intro ? (
+      <>
+        <div class="cintro">
+          <div><h2>Sobre la carrera</h2><div class="intro"><Intro /></div></div>
+          <div class="cimg">
+            {entry.data.imagen
+              ? <img src={u(entry.data.imagen)} alt={`Imagen de ${meta.nombre}`} />
+              : <IlusChip />}
+          </div>
+        </div>
+
+        <section class="block">
+          <h2>Plan de estudio</h2>
+          {entry.data.planParcial && <p class="sub2">Estamos cargando el plan completo. Por ahora figuran las materias con guía disponible.</p>}
+          {entry.data.plan.map((anio, ai) => (
+            <>
+              <h3 class="grp">{anio.anio}</h3>
+              {anio.cuatrimestres.map((q, qi) => (
+                <details class="cuat" open={ai === 0 && qi === 0}>
+                  <summary>
+                    <span>{q.nombre}</span>
+                    <span class="count">{q.materias.length} {q.materias.length === 1 ? 'materia' : 'materias'}</span>
+                  </summary>
+                  <div class="list">
+                    {q.materias.map((id) => {
+                      const m = materias.get(id);
+                      if (!m) throw new Error(`La materia "${id}" del plan de ${meta.id} no existe en src/content/materias/`);
+                      const live = Boolean(m.body?.trim());
+                      return (
+                        <Row
+                          href={live ? u(`${meta.id}/${id}/`) : undefined}
+                          code={m.data.code}
+                          nombre={m.data.nombre}
+                          desc={m.data.resumen}
+                          estado={live ? 'Disponible' : 'Próximamente'}
+                          live={live}
+                        />
+                      );
+                    })}
+                  </div>
+                </details>
+              ))}
+            </>
+          ))}
+        </section>
+      </>
+    ) : (
+      <section class="block help">
+        <h2>¿Estudiás {meta.nombre}?</h2>
+        <p>Todavía no hay guías de esta carrera. Ayudanos a completar el sitio: podés compartirnos tus resúmenes y apuntes, sugerir materias o sumarte a armar las guías.</p>
+        <div class="actions">
+          <a class="btn" href={mailto('Quiero ayudar con ' + meta.nombre)}>Escribinos</a>
+          <a class="btn ghost" href={u('informatica/')}>Ver una carrera disponible</a>
+        </div>
+      </section>
+    )}
+  </div>
+</Base>

@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import Row from '../components/Row.astro';
+import { getCollection } from 'astro:content';
+import { ESCUELAS } from '../data/catalogo';
+import { u } from '../lib/url';
+
+const carreras = await getCollection('carreras');
+const materias = await getCollection('materias');
+const vivas = new Set(carreras.map((c) => c.id));
+const nMaterias = materias.filter((m) => m.body?.trim()).length;
+---
+<Base>
+  <div class="hero"><div class="wrap"><div class="sheet">
+    <h1>Guías de estudio para toda tu carrera</h1>
+    <p class="lead">Teoría, fórmulas y puntos clave de cada materia, ordenados para estudiar y para repasar antes de rendir.</p>
+    <div class="titleblock">
+      <div><small>Proyecto</small>Planos de estudio</div>
+      <div><small>Carreras</small>{carreras.length}</div>
+      <div><small>Materias</small>{nMaterias}</div>
+      <div><small>Estado</small>Borrador</div>
+    </div>
+  </div></div></div>
+
+  <div class="wrap">
+    {ESCUELAS.map((e) => (
+      <section class="block esc">
+        <h2>{e.nombre}</h2>
+        <p class="sub">{e.completo}</p>
+        {e.areas.map((a) => (
+          <>
+            <h3 class="grp">{a.nombre}</h3>
+            <div class="list">
+              {a.carreras.map((c) => (
+                <Row
+                  href={u(c.id + '/')}
+                  code={c.code}
+                  nombre={c.nombre}
+                  desc={vivas.has(c.id) ? 'Guías de las materias del plan de estudios.' : 'Sin guías todavía.'}
+                  estado={vivas.has(c.id) ? 'Disponible' : 'Próximamente'}
+                  live={vivas.has(c.id)}
+                />
+              ))}
+            </div>
+          </>
+        ))}
+      </section>
+    ))}
+  </div>
+</Base>

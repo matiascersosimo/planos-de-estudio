@@ -1,0 +1,10 @@
+---
+interface Props { href?: string; code: string; nombre: string; desc: string; estado: string; live?: boolean }
+const { href, code, nombre, desc, estado, live = false } = Astro.props;
+const Tag = href ? 'a' : 'div';
+---
+<Tag class="row" href={href}>
+  <span class="code">{code}</span>
+  <span><span class="name">{nombre}</span><span class="desc">{desc}</span></span>
+  <span class={`status${live ? ' live' : ''}`}>{estado}</span>
+</Tag>
