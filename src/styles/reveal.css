@@ -1,0 +1,52 @@
+/* Aparición progresiva al hacer scroll.
+   CSS puro (animaciones ligadas al scroll): no usa JavaScript, así que un bloque no puede
+   quedar invisible. La opacidad depende de la posición en pantalla: cuando el bloque ya
+   entró, se ve normal. Si el navegador no lo soporta, o la persona pidió reducir el
+   movimiento, no se anima nada y todo se muestra como siempre. */
+
+@keyframes rv-rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes rv-line {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+  /* Portada: entra una sola vez al cargar la página (por tiempo, no por scroll). */
+  .sheet h1, .sheet .lead, .titleblock {
+    animation: rv-rise .8s cubic-bezier(.2, .7, .2, 1) backwards;
+  }
+  .sheet .lead  { animation-delay: .12s; }
+  .titleblock   { animation-delay: .24s; }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+
+    /* Resto de la página: cada bloque aparece mientras sube desde el borde inferior.
+       El rango se limita a 260 px, así un bloque muy alto (una unidad larga abierta)
+       también queda 100 % visible enseguida. */
+    :is(
+      section.block > h2, section.block > .sub, section.block > .sub2,
+      h3.grp, .list > *, .cuat, .cintro > *, .search,
+      .acciones-unidades, .prose > *, .help > *, .about,
+      .foot > *, .legal
+    ) {
+      animation: rv-rise linear backwards;
+      animation-timeline: view();
+      animation-range: entry 0% entry min(100%, 260px);
+    }
+
+    /* La línea al lado de cada título se "dibuja" con el mismo avance. */
+    section.block > h2 { view-timeline: --rv-titulo block; }
+    section.block > h2::after {
+      transform-origin: left;
+      animation: rv-line linear backwards;
+      animation-timeline: --rv-titulo;
+      animation-range: entry 0% entry min(100%, 260px);
+    }
+  }
+}

@@ -5,6 +5,7 @@ import { getCollection } from 'astro:content';
 import { ESCUELAS } from '../data/catalogo';
 import { SITE_NAME } from '../data/site';
 import { u } from '../lib/url';
+import FondoAnimado from '../components/FondoAnimado.astro';
 
 interface Props { title?: string; description?: string }
 const { title, description = 'Guías de estudio con teoría y puntos clave, organizadas por carrera y por materia.' } = Astro.props;
@@ -24,6 +25,7 @@ const vivas = new Set((await getCollection('carreras')).map((c) => c.id));
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
+  <FondoAnimado />
   <header>
     <div class="wrap bar">
       <a class="brand" href={u()} aria-label={`${SITE_NAME}, inicio`}>

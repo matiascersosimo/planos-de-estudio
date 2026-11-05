@@ -1,0 +1,103 @@
+---
+// Fondo sutil: puntos de luz que recorren las líneas de la grilla, como señales en un plano.
+---
+<canvas id="fondo" aria-hidden="true"></canvas>
+
+<style>
+  #fondo { position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: 0; transition: opacity 1.2s ease; }
+  #fondo.on { opacity: 1; }
+</style>
+
+<script>
+  const canvas = document.getElementById('fondo') as HTMLCanvasElement | null;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (canvas && !reduce) {
+    const ctx = canvas.getContext('2d')!;
+    const CELL = 24;          // misma separación que la grilla fina del CSS
+    const MAX_TAIL = 40;      // puntos de la estela
+    const DIRS = [[1, 0], [0, 1], [-1, 0], [0, -1]];
+    type P = { gx: number; gy: number; d: number; t: number; speed: number; age: number; life: number; hist: { x: number; y: number }[] };
+
+    let W = 0, H = 0, cols = 0, rows = 0, parts: P[] = [];
+    const rand = (n: number) => Math.floor(Math.random() * n);
+
+    function spawn(initial = false): P {
+      return { gx: rand(cols), gy: rand(rows), d: rand(4), t: Math.random(),
+        speed: 1.2 + Math.random() * 1.6, age: initial ? Math.random() * 9 : 0, life: 9 + Math.random() * 10, hist: [] };
+    }
+
+    function resize() {
+      const dpr = Math.min(devicePixelRatio || 1, 2);
+      W = innerWidth; H = innerHeight;
+      canvas!.width = W * dpr; canvas!.height = H * dpr;
+      canvas!.style.width = W + 'px'; canvas!.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      cols = Math.ceil(W / CELL) + 1; rows = Math.ceil(H / CELL) + 1;
+      const n = Math.max(8, Math.min(34, Math.round((W * H) / 52000)));
+      parts = Array.from({ length: n }, () => spawn(true));
+    }
+
+    const inside = (x: number, y: number) => x >= 0 && x <= cols && y >= 0 && y <= rows;
+    const posX = (p: P) => (p.gx + DIRS[p.d][0] * p.t) * CELL + 0.5;
+    const posY = (p: P) => (p.gy + DIRS[p.d][1] * p.t) * CELL + 0.5;
+
+    function step(p: P, dt: number) {
+      p.t += p.speed * dt;
+      while (p.t >= 1) {
+        p.t -= 1;
+        p.gx += DIRS[p.d][0]; p.gy += DIRS[p.d][1];
+        if (Math.random() < 0.3) p.d = (p.d + (Math.random() < 0.5 ? 1 : 3)) % 4; // gira en un cruce
+        for (let k = 0; k < 4 && !inside(p.gx + DIRS[p.d][0], p.gy + DIRS[p.d][1]); k++) p.d = (p.d + 1) % 4;
+      }
+      p.age += dt;
+      const x = posX(p), y = posY(p), last = p.hist[p.hist.length - 1];
+      if (!last || Math.hypot(x - last.x, y - last.y) >= 2) {
+        p.hist.push({ x, y });
+        if (p.hist.length > MAX_TAIL) p.hist.shift();
+      }
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+      ctx.lineWidth = 1.2; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+      for (const p of parts) {
+        const fade = Math.max(0, Math.min(1, p.age / 1.5, (p.life - p.age) / 1.5));
+        const h = p.hist, n = h.length;
+        if (n < 2) continue;
+        const chunks = 8, size = Math.ceil(n / chunks);
+        for (let c = 0; c < chunks; c++) {
+          const a = c * size, b = Math.min(n - 1, (c + 1) * size);
+          if (a >= b) break;
+          ctx.beginPath(); ctx.moveTo(h[a].x, h[a].y);
+          for (let i = a + 1; i <= b; i++) ctx.lineTo(h[i].x, h[i].y);
+          ctx.strokeStyle = `rgba(143,208,255,${(((c + 1) / chunks) * 0.32 * fade).toFixed(3)})`;
+          ctx.stroke();
+        }
+        const hx = h[n - 1].x, hy = h[n - 1].y;
+        ctx.fillStyle = `rgba(143,208,255,${(0.12 * fade).toFixed(3)})`;
+        ctx.beginPath(); ctx.arc(hx, hy, 4.5, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = `rgba(200,232,255,${(0.8 * fade).toFixed(3)})`;
+        ctx.beginPath(); ctx.arc(hx, hy, 1.5, 0, Math.PI * 2); ctx.fill();
+      }
+    }
+
+    let prev = 0;
+    function frame(ts: number) {
+      const dt = Math.min(0.05, (ts - prev) / 1000 || 0.016);
+      prev = ts;
+      for (let i = 0; i < parts.length; i++) {
+        step(parts[i], dt);
+        if (parts[i].age > parts[i].life) parts[i] = spawn();
+      }
+      draw();
+      requestAnimationFrame(frame);
+    }
+
+    let timer: number | undefined;
+    addEventListener('resize', () => { clearTimeout(timer); timer = window.setTimeout(resize, 150); });
+    resize();
+    canvas.classList.add('on');
+    requestAnimationFrame(frame);
+  }
+</script>
