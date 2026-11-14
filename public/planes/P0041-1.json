@@ -1,0 +1,148 @@
+{
+  "version": "P0041-1",
+  "carrera": "004 - TECNICATURA UNIVERSITARIA EN DISEÑO Y DESARROLLO DE APLICACIONES MULTIPLATAFORMA",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0041-1",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Planificación de Proyectos",
+              "code": "01257",
+              "actividadId": "2898"
+            },
+            {
+              "nombre": "Desarrollo Web",
+              "code": "01253",
+              "actividadId": "2894"
+            },
+            {
+              "nombre": "Introducción al Diseño de Interfaz",
+              "code": "01254",
+              "actividadId": "2895"
+            },
+            {
+              "nombre": "Conceptos de Programación",
+              "code": "01255",
+              "actividadId": "2896"
+            },
+            {
+              "nombre": "Análisis Funcional de Aplicaciones Web",
+              "code": "01256",
+              "actividadId": "2897"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Protocolo y Arquitectura Web",
+              "code": "01260",
+              "actividadId": "2901"
+            },
+            {
+              "nombre": "Sistemas Operativos",
+              "code": "01258",
+              "actividadId": "2899"
+            },
+            {
+              "nombre": "Maquetación y Desarrollo Web I",
+              "code": "01259",
+              "actividadId": "2900"
+            },
+            {
+              "nombre": "Desarrollo de Aplicaciones para Dispositivos Móviles",
+              "code": "01261",
+              "actividadId": "2902"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Introducción a la Base de Datos",
+              "code": "00726",
+              "actividadId": "1468"
+            },
+            {
+              "nombre": "Diseño Interactivo",
+              "code": "01262",
+              "actividadId": "2903"
+            },
+            {
+              "nombre": "Programación Full Stack",
+              "code": "01263",
+              "actividadId": "2904"
+            },
+            {
+              "nombre": "Maquetación y Desarrollo Web II",
+              "code": "01264",
+              "actividadId": "2905"
+            },
+            {
+              "nombre": "Inglés Técnico",
+              "code": "01270",
+              "actividadId": "2911"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Programación Dinámica",
+              "code": "01266",
+              "actividadId": "2907"
+            },
+            {
+              "nombre": "Emprendimiento de Negocios",
+              "code": "01267",
+              "actividadId": "2908"
+            },
+            {
+              "nombre": "Práctica Profesional y Legislación",
+              "code": "01272",
+              "actividadId": "2913"
+            },
+            {
+              "nombre": "Marketing Digital",
+              "code": "01265",
+              "actividadId": "2906"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Seguridad Informática",
+              "code": "01268",
+              "actividadId": "2909"
+            },
+            {
+              "nombre": "Proyecto Final",
+              "code": "01269",
+              "actividadId": "2910"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

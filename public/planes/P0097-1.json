@@ -1,0 +1,143 @@
+{
+  "version": "P0097-1",
+  "carrera": "009 - TECNICATURA UNIVERSITARIA EN PRODUCCIÓN DE ALIMENTOS",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0097-1",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Introducción a la Tecnología de los Alimentos",
+              "code": "01290",
+              "actividadId": "3032"
+            },
+            {
+              "nombre": "Elementos de Matemática",
+              "code": "01374",
+              "actividadId": "3230"
+            },
+            {
+              "nombre": "Química General e Inorgánica",
+              "code": "00431",
+              "actividadId": "874"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Análisis Matemático I",
+              "code": "01291",
+              "actividadId": "3033"
+            },
+            {
+              "nombre": "Fundamentos de Biología",
+              "code": "01289",
+              "actividadId": "3031"
+            },
+            {
+              "nombre": "Química Orgánica",
+              "code": "00179",
+              "actividadId": "604"
+            },
+            {
+              "nombre": "Física General",
+              "code": "01346",
+              "actividadId": "3161"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Higiene y Seguridad",
+              "code": "01316",
+              "actividadId": "3058"
+            },
+            {
+              "nombre": "Química Analítica",
+              "code": "01293",
+              "actividadId": "3035"
+            },
+            {
+              "nombre": "Fisicoquímica",
+              "code": "01304",
+              "actividadId": "3046"
+            },
+            {
+              "nombre": "Química Biológica",
+              "code": "01507",
+              "actividadId": "3573"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Microbiología de los Alimentos",
+              "code": "01508",
+              "actividadId": "3574"
+            },
+            {
+              "nombre": "Análisis Instrumental",
+              "code": "01300",
+              "actividadId": "3042"
+            },
+            {
+              "nombre": "Preservación de Alimentos",
+              "code": "01509",
+              "actividadId": "3575"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Industrias Alimentarias",
+              "code": "01510",
+              "actividadId": "3576"
+            },
+            {
+              "nombre": "Bromatología y Legislación Alimentaria",
+              "code": "01313",
+              "actividadId": "3095"
+            },
+            {
+              "nombre": "Análisis de alimentos",
+              "code": "00920",
+              "actividadId": "1292"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Práctica Profesional",
+              "code": "01511",
+              "actividadId": "3577"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "version": "P0016-2",
+  "carrera": "001 - INGENIERÍA AGRONÓMICA",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0016-2",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Elementos de Álgebra",
+              "code": "01110",
+              "actividadId": "2246"
+            },
+            {
+              "nombre": "Química General e Inorgánica",
+              "code": "00431",
+              "actividadId": "874"
+            },
+            {
+              "nombre": "Realidad Agropecuaria",
+              "code": "00007",
+              "actividadId": "430"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Elementos de Análisis Matemático",
+              "code": "01109",
+              "actividadId": "2245"
+            },
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+              "code": "00902",
+              "actividadId": "1276"
+            },
+            {
+              "nombre": "Introducción a la Biología",
+              "code": "00135",
+              "actividadId": "561"
+            },
+            {
+              "nombre": "Química Orgánica",
+              "code": "00179",
+              "actividadId": "604"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Estadística",
+              "code": "00140",
+              "actividadId": "566"
+            },
+            {
+              "nombre": "Química Biológica",
+              "code": "00146",
+              "actividadId": "572"
+            },
+            {
+              "nombre": "Física General",
+              "code": "01346",
+              "actividadId": "3161"
+            },
+            {
+              "nombre": "Botánica I",
+              "code": "00005",
+              "actividadId": "429"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Microbiología Agrícola y Bioinsumos",
+              "code": "01349",
+              "actividadId": "3164"
+            },
+            {
+              "nombre": "Anatomía y Fisiología Animal",
+              "code": "00023",
+              "actividadId": "446"
+            },
+            {
+              "nombre": "Botánica II",
+              "code": "01347",
+              "actividadId": "3162"
+            },
+            {
+              "nombre": "Diseño de Experimentos",
+              "code": "01348",
+              "actividadId": "3163"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Edafología",
+              "code": "01350",
+              "actividadId": "3167"
+            },
+            {
+              "nombre": "Agroclimatología",
+              "code": "01351",
+              "actividadId": "3166"
+            },
+            {
+              "nombre": "Lengua Extranjera",
+              "code": "GE054",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01325",
+                  "actividadId": "3068"
+                }
+              ]
+            },
+            {
+              "nombre": "Genética",
+              "code": "00019",
+              "actividadId": "442"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Agroecología",
+              "code": "00425",
+              "actividadId": "858"
+            },
+            {
+              "nombre": "Mejoramiento Genético",
+              "code": "00017",
+              "actividadId": "440"
+            },
+            {
+              "nombre": "Nutrición Animal",
+              "code": "01352",
+              "actividadId": "3168"
+            },
+            {
+              "nombre": "Fisiología Vegetal",
+              "code": "01353",
+              "actividadId": "3169"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "4º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Economía General y del Sistema Agroalimentario",
+              "code": "01354",
+              "actividadId": "3170"
+            },
+            {
+              "nombre": "Maquinaria y Tecnología de Uso Agrícola",
+              "code": "01356",
+              "actividadId": "3172"
+            },
+            {
+              "nombre": "Ecofisiología Vegetal",
+              "code": "01357",
+              "actividadId": "3173"
+            },
+            {
+              "nombre": "Fertilidad y Uso de Fertilizantes",
+              "code": "00025",
+              "actividadId": "448"
+            },
+            {
+              "nombre": "Riego y Drenaje",
+              "code": "01355",
+              "actividadId": "3171"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Malezas",
+              "code": "01359",
+              "actividadId": "3175"
+            },
+            {
+              "nombre": "Zoología Agrícola",
+              "code": "01360",
+              "actividadId": "3176"
+            },
+            {
+              "nombre": "Fitopatología",
+              "code": "01361",
+              "actividadId": "3177"
+            },
+            {
+              "nombre": "Conservación y Planificación del Uso de la Tierra",
+              "code": "01362",
+              "actividadId": "3178"
+            },
+            {
+              "nombre": "Producción de Forrajes y Pasturas",
+              "code": "01358",
+              "actividadId": "3174"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "5º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Producción Bovina",
+              "code": "01364",
+              "actividadId": "3180"
+            },
+            {
+              "nombre": "Producción Porcina y Aviar",
+              "code": "01363",
+              "actividadId": "3179"
+            },
+            {
+              "nombre": "Producción de Semillas",
+              "code": "01365",
+              "actividadId": "3181"
+            },
+            {
+              "nombre": "Producción de Oleaginosas",
+              "code": "01366",
+              "actividadId": "3182"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Producción de Cereales",
+              "code": "01368",
+              "actividadId": "3184"
+            },
+            {
+              "nombre": "Horticultura",
+              "code": "01369",
+              "actividadId": "3185"
+            },
+            {
+              "nombre": "Geomática Aplicada a la Agronomía",
+              "code": "01367",
+              "actividadId": "3183"
+            },
+            {
+              "nombre": "Gestión de Agronegocios",
+              "code": "01370",
+              "actividadId": "3211"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Actividades Formativas Prácticas",
+              "code": "01371",
+              "actividadId": "3187"
+            },
+            {
+              "nombre": "Actividades Formativas Académicas",
+              "code": "GE055",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Recursos Genéticos",
+                  "code": "OP042",
+                  "actividadId": "1024"
+                },
+                {
+                  "nombre": "Manejo Integrado y Calidad de la Protección Vegetal",
+                  "code": "00681",
+                  "actividadId": "1056"
+                },
+                {
+                  "nombre": "Fruticultura",
+                  "code": "00686",
+                  "actividadId": "1066"
+                },
+                {
+                  "nombre": "Fundamentos de Informática",
+                  "code": "00736",
+                  "actividadId": "1102"
+                },
+                {
+                  "nombre": "Taller Introductorio a los Estudios Agronómicos Universitarios",
+                  "code": "00769",
+                  "actividadId": "1122"
+                },
+                {
+                  "nombre": "Biotecnología Vegetal",
+                  "code": "OP052",
+                  "actividadId": "1129"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación I",
+                  "code": "00900",
+                  "actividadId": "1274"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación II",
+                  "code": "00901",
+                  "actividadId": "1275"
+                },
+                {
+                  "nombre": "Producción de Plantas Forestales en Viveros",
+                  "code": "OP067",
+                  "actividadId": "1297"
+                },
+                {
+                  "nombre": "Bioetica",
+                  "code": "01022",
+                  "actividadId": "1392"
+                },
+                {
+                  "nombre": "Gestión y Evaluación ambiental",
+                  "code": "01033",
+                  "actividadId": "1403"
+                },
+                {
+                  "nombre": "Trabajo Final",
+                  "code": "00399",
+                  "actividadId": "1497"
+                },
+                {
+                  "nombre": "Topografía",
+                  "code": "00107",
+                  "actividadId": "1510"
+                },
+                {
+                  "nombre": "Impactos Productivos de las MicroBioTecnologías",
+                  "code": "01223",
+                  "actividadId": "2795"
+                },
+                {
+                  "nombre": "Sistemas de Producción Acuícola",
+                  "code": "01535",
+                  "actividadId": "3730"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

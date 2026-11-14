@@ -1,11 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
 import { u } from '../lib/url';
+import { AUTHOR } from '../data/site';
 ---
 <Base title="Acerca de">
   <div class="wrap">
     <div class="crumbs"><a href={u()}>Carreras</a> / Acerca de</div>
     <div class="page-title"><h1>Acerca de</h1></div>
-    <section class="block"><p class="about">Planos de estudio es un proyecto estudiantil que reúne guías de estudio por carrera y por materia. Se publican a medida que se revisan. Si encontrás un error o querés sugerir un tema, escribinos desde la página de contacto.</p></section>
+    <section class="block"><p class="about">Planos de estudio es un sitio de {AUTHOR} que reúne guías de estudio por carrera y por materia. Si encontrás un error o querés sugerir un tema, podés escribirme desde la página de contacto.</p></section>
   </div>
 </Base>

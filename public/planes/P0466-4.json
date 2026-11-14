@@ -1,0 +1,490 @@
+{
+  "version": "P0466-4",
+  "carrera": "046 - LICENCIATURA EN GENÉTICA",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0466-4",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Elementos de Análisis Matemático",
+              "code": "01109",
+              "actividadId": "2245"
+            },
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+              "code": "00902",
+              "actividadId": "1276"
+            },
+            {
+              "nombre": "Introducción a la Biología",
+              "code": "00135",
+              "actividadId": "561"
+            },
+            {
+              "nombre": "Química General e Inorgánica",
+              "code": "00431",
+              "actividadId": "874"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Biología vegetal",
+              "code": "00883",
+              "actividadId": "1257"
+            },
+            {
+              "nombre": "Elementos de Álgebra",
+              "code": "01110",
+              "actividadId": "2246"
+            },
+            {
+              "nombre": "Química Orgánica",
+              "code": "00179",
+              "actividadId": "604"
+            },
+            {
+              "nombre": "Física General",
+              "code": "00011",
+              "actividadId": "434"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Probabilidades y Estadística",
+              "code": "00013",
+              "actividadId": "436"
+            },
+            {
+              "nombre": "Química Biológica",
+              "code": "00146",
+              "actividadId": "572"
+            },
+            {
+              "nombre": "Biofísica",
+              "code": "01111",
+              "actividadId": "2247"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Genética I",
+              "code": "00515",
+              "actividadId": "895"
+            },
+            {
+              "nombre": "Biología Celular y Molecular",
+              "code": "01112",
+              "actividadId": "2248"
+            },
+            {
+              "nombre": "Sistemática",
+              "code": "01113",
+              "actividadId": "2249"
+            }
+          ]
+        },
+        {
+          "nombre": "Anual",
+          "materias": [
+            {
+              "nombre": "Inglés Tecnico",
+              "code": "00679",
+              "actividadId": "1054"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Genética II",
+              "code": "00519",
+              "actividadId": "1452"
+            },
+            {
+              "nombre": "Diseño Experimental",
+              "code": "00015",
+              "actividadId": "438"
+            },
+            {
+              "nombre": "Biología Animal",
+              "code": "01114",
+              "actividadId": "2250"
+            },
+            {
+              "nombre": "Ecología",
+              "code": "01115",
+              "actividadId": "2251"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Biología de los Microorganismos",
+              "code": "01117",
+              "actividadId": "2253"
+            },
+            {
+              "nombre": "Epistemología y Metodología de la Investigación",
+              "code": "01118",
+              "actividadId": "2254"
+            },
+            {
+              "nombre": "Fisiología Vegetal",
+              "code": "00014",
+              "actividadId": "437"
+            },
+            {
+              "nombre": "Biología Humana",
+              "code": "01116",
+              "actividadId": "2252"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "4º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Fisiología Animal",
+              "code": "01119",
+              "actividadId": "2255"
+            },
+            {
+              "nombre": "Bioinformática",
+              "code": "00520",
+              "actividadId": "899"
+            },
+            {
+              "nombre": "Biodiversidad y Recursos Genéticos",
+              "code": "01120",
+              "actividadId": "2256"
+            },
+            {
+              "nombre": "Genética Molecular",
+              "code": "00890",
+              "actividadId": "1264"
+            },
+            {
+              "nombre": "Bioética y Legislación",
+              "code": "01125",
+              "actividadId": "2258"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Genética Cuantitativa",
+              "code": "01126",
+              "actividadId": "2260"
+            },
+            {
+              "nombre": "Inmunología e inmunogenética",
+              "code": "00891",
+              "actividadId": "1265"
+            },
+            {
+              "nombre": "Genética del Desarrollo",
+              "code": "00682",
+              "actividadId": "1058"
+            },
+            {
+              "nombre": "Genética de Poblaciones y Evolutiva",
+              "code": "01122",
+              "actividadId": "2259"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "5º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Genómica",
+              "code": "00892",
+              "actividadId": "1266"
+            },
+            {
+              "nombre": "Genética de los Microorganismos",
+              "code": "01123",
+              "actividadId": "2261"
+            },
+            {
+              "nombre": "Biotecnología",
+              "code": "01124",
+              "actividadId": "2262"
+            },
+            {
+              "nombre": "Evolución",
+              "code": "01121",
+              "actividadId": "2257"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Citogenética",
+              "code": "OP063",
+              "actividadId": "1254"
+            },
+            {
+              "nombre": "Mejoramiento genético",
+              "code": "00905",
+              "actividadId": "1280"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Electiva",
+              "code": "GE040",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Nutrición Animal",
+                  "code": "00027",
+                  "actividadId": "450"
+                },
+                {
+                  "nombre": "Farmacología y Toxocología",
+                  "code": "00277",
+                  "actividadId": "712"
+                },
+                {
+                  "nombre": "Inmunología Avanzada",
+                  "code": "OP030",
+                  "actividadId": "926"
+                },
+                {
+                  "nombre": "Taller de Formación para la Investigación",
+                  "code": "00685",
+                  "actividadId": "1065"
+                },
+                {
+                  "nombre": "Análisis Multivariado",
+                  "code": "00885",
+                  "actividadId": "1259"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación I",
+                  "code": "00900",
+                  "actividadId": "1274"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación II",
+                  "code": "00901",
+                  "actividadId": "1275"
+                },
+                {
+                  "nombre": "Gestión y Evaluación Ambiental",
+                  "code": "01033",
+                  "actividadId": "1403"
+                },
+                {
+                  "nombre": "Ecología y Genética de las Enfermedades Transmisibles por Vectores y otras Zoonosis",
+                  "code": "01036",
+                  "actividadId": "1405"
+                },
+                {
+                  "nombre": "Genética Forense",
+                  "code": "00943",
+                  "actividadId": "1524"
+                },
+                {
+                  "nombre": "Epidemiología y Estadísticas de la Salud II",
+                  "code": "01097",
+                  "actividadId": "2229"
+                },
+                {
+                  "nombre": "Farmacogenética",
+                  "code": "01153",
+                  "actividadId": "2425"
+                },
+                {
+                  "nombre": "Programación en Python",
+                  "code": "01207",
+                  "actividadId": "2679"
+                },
+                {
+                  "nombre": "Biogeografía",
+                  "code": "01221",
+                  "actividadId": "2699"
+                },
+                {
+                  "nombre": "Virología",
+                  "code": "01222",
+                  "actividadId": "2794"
+                },
+                {
+                  "nombre": "Fauna Silvestre y Zoocría",
+                  "code": "01229",
+                  "actividadId": "2807"
+                },
+                {
+                  "nombre": "Endocrinología",
+                  "code": "01230",
+                  "actividadId": "2808"
+                },
+                {
+                  "nombre": "Genética Médica",
+                  "code": "01231",
+                  "actividadId": "2809"
+                },
+                {
+                  "nombre": "Estadística II",
+                  "code": "01234",
+                  "actividadId": "2841"
+                },
+                {
+                  "nombre": "Diagnóstico Molecular",
+                  "code": "01237",
+                  "actividadId": "2844"
+                },
+                {
+                  "nombre": "Genética Orientada a la Biomedicina",
+                  "code": "01239",
+                  "actividadId": "2846"
+                },
+                {
+                  "nombre": "Neurobiología",
+                  "code": "01240",
+                  "actividadId": "2847"
+                },
+                {
+                  "nombre": "Virología",
+                  "code": "01241",
+                  "actividadId": "2848"
+                },
+                {
+                  "nombre": "Jardinería",
+                  "code": "01242",
+                  "actividadId": "2868"
+                },
+                {
+                  "nombre": "Toxicología",
+                  "code": "01244",
+                  "actividadId": "2870"
+                },
+                {
+                  "nombre": "Biofármacos",
+                  "code": "01372",
+                  "actividadId": "3209"
+                },
+                {
+                  "nombre": "Micología",
+                  "code": "01373",
+                  "actividadId": "3210"
+                },
+                {
+                  "nombre": "Genética del Cáncer",
+                  "code": "01459",
+                  "actividadId": "3411"
+                },
+                {
+                  "nombre": "Control Microbiológico del Agua",
+                  "code": "01466",
+                  "actividadId": "3436"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                },
+                {
+                  "nombre": "Farmacología Integrada",
+                  "code": "01553",
+                  "actividadId": "3875"
+                },
+                {
+                  "nombre": "Entomología Médica",
+                  "code": "01554",
+                  "actividadId": "3876"
+                },
+                {
+                  "nombre": "Núcleo Mutis en Ciencia: ADN & la Evolución Humana",
+                  "code": "01555",
+                  "actividadId": "3877"
+                },
+                {
+                  "nombre": "Bioética y Bioderecho",
+                  "code": "01556",
+                  "actividadId": "3878"
+                },
+                {
+                  "nombre": "Principios de Biología de la Conservación",
+                  "code": "01561",
+                  "actividadId": "3893"
+                },
+                {
+                  "nombre": "Citogenética y Genética en Infertilidad y Reproducción",
+                  "code": "01562",
+                  "actividadId": "3894"
+                },
+                {
+                  "nombre": "Epidemiología",
+                  "code": "01563",
+                  "actividadId": "3895"
+                },
+                {
+                  "nombre": "Proteínas Recombinantes",
+                  "code": "01565",
+                  "actividadId": "3909"
+                },
+                {
+                  "nombre": "Virología",
+                  "code": "01566",
+                  "actividadId": "3910"
+                }
+              ]
+            },
+            {
+              "nombre": "Trabajo Final de Grado",
+              "code": "00893",
+              "actividadId": "1267"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

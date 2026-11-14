@@ -1,0 +1,150 @@
+{
+  "version": "P0376-1",
+  "carrera": "037 - TECNICATURA EN MANTENIMIENTO INDUSTRIAL",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0376-1",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Fundamentos de Programación de Sistemas Informáticos",
+              "code": "01311",
+              "actividadId": "3053"
+            },
+            {
+              "nombre": "Elementos de Matemática",
+              "code": "01374",
+              "actividadId": "3230"
+            },
+            {
+              "nombre": "Introducción al Mantenimiento Industrial",
+              "code": "01513",
+              "actividadId": "3628"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Física General",
+              "code": "00011",
+              "actividadId": "434"
+            },
+            {
+              "nombre": "Sistemas de Representación",
+              "code": "01305",
+              "actividadId": "3047"
+            },
+            {
+              "nombre": "Tecnología Mecánica Aplicada",
+              "code": "01514",
+              "actividadId": "3629"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Lengua Extranjera",
+              "code": "GE086",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01325",
+                  "actividadId": "3068"
+                }
+              ]
+            },
+            {
+              "nombre": "Materiales y Estructuras",
+              "code": "01515",
+              "actividadId": "3630"
+            },
+            {
+              "nombre": "Electrotecnia y Máquinas Eléctricas",
+              "code": "01334",
+              "actividadId": "3106"
+            },
+            {
+              "nombre": "Instalaciones Industriales",
+              "code": "01310",
+              "actividadId": "3052"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Termodinámica y Máquinas Térmicas",
+              "code": "01330",
+              "actividadId": "3102"
+            },
+            {
+              "nombre": "Sistemas Hidráulicos y Neumáticos",
+              "code": "01452",
+              "actividadId": "3389"
+            },
+            {
+              "nombre": "Elementos de Máquinas",
+              "code": "01516",
+              "actividadId": "3631"
+            },
+            {
+              "nombre": "Gestión del Mantenimiento Industrial",
+              "code": "01517",
+              "actividadId": "3632"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Mantenimiento Aplicado",
+              "code": "01518",
+              "actividadId": "3633"
+            },
+            {
+              "nombre": "Automatización",
+              "code": "01519",
+              "actividadId": "3634"
+            },
+            {
+              "nombre": "Higiene y Seguridad",
+              "code": "01316",
+              "actividadId": "3058"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Pasantía Mantenimiento",
+              "code": "01520",
+              "actividadId": "3635"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

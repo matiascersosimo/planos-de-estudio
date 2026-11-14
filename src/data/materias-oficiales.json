@@ -1,0 +1,8474 @@
+[
+  {
+    "id": "materia-00005",
+    "code": "00005",
+    "nombre": "Botánica I",
+    "variantes": [
+      "Botánica I"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "429"
+    ]
+  },
+  {
+    "id": "materia-00007",
+    "code": "00007",
+    "nombre": "Realidad Agropecuaria",
+    "variantes": [
+      "Realidad Agropecuaria"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "430"
+    ]
+  },
+  {
+    "id": "materia-00011",
+    "code": "00011",
+    "nombre": "Física General",
+    "variantes": [
+      "Física General"
+    ],
+    "planes": [
+      "P0376-1",
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "434"
+    ]
+  },
+  {
+    "id": "materia-00013",
+    "code": "00013",
+    "nombre": "Probabilidades y Estadística",
+    "variantes": [
+      "Probabilidades y Estadística"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "436"
+    ]
+  },
+  {
+    "id": "materia-00014",
+    "code": "00014",
+    "nombre": "Fisiología Vegetal",
+    "variantes": [
+      "Fisiología Vegetal"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "437"
+    ]
+  },
+  {
+    "id": "materia-00015",
+    "code": "00015",
+    "nombre": "Diseño Experimental",
+    "variantes": [
+      "Diseño Experimental"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "438"
+    ]
+  },
+  {
+    "id": "materia-00017",
+    "code": "00017",
+    "nombre": "Mejoramiento Genético",
+    "variantes": [
+      "Mejoramiento Genético"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "440"
+    ]
+  },
+  {
+    "id": "materia-00019",
+    "code": "00019",
+    "nombre": "Genética",
+    "variantes": [
+      "Genética"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "442"
+    ]
+  },
+  {
+    "id": "materia-00023",
+    "code": "00023",
+    "nombre": "Anatomía y Fisiología Animal",
+    "variantes": [
+      "Anatomía y Fisiología Animal"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "446"
+    ]
+  },
+  {
+    "id": "materia-00025",
+    "code": "00025",
+    "nombre": "Fertilidad y Uso de Fertilizantes",
+    "variantes": [
+      "Fertilidad y Uso de Fertilizantes"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "448"
+    ]
+  },
+  {
+    "id": "materia-00027",
+    "code": "00027",
+    "nombre": "Nutrición Animal",
+    "variantes": [
+      "Nutrición Animal"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "450"
+    ]
+  },
+  {
+    "id": "materia-00044",
+    "code": "00044",
+    "nombre": "Introducción al Derecho",
+    "variantes": [
+      "Introducción al Derecho"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "476"
+    ]
+  },
+  {
+    "id": "materia-00045",
+    "code": "00045",
+    "nombre": "Derecho Político",
+    "variantes": [
+      "Derecho Político"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "478"
+    ]
+  },
+  {
+    "id": "materia-00046",
+    "code": "00046",
+    "nombre": "Economía Política",
+    "variantes": [
+      "Economía Política"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "479"
+    ]
+  },
+  {
+    "id": "materia-00048",
+    "code": "00048",
+    "nombre": "Derecho Privado I - Parte General",
+    "variantes": [
+      "Derecho Privado I - Parte General"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "481"
+    ]
+  },
+  {
+    "id": "materia-00051",
+    "code": "00051",
+    "nombre": "Derecho Constitucional I",
+    "variantes": [
+      "Derecho Constitucional I"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "484"
+    ]
+  },
+  {
+    "id": "materia-00052",
+    "code": "00052",
+    "nombre": "Derecho Procesal I - Teoría General del Proceso",
+    "variantes": [
+      "Derecho Procesal I - Teoría General del Proceso"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "485"
+    ]
+  },
+  {
+    "id": "materia-00053",
+    "code": "00053",
+    "nombre": "Derecho Penal I",
+    "variantes": [
+      "Derecho Penal I"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "486"
+    ]
+  },
+  {
+    "id": "materia-00054",
+    "code": "00054",
+    "nombre": "Derecho Internacional Público",
+    "variantes": [
+      "Derecho Internacional Público"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "487"
+    ]
+  },
+  {
+    "id": "materia-00055",
+    "code": "00055",
+    "nombre": "Derecho Constitucional II",
+    "variantes": [
+      "Derecho Constitucional II"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "488"
+    ]
+  },
+  {
+    "id": "materia-00056",
+    "code": "00056",
+    "nombre": "Práctica Profesional I - Penal I",
+    "variantes": [
+      "Práctica Profesional I - Penal I"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "489"
+    ]
+  },
+  {
+    "id": "materia-00057",
+    "code": "00057",
+    "nombre": "Derecho Penal II",
+    "variantes": [
+      "Derecho Penal II"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "490"
+    ]
+  },
+  {
+    "id": "materia-00058",
+    "code": "00058",
+    "nombre": "Derecho Privado II - Obligaciones",
+    "variantes": [
+      "Derecho Privado II - Obligaciones"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "491"
+    ]
+  },
+  {
+    "id": "materia-00059",
+    "code": "00059",
+    "nombre": "Derecho Privado III - Responsabilidades",
+    "variantes": [
+      "Derecho Privado III - Responsabilidades"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "492"
+    ]
+  },
+  {
+    "id": "materia-00060",
+    "code": "00060",
+    "nombre": "Derecho Procesal Penal",
+    "variantes": [
+      "Derecho Procesal Penal"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "493"
+    ]
+  },
+  {
+    "id": "materia-00061",
+    "code": "00061",
+    "nombre": "Derecho Administrativo I",
+    "variantes": [
+      "Derecho Administrativo I"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "494"
+    ]
+  },
+  {
+    "id": "materia-00063",
+    "code": "00063",
+    "nombre": "Derecho Privado IV - Contratos",
+    "variantes": [
+      "Derecho Privado IV - Contratos"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "496"
+    ]
+  },
+  {
+    "id": "materia-00064",
+    "code": "00064",
+    "nombre": "Derecho del Trabajo y la Seguridad Social",
+    "variantes": [
+      "Derecho del Trabajo y la Seguridad Social"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "497"
+    ]
+  },
+  {
+    "id": "materia-00067",
+    "code": "00067",
+    "nombre": "Derecho Privado V - Reales",
+    "variantes": [
+      "Derecho Privado V - Reales"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "499"
+    ]
+  },
+  {
+    "id": "materia-00069",
+    "code": "00069",
+    "nombre": "Filosofía del Derecho",
+    "variantes": [
+      "Filosofía del Derecho"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "501"
+    ]
+  },
+  {
+    "id": "materia-00072",
+    "code": "00072",
+    "nombre": "Derecho Privado VI - Familia",
+    "variantes": [
+      "Derecho Privado VI - Familia"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "504"
+    ]
+  },
+  {
+    "id": "materia-00073",
+    "code": "00073",
+    "nombre": "Derecho Privado VII  -Sucesiones",
+    "variantes": [
+      "Derecho Privado VII  -Sucesiones"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "505"
+    ]
+  },
+  {
+    "id": "materia-00075",
+    "code": "00075",
+    "nombre": "Derecho Internacional Privado",
+    "variantes": [
+      "Derecho Internacional Privado"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "507"
+    ]
+  },
+  {
+    "id": "materia-00076",
+    "code": "00076",
+    "nombre": "Derecho Administrativo II",
+    "variantes": [
+      "Derecho Administrativo II"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "508"
+    ]
+  },
+  {
+    "id": "materia-00082",
+    "code": "00082",
+    "nombre": "Macroeconomía",
+    "variantes": [
+      "Macroeconomía"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "512"
+    ]
+  },
+  {
+    "id": "materia-00084",
+    "code": "00084",
+    "nombre": "Comercialización I",
+    "variantes": [
+      "Comercialización I"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0409-3",
+      "P0476-3"
+    ],
+    "actividadIds": [
+      "514"
+    ]
+  },
+  {
+    "id": "materia-00086",
+    "code": "00086",
+    "nombre": "Microeconomía",
+    "variantes": [
+      "Microeconomía"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "516"
+    ]
+  },
+  {
+    "id": "materia-00088",
+    "code": "00088",
+    "nombre": "Sistemas de Información",
+    "variantes": [
+      "Sistemas de Información"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "518"
+    ]
+  },
+  {
+    "id": "materia-00092",
+    "code": "00092",
+    "nombre": "Sociología de las Organizaciones",
+    "variantes": [
+      "Sociología de las Organizaciones"
+    ],
+    "planes": [
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "522"
+    ]
+  },
+  {
+    "id": "materia-00097",
+    "code": "00097",
+    "nombre": "Marketing Estratégico",
+    "variantes": [
+      "Marketing Estratégico"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "527"
+    ]
+  },
+  {
+    "id": "materia-00098",
+    "code": "00098",
+    "nombre": "Contabilidad Gerencial",
+    "variantes": [
+      "Contabilidad Gerencial"
+    ],
+    "planes": [
+      "P0297-4"
+    ],
+    "actividadIds": [
+      "528"
+    ]
+  },
+  {
+    "id": "materia-00103",
+    "code": "00103",
+    "nombre": "Dirección General I",
+    "variantes": [
+      "Dirección General I"
+    ],
+    "planes": [
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "532"
+    ]
+  },
+  {
+    "id": "materia-00107",
+    "code": "00107",
+    "nombre": "Topografía",
+    "variantes": [
+      "Topografía"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "1510"
+    ]
+  },
+  {
+    "id": "fisica-1",
+    "code": "00131",
+    "nombre": "Física I",
+    "variantes": [
+      "Física I"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2",
+      "P0409-3",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "557"
+    ]
+  },
+  {
+    "id": "materia-00135",
+    "code": "00135",
+    "nombre": "Introducción a la Biología",
+    "variantes": [
+      "Introducción a la Biología"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "561"
+    ]
+  },
+  {
+    "id": "materia-00140",
+    "code": "00140",
+    "nombre": "Estadística",
+    "variantes": [
+      "Estadística"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0297-4",
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "566"
+    ]
+  },
+  {
+    "id": "materia-00146",
+    "code": "00146",
+    "nombre": "Química Biológica",
+    "variantes": [
+      "Química Biológica"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0107-2",
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "572"
+    ]
+  },
+  {
+    "id": "materia-00162",
+    "code": "00162",
+    "nombre": "Economía y Organización Industrial",
+    "variantes": [
+      "Economía y Organización Industrial"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "587"
+    ]
+  },
+  {
+    "id": "materia-00163",
+    "code": "00163",
+    "nombre": "Instrumentación y Control",
+    "variantes": [
+      "Instrumentación y Control"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "588"
+    ]
+  },
+  {
+    "id": "materia-00179",
+    "code": "00179",
+    "nombre": "Química Orgánica",
+    "variantes": [
+      "Química Orgánica"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0097-1",
+      "P0107-2",
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "604"
+    ]
+  },
+  {
+    "id": "materia-00190",
+    "code": "00190",
+    "nombre": "Higiene y Seguridad en el Trabajo",
+    "variantes": [
+      "Higiene y Seguridad en el Trabajo"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "624"
+    ]
+  },
+  {
+    "id": "materia-00198",
+    "code": "00198",
+    "nombre": "Mecánica de los Fluidos",
+    "variantes": [
+      "Mecánica de los Fluidos"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "635"
+    ]
+  },
+  {
+    "id": "materia-00213",
+    "code": "00213",
+    "nombre": "Creatividad e Innovación Tecnológica",
+    "variantes": [
+      "Creatividad e Innovación Tecnológica"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "648"
+    ]
+  },
+  {
+    "id": "materia-00215",
+    "code": "00215",
+    "nombre": "Ingeniería Legal",
+    "variantes": [
+      "Ingeniería Legal"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "650"
+    ]
+  },
+  {
+    "id": "materia-00218",
+    "code": "00218",
+    "nombre": "Gestión Financiera y Contable de la Empresa",
+    "variantes": [
+      "Gestión Financiera y Contable de la Empresa"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "653"
+    ]
+  },
+  {
+    "id": "materia-00222",
+    "code": "00222",
+    "nombre": "Unión de Materiales por Soldadura",
+    "variantes": [
+      "Unión de Materiales por Soldadura"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "657"
+    ]
+  },
+  {
+    "id": "materia-00225",
+    "code": "00225",
+    "nombre": "Fundamentos de la Ingeniería Ambiental",
+    "variantes": [
+      "Fundamentos de la Ingeniería Ambiental"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "1448"
+    ]
+  },
+  {
+    "id": "materia-00248",
+    "code": "00248",
+    "nombre": "Auditoría",
+    "variantes": [
+      "Auditoría"
+    ],
+    "planes": [
+      "P0297-4"
+    ],
+    "actividadIds": [
+      "682"
+    ]
+  },
+  {
+    "id": "materia-00251",
+    "code": "00251",
+    "nombre": "Derecho Concursal",
+    "variantes": [
+      "Derecho Concursal"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "685"
+    ]
+  },
+  {
+    "id": "materia-00267",
+    "code": "00267",
+    "nombre": "Socioantropología de la Salud",
+    "variantes": [
+      "Socioantropología de la Salud"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "702"
+    ]
+  },
+  {
+    "id": "materia-00268",
+    "code": "00268",
+    "nombre": "Salud Pública I",
+    "variantes": [
+      "Salud Pública I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "703"
+    ]
+  },
+  {
+    "id": "materia-00269",
+    "code": "00269",
+    "nombre": "Enfermería Comunitaria I",
+    "variantes": [
+      "Enfermería Comunitaria I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "704"
+    ]
+  },
+  {
+    "id": "materia-00271",
+    "code": "00271",
+    "nombre": "Microbiología y Parasitología",
+    "variantes": [
+      "Microbiología y Parasitología"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "706"
+    ]
+  },
+  {
+    "id": "materia-00273",
+    "code": "00273",
+    "nombre": "Nutrición",
+    "variantes": [
+      "Nutrición"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "708"
+    ]
+  },
+  {
+    "id": "materia-00274",
+    "code": "00274",
+    "nombre": "Enfermería Básica",
+    "variantes": [
+      "Enfermería Básica"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "709"
+    ]
+  },
+  {
+    "id": "materia-00276",
+    "code": "00276",
+    "nombre": "Dietoterapia",
+    "variantes": [
+      "Dietoterapia"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "711"
+    ]
+  },
+  {
+    "id": "materia-00277",
+    "code": "00277",
+    "nombre": "Farmacología y Toxicología",
+    "variantes": [
+      "Farmacología y Toxicología",
+      "Farmacología y Toxocología"
+    ],
+    "planes": [
+      "P0286-2",
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "712"
+    ]
+  },
+  {
+    "id": "materia-00278",
+    "code": "00278",
+    "nombre": "Enfermería del Adulto y del Anciano I",
+    "variantes": [
+      "Enfermería del Adulto y del Anciano I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "713"
+    ]
+  },
+  {
+    "id": "materia-00280",
+    "code": "00280",
+    "nombre": "Enfermería del Adulto y del Anciano II",
+    "variantes": [
+      "Enfermería del Adulto y del Anciano II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "715"
+    ]
+  },
+  {
+    "id": "materia-00281",
+    "code": "00281",
+    "nombre": "Enfermería en Salud Mental",
+    "variantes": [
+      "Enfermería en Salud Mental"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "716"
+    ]
+  },
+  {
+    "id": "materia-00282",
+    "code": "00282",
+    "nombre": "Enfermería Materno Infantil",
+    "variantes": [
+      "Enfermería Materno Infantil"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "717"
+    ]
+  },
+  {
+    "id": "materia-00283",
+    "code": "00283",
+    "nombre": "Administración en Enfermería",
+    "variantes": [
+      "Administración en Enfermería"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "718"
+    ]
+  },
+  {
+    "id": "materia-00284",
+    "code": "00284",
+    "nombre": "Aspectos Legales de la Práctica Profesional",
+    "variantes": [
+      "Aspectos Legales de la Práctica Profesional"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "719"
+    ]
+  },
+  {
+    "id": "materia-00285",
+    "code": "00285",
+    "nombre": "Enfermería Infanto Juvenil",
+    "variantes": [
+      "Enfermería Infanto Juvenil"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "720"
+    ]
+  },
+  {
+    "id": "materia-00286",
+    "code": "00286",
+    "nombre": "Enfermería en Cuidados Paliativos",
+    "variantes": [
+      "Enfermería en Cuidados Paliativos"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "721"
+    ]
+  },
+  {
+    "id": "materia-00290",
+    "code": "00290",
+    "nombre": "Salud Pública II",
+    "variantes": [
+      "Salud Pública II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "725"
+    ]
+  },
+  {
+    "id": "materia-00293",
+    "code": "00293",
+    "nombre": "Educación en Enfermería",
+    "variantes": [
+      "Educación en Enfermería"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "728"
+    ]
+  },
+  {
+    "id": "materia-00297",
+    "code": "00297",
+    "nombre": "Taller de Trabajo Final de Grado",
+    "variantes": [
+      "Taller de Trabajo Final de Grado"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "732"
+    ]
+  },
+  {
+    "id": "materia-00305",
+    "code": "00305",
+    "nombre": "Introducción a los Procesos de Producción",
+    "variantes": [
+      "Introducción a los Procesos de Producción"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "741"
+    ]
+  },
+  {
+    "id": "materia-00324",
+    "code": "00324",
+    "nombre": "Introducción a la Comercialización",
+    "variantes": [
+      "Introducción a la Comercialización"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "759"
+    ]
+  },
+  {
+    "id": "materia-00334",
+    "code": "00334",
+    "nombre": "Diseño de Accesorios",
+    "variantes": [
+      "Diseño de Accesorios"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "768"
+    ]
+  },
+  {
+    "id": "materia-00336",
+    "code": "00336",
+    "nombre": "Historia del Textil y la Indumentaria II",
+    "variantes": [
+      "Historia del Textil y la Indumentaria II"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "770"
+    ]
+  },
+  {
+    "id": "materia-00337",
+    "code": "00337",
+    "nombre": "Gestión de Diseño",
+    "variantes": [
+      "Gestión de Diseño"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "771"
+    ]
+  },
+  {
+    "id": "materia-00353",
+    "code": "00353",
+    "nombre": "Diseño para Publicidad",
+    "variantes": [
+      "Diseño para Publicidad"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "787"
+    ]
+  },
+  {
+    "id": "materia-00357",
+    "code": "00357",
+    "nombre": "Arquitectura I",
+    "variantes": [
+      "Arquitectura I"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "791"
+    ]
+  },
+  {
+    "id": "programacion-imperativa",
+    "code": "00364",
+    "nombre": "Programación Imperativa",
+    "variantes": [
+      "Programación Imperativa"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "798"
+    ]
+  },
+  {
+    "id": "materia-00368",
+    "code": "00368",
+    "nombre": "Comunicación de Datos",
+    "variantes": [
+      "Comunicación de Datos"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "802"
+    ]
+  },
+  {
+    "id": "materia-00369",
+    "code": "00369",
+    "nombre": "Ciencias de la Computación II",
+    "variantes": [
+      "Ciencias de la Computación II"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "803"
+    ]
+  },
+  {
+    "id": "sistemas-operativos-i",
+    "code": "00373",
+    "nombre": "Sistemas Operativos I",
+    "variantes": [
+      "Sistemas Operativos I"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "807"
+    ]
+  },
+  {
+    "id": "materia-00397",
+    "code": "00397",
+    "nombre": "Métricas de Software",
+    "variantes": [
+      "Métricas de Software"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "830"
+    ]
+  },
+  {
+    "id": "materia-00399",
+    "code": "00399",
+    "nombre": "Trabajo Final",
+    "variantes": [
+      "Trabajo Final"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "1497"
+    ]
+  },
+  {
+    "id": "materia-00404",
+    "code": "00404",
+    "nombre": "Sistemas Administrativos I",
+    "variantes": [
+      "Sistemas Administrativos I"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "839"
+    ]
+  },
+  {
+    "id": "materia-00406",
+    "code": "00406",
+    "nombre": "Sistemas Administrativos II",
+    "variantes": [
+      "Sistemas Administrativos II"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "841"
+    ]
+  },
+  {
+    "id": "materia-00416",
+    "code": "00416",
+    "nombre": "Compiladores",
+    "variantes": [
+      "Compiladores"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "850"
+    ]
+  },
+  {
+    "id": "redes-ii",
+    "code": "00419",
+    "nombre": "Redes II",
+    "variantes": [
+      "Redes II"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "852"
+    ]
+  },
+  {
+    "id": "materia-00425",
+    "code": "00425",
+    "nombre": "Agroecología",
+    "variantes": [
+      "Agroecología"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "858"
+    ]
+  },
+  {
+    "id": "materia-00431",
+    "code": "00431",
+    "nombre": "Química General e Inorgánica",
+    "variantes": [
+      "Química General e Inorgánica"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0097-1",
+      "P0107-2",
+      "P0368-2",
+      "P0409-3",
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "874"
+    ]
+  },
+  {
+    "id": "materia-00434",
+    "code": "00434",
+    "nombre": "Introducción a la Administración",
+    "variantes": [
+      "Introducción a la Administración"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "455"
+    ]
+  },
+  {
+    "id": "materia-00435",
+    "code": "00435",
+    "nombre": "Derecho Público",
+    "variantes": [
+      "Derecho Público"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "736"
+    ]
+  },
+  {
+    "id": "materia-00436",
+    "code": "00436",
+    "nombre": "Introducción a las Ciencias Sociales",
+    "variantes": [
+      "Introducción a las Ciencias Sociales"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "871"
+    ]
+  },
+  {
+    "id": "materia-00437",
+    "code": "00437",
+    "nombre": "Análisis Organizacional",
+    "variantes": [
+      "Análisis Organizacional"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "877"
+    ]
+  },
+  {
+    "id": "materia-00438",
+    "code": "00438",
+    "nombre": "Administración de Pymes",
+    "variantes": [
+      "Administración de Pymes"
+    ],
+    "planes": [
+      "P0476-3"
+    ],
+    "actividadIds": [
+      "878"
+    ]
+  },
+  {
+    "id": "materia-00515",
+    "code": "00515",
+    "nombre": "Genética I",
+    "variantes": [
+      "Genética I"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "895"
+    ]
+  },
+  {
+    "id": "materia-00519",
+    "code": "00519",
+    "nombre": "Genética II",
+    "variantes": [
+      "Genética II"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1452"
+    ]
+  },
+  {
+    "id": "materia-00520",
+    "code": "00520",
+    "nombre": "Bioinformática",
+    "variantes": [
+      "Bioinformática"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "899"
+    ]
+  },
+  {
+    "id": "materia-00527",
+    "code": "00527",
+    "nombre": "Contabilidad I (Básica)",
+    "variantes": [
+      "Contabilidad I (Básica)"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "906"
+    ]
+  },
+  {
+    "id": "materia-00529",
+    "code": "00529",
+    "nombre": "Contabilidad II (Ajuste y Valuación)",
+    "variantes": [
+      "Contabilidad II (Ajuste y Valuación)"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "909"
+    ]
+  },
+  {
+    "id": "materia-00530",
+    "code": "00530",
+    "nombre": "Administración Municipal",
+    "variantes": [
+      "Administración Municipal"
+    ],
+    "planes": [
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "875"
+    ]
+  },
+  {
+    "id": "materia-00531",
+    "code": "00531",
+    "nombre": "Finanzas Públicas",
+    "variantes": [
+      "Finanzas Públicas"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "910"
+    ]
+  },
+  {
+    "id": "materia-00534",
+    "code": "00534",
+    "nombre": "Hacienda Pública",
+    "variantes": [
+      "Hacienda Pública"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "913"
+    ]
+  },
+  {
+    "id": "materia-00535",
+    "code": "00535",
+    "nombre": "Cálculo Financiero",
+    "variantes": [
+      "Cálculo Financiero"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "914"
+    ]
+  },
+  {
+    "id": "materia-00536",
+    "code": "00536",
+    "nombre": "Estados Contables (Exposición y Análisis)",
+    "variantes": [
+      "Estados Contables (Exposición y Análisis)"
+    ],
+    "planes": [
+      "P0297-4"
+    ],
+    "actividadIds": [
+      "915"
+    ]
+  },
+  {
+    "id": "materia-00537",
+    "code": "00537",
+    "nombre": "Derecho Laboral",
+    "variantes": [
+      "Derecho Laboral"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "1512"
+    ]
+  },
+  {
+    "id": "materia-00539",
+    "code": "00539",
+    "nombre": "Derecho Societario",
+    "variantes": [
+      "Derecho Societario"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "917"
+    ]
+  },
+  {
+    "id": "materia-00540",
+    "code": "00540",
+    "nombre": "Elementos de Finanzas de Empresas",
+    "variantes": [
+      "Elementos de Finanzas de Empresas"
+    ],
+    "planes": [
+      "P0297-4"
+    ],
+    "actividadIds": [
+      "918"
+    ]
+  },
+  {
+    "id": "materia-00546",
+    "code": "00546",
+    "nombre": "Costos para las Decisiones",
+    "variantes": [
+      "Costos para las Decisiones"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3"
+    ],
+    "actividadIds": [
+      "870"
+    ]
+  },
+  {
+    "id": "materia-00547",
+    "code": "00547",
+    "nombre": "Comercialización II",
+    "variantes": [
+      "Comercialización II"
+    ],
+    "planes": [
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "912"
+    ]
+  },
+  {
+    "id": "materia-00550",
+    "code": "00550",
+    "nombre": "Administración de las Operaciones",
+    "variantes": [
+      "Administración de las Operaciones"
+    ],
+    "planes": [
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "936"
+    ]
+  },
+  {
+    "id": "materia-00552",
+    "code": "00552",
+    "nombre": "Administración Financiera",
+    "variantes": [
+      "Administración Financiera"
+    ],
+    "planes": [
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "1514"
+    ]
+  },
+  {
+    "id": "materia-00554",
+    "code": "00554",
+    "nombre": "Recursos Humanos",
+    "variantes": [
+      "Recursos Humanos"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "1515"
+    ]
+  },
+  {
+    "id": "materia-00555",
+    "code": "00555",
+    "nombre": "Psicología de las Organizaciones",
+    "variantes": [
+      "Psicología de las Organizaciones"
+    ],
+    "planes": [
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "939"
+    ]
+  },
+  {
+    "id": "materia-00558",
+    "code": "00558",
+    "nombre": "Derecho Privado",
+    "variantes": [
+      "Derecho Privado"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "942"
+    ]
+  },
+  {
+    "id": "materia-00609",
+    "code": "00609",
+    "nombre": "Derecho Comercial (1era. Parte)",
+    "variantes": [
+      "Derecho Comercial (1era. Parte)"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "992"
+    ]
+  },
+  {
+    "id": "materia-00610",
+    "code": "00610",
+    "nombre": "Derecho Comercial (2da. Parte)",
+    "variantes": [
+      "Derecho Comercial (2da. Parte)"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "993"
+    ]
+  },
+  {
+    "id": "materia-00611",
+    "code": "00611",
+    "nombre": "Finanzas y Derecho Financiero",
+    "variantes": [
+      "Finanzas y Derecho Financiero"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "994"
+    ]
+  },
+  {
+    "id": "materia-00660",
+    "code": "00660",
+    "nombre": "Vehículos Autopropulsados y Maquinarias Agrícolas",
+    "variantes": [
+      "Vehículos Autopropulsados y Maquinarias Agrícolas"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "1042"
+    ]
+  },
+  {
+    "id": "materia-00670",
+    "code": "00670",
+    "nombre": "Análisis Matemático Complejo",
+    "variantes": [
+      "Análisis Matemático Complejo"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "1047"
+    ]
+  },
+  {
+    "id": "materia-00674",
+    "code": "00674",
+    "nombre": "Impuestos III",
+    "variantes": [
+      "Impuestos III"
+    ],
+    "planes": [
+      "P0297-4"
+    ],
+    "actividadIds": [
+      "1050"
+    ]
+  },
+  {
+    "id": "materia-00675",
+    "code": "00675",
+    "nombre": "Dirección General II",
+    "variantes": [
+      "Dirección General II"
+    ],
+    "planes": [
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "1051"
+    ]
+  },
+  {
+    "id": "sistemas-de-informacion",
+    "code": "00677",
+    "nombre": "Sistemas de Información",
+    "variantes": [
+      "Sistemas de Información"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "1052"
+    ]
+  },
+  {
+    "id": "materia-00679",
+    "code": "00679",
+    "nombre": "Inglés Tecnico",
+    "variantes": [
+      "Inglés Tecnico"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1054"
+    ]
+  },
+  {
+    "id": "materia-00681",
+    "code": "00681",
+    "nombre": "Manejo Integrado y Calidad de la Protección Vegetal",
+    "variantes": [
+      "Manejo Integrado y Calidad de la Protección Vegetal"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "1056"
+    ]
+  },
+  {
+    "id": "materia-00682",
+    "code": "00682",
+    "nombre": "Genética del Desarrollo",
+    "variantes": [
+      "Genética del Desarrollo"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1058"
+    ]
+  },
+  {
+    "id": "materia-00685",
+    "code": "00685",
+    "nombre": "Taller de Formación para la Investigación",
+    "variantes": [
+      "Taller de Formación para la Investigación"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1065"
+    ]
+  },
+  {
+    "id": "materia-00686",
+    "code": "00686",
+    "nombre": "Fruticultura",
+    "variantes": [
+      "Fruticultura"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "1066"
+    ]
+  },
+  {
+    "id": "materia-00722",
+    "code": "00722",
+    "nombre": "Legislación y Práctica Profesional",
+    "variantes": [
+      "Legislación y Práctica Profesional"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1091"
+    ]
+  },
+  {
+    "id": "materia-00726",
+    "code": "00726",
+    "nombre": "Introducción a la Base de Datos",
+    "variantes": [
+      "Introducción a la Base de Datos"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "1468"
+    ]
+  },
+  {
+    "id": "materia-00736",
+    "code": "00736",
+    "nombre": "Fundamentos de Informática",
+    "variantes": [
+      "Fundamentos de Informática"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "1102"
+    ]
+  },
+  {
+    "id": "materia-00737",
+    "code": "00737",
+    "nombre": "Cálculo Numérico",
+    "variantes": [
+      "Cálculo Numérico"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "1103"
+    ]
+  },
+  {
+    "id": "materia-00739",
+    "code": "00739",
+    "nombre": "Gestión de Calidad Total",
+    "variantes": [
+      "Gestión de Calidad Total"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1471"
+    ]
+  },
+  {
+    "id": "materia-00741",
+    "code": "00741",
+    "nombre": "Actuación Técnica",
+    "variantes": [
+      "Actuación Técnica"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "1105"
+    ]
+  },
+  {
+    "id": "materia-00742",
+    "code": "00742",
+    "nombre": "Mecatrónica",
+    "variantes": [
+      "Mecatrónica"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "1503"
+    ]
+  },
+  {
+    "id": "materia-00744",
+    "code": "00744",
+    "nombre": "Ingeniería, Desarrollo Local y Sustentable",
+    "variantes": [
+      "Ingeniería, Desarrollo Local y Sustentable"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1106"
+    ]
+  },
+  {
+    "id": "materia-00750",
+    "code": "00750",
+    "nombre": "Diseño de Producto",
+    "variantes": [
+      "Diseño de Producto"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "1475"
+    ]
+  },
+  {
+    "id": "materia-00753",
+    "code": "00753",
+    "nombre": "Procesos Industriales",
+    "variantes": [
+      "Procesos Industriales"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "1479"
+    ]
+  },
+  {
+    "id": "materia-00755",
+    "code": "00755",
+    "nombre": "Proyecto Final",
+    "variantes": [
+      "Proyecto Final"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "1478"
+    ]
+  },
+  {
+    "id": "materia-00769",
+    "code": "00769",
+    "nombre": "Taller Introductorio a los Estudios Agronómicos Universitarios",
+    "variantes": [
+      "Taller Introductorio a los Estudios Agronómicos Universitarios"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "1122"
+    ]
+  },
+  {
+    "id": "materia-00785",
+    "code": "00785",
+    "nombre": "Informática y Derecho Informático",
+    "variantes": [
+      "Informática y Derecho Informático"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "1142"
+    ]
+  },
+  {
+    "id": "materia-00795",
+    "code": "00795",
+    "nombre": "Introducción a los materiales",
+    "variantes": [
+      "Introducción a los materiales",
+      "Introducción a los Materiales"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1152"
+    ]
+  },
+  {
+    "id": "materia-00796",
+    "code": "00796",
+    "nombre": "Estética",
+    "variantes": [
+      "Estética"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1153"
+    ]
+  },
+  {
+    "id": "materia-00818",
+    "code": "00818",
+    "nombre": "Métodos del Diseño",
+    "variantes": [
+      "Métodos del Diseño"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1175"
+    ]
+  },
+  {
+    "id": "materia-00827",
+    "code": "00827",
+    "nombre": "Tecnología III",
+    "variantes": [
+      "Tecnología III"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "1184"
+    ]
+  },
+  {
+    "id": "materia-00831",
+    "code": "00831",
+    "nombre": "Seminario DG: Diseño y Dirección Prog. Identidad",
+    "variantes": [
+      "Seminario DG: Diseño y Dirección Prog. Identidad"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "1188"
+    ]
+  },
+  {
+    "id": "materia-00832",
+    "code": "00832",
+    "nombre": "Seminario DIT: Producción de Modas",
+    "variantes": [
+      "Seminario DIT: Producción de Modas"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "1189"
+    ]
+  },
+  {
+    "id": "materia-00833",
+    "code": "00833",
+    "nombre": "Seminario DI: Electrónica",
+    "variantes": [
+      "Seminario DI: Electrónica"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1190"
+    ]
+  },
+  {
+    "id": "materia-00838",
+    "code": "00838",
+    "nombre": "Estadística",
+    "variantes": [
+      "Estadística"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1195"
+    ]
+  },
+  {
+    "id": "materia-00841",
+    "code": "00841",
+    "nombre": "Serigrafía y Estampado",
+    "variantes": [
+      "Serigrafía y Estampado"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1198"
+    ]
+  },
+  {
+    "id": "materia-00843",
+    "code": "00843",
+    "nombre": "Fotografía",
+    "variantes": [
+      "Fotografía"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1200"
+    ]
+  },
+  {
+    "id": "materia-00858",
+    "code": "00858",
+    "nombre": "Seminario Taller Integrador",
+    "variantes": [
+      "Seminario Taller Integrador"
+    ],
+    "planes": [
+      "P0476-3"
+    ],
+    "actividadIds": [
+      "1223"
+    ]
+  },
+  {
+    "id": "materia-00859",
+    "code": "00859",
+    "nombre": "Seminario Taller Integrador",
+    "variantes": [
+      "Seminario Taller Integrador"
+    ],
+    "planes": [
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "1224"
+    ]
+  },
+  {
+    "id": "practica-profesional-y-legislacion",
+    "code": "00870",
+    "nombre": "Práctica Profesional y Legislación",
+    "variantes": [
+      "Práctica Profesional y Legislación"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "1234"
+    ]
+  },
+  {
+    "id": "programacion-logica-y-funcional",
+    "code": "00871",
+    "nombre": "Programación Lógica y Funcional",
+    "variantes": [
+      "Programación Lógica y Funcional"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "1235"
+    ]
+  },
+  {
+    "id": "gestion-de-proyectos",
+    "code": "00872",
+    "nombre": "Gestión de Proyectos",
+    "variantes": [
+      "Gestión de Proyectos"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "1236"
+    ]
+  },
+  {
+    "id": "materia-00873",
+    "code": "00873",
+    "nombre": "Calidad de Software",
+    "variantes": [
+      "Calidad de Software"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "1237"
+    ]
+  },
+  {
+    "id": "materia-00878",
+    "code": "00878",
+    "nombre": "Sistemas de Representación",
+    "variantes": [
+      "Sistemas de Representación"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "1244"
+    ]
+  },
+  {
+    "id": "materia-00879",
+    "code": "00879",
+    "nombre": "Química General e Inorgánica",
+    "variantes": [
+      "Química General e Inorgánica"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "1245"
+    ]
+  },
+  {
+    "id": "materia-00880",
+    "code": "00880",
+    "nombre": "Complementos de cálculo",
+    "variantes": [
+      "Complementos de cálculo"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "1246"
+    ]
+  },
+  {
+    "id": "materia-00883",
+    "code": "00883",
+    "nombre": "Biología vegetal",
+    "variantes": [
+      "Biología vegetal"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1257"
+    ]
+  },
+  {
+    "id": "materia-00885",
+    "code": "00885",
+    "nombre": "Análisis Multivariado",
+    "variantes": [
+      "Análisis Multivariado"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1259"
+    ]
+  },
+  {
+    "id": "materia-00889",
+    "code": "00889",
+    "nombre": "Ecología general y evolutiva",
+    "variantes": [
+      "Ecología general y evolutiva"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "1263"
+    ]
+  },
+  {
+    "id": "materia-00890",
+    "code": "00890",
+    "nombre": "Genética Molecular",
+    "variantes": [
+      "Genética Molecular"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1264"
+    ]
+  },
+  {
+    "id": "materia-00891",
+    "code": "00891",
+    "nombre": "Inmunología e inmunogenética",
+    "variantes": [
+      "Inmunología e inmunogenética"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1265"
+    ]
+  },
+  {
+    "id": "materia-00892",
+    "code": "00892",
+    "nombre": "Genómica",
+    "variantes": [
+      "Genómica"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1266"
+    ]
+  },
+  {
+    "id": "materia-00893",
+    "code": "00893",
+    "nombre": "Trabajo Final de Grado",
+    "variantes": [
+      "Trabajo Final de Grado"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1267"
+    ]
+  },
+  {
+    "id": "materia-00896",
+    "code": "00896",
+    "nombre": "Materiales",
+    "variantes": [
+      "Materiales"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1272"
+    ]
+  },
+  {
+    "id": "materia-00897",
+    "code": "00897",
+    "nombre": "Física III",
+    "variantes": [
+      "Física III"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "1273"
+    ]
+  },
+  {
+    "id": "materia-00900",
+    "code": "00900",
+    "nombre": "Antropología de la Comunicación I",
+    "variantes": [
+      "Antropología de la Comunicación I"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0286-2",
+      "P0345-2",
+      "P0355-2",
+      "P0368-2",
+      "P0409-3",
+      "P0416-1",
+      "P0456-1",
+      "P0466-4",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1274"
+    ]
+  },
+  {
+    "id": "materia-00901",
+    "code": "00901",
+    "nombre": "Antropología de la Comunicación II",
+    "variantes": [
+      "Antropología de la Comunicación II"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0286-2",
+      "P0345-2",
+      "P0355-2",
+      "P0368-2",
+      "P0409-3",
+      "P0416-1",
+      "P0456-1",
+      "P0466-4",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1275"
+    ]
+  },
+  {
+    "id": "aspectos-sociales-e-institucionales-de-la-universidad",
+    "code": "00902",
+    "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+    "variantes": [
+      "Aspectos Sociales e Institucionales de la Universidad",
+      "Aspectos Sociales e Institucionales de la Universidadidad"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0107-2",
+      "P0286-2",
+      "P0297-4",
+      "P0307-3",
+      "P0334-2",
+      "P0345-2",
+      "P0355-2",
+      "P0368-2",
+      "P0409-3",
+      "P0416-1",
+      "P0435-1",
+      "P0456-1",
+      "P0466-4",
+      "P0476-3",
+      "P0486-3",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "1276"
+    ]
+  },
+  {
+    "id": "materia-00903",
+    "code": "00903",
+    "nombre": "Técnica Tributaria",
+    "variantes": [
+      "Técnica Tributaria"
+    ],
+    "planes": [
+      "P0476-3"
+    ],
+    "actividadIds": [
+      "1278"
+    ]
+  },
+  {
+    "id": "materia-00904",
+    "code": "00904",
+    "nombre": "Ética Profesional",
+    "variantes": [
+      "Ética Profesional"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "1279"
+    ]
+  },
+  {
+    "id": "materia-00905",
+    "code": "00905",
+    "nombre": "Mejoramiento genético",
+    "variantes": [
+      "Mejoramiento genético"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1280"
+    ]
+  },
+  {
+    "id": "materia-00920",
+    "code": "00920",
+    "nombre": "Análisis de alimentos",
+    "variantes": [
+      "Análisis de alimentos"
+    ],
+    "planes": [
+      "P0097-1"
+    ],
+    "actividadIds": [
+      "1292"
+    ]
+  },
+  {
+    "id": "materia-00943",
+    "code": "00943",
+    "nombre": "Genética Forense",
+    "variantes": [
+      "Genética Forense"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1524"
+    ]
+  },
+  {
+    "id": "materia-00948",
+    "code": "00948",
+    "nombre": "Herramientas de Informática Básica",
+    "variantes": [
+      "Herramientas de Informática Básica"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "1322"
+    ]
+  },
+  {
+    "id": "materia-01022",
+    "code": "01022",
+    "nombre": "Bioetica",
+    "variantes": [
+      "Bioetica"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "1392"
+    ]
+  },
+  {
+    "id": "materia-01033",
+    "code": "01033",
+    "nombre": "Gestión y Evaluación ambiental",
+    "variantes": [
+      "Gestión y Evaluación ambiental",
+      "Gestión y Evaluación Ambiental"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1403"
+    ]
+  },
+  {
+    "id": "materia-01035",
+    "code": "01035",
+    "nombre": "Construcción de Prototipos con Microcontroladores",
+    "variantes": [
+      "Construcción de Prototipos con Microcontroladores"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "1406"
+    ]
+  },
+  {
+    "id": "materia-01036",
+    "code": "01036",
+    "nombre": "Ecología y Genética de las Enfermedades Transmisibles por Vectores y otras Zoonosis",
+    "variantes": [
+      "Ecología y Genética de las Enfermedades Transmisibles por Vectores y otras Zoonosis"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1405"
+    ]
+  },
+  {
+    "id": "materia-01066",
+    "code": "01066",
+    "nombre": "Derecho Deportivo",
+    "variantes": [
+      "Derecho Deportivo"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "1437"
+    ]
+  },
+  {
+    "id": "materia-01075",
+    "code": "01075",
+    "nombre": "Medios de Comunicación y Sociedad",
+    "variantes": [
+      "Medios de Comunicación y Sociedad"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "1446"
+    ]
+  },
+  {
+    "id": "materia-01080",
+    "code": "01080",
+    "nombre": "Ciencias Biológicas I",
+    "variantes": [
+      "Ciencias Biológicas I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2212"
+    ]
+  },
+  {
+    "id": "materia-01081",
+    "code": "01081",
+    "nombre": "Ciencias Biológicas II",
+    "variantes": [
+      "Ciencias Biológicas II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2213"
+    ]
+  },
+  {
+    "id": "materia-01082",
+    "code": "01082",
+    "nombre": "Psicología General e Institucional",
+    "variantes": [
+      "Psicología General e Institucional"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2214"
+    ]
+  },
+  {
+    "id": "materia-01083",
+    "code": "01083",
+    "nombre": "Psicología Evolutiva",
+    "variantes": [
+      "Psicología Evolutiva"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2215"
+    ]
+  },
+  {
+    "id": "materia-01084",
+    "code": "01084",
+    "nombre": "Filosofía en Enfermería I",
+    "variantes": [
+      "Filosofía en Enfermería I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2216"
+    ]
+  },
+  {
+    "id": "materia-01085",
+    "code": "01085",
+    "nombre": "Inglés Técnico I",
+    "variantes": [
+      "Inglés Técnico I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2217"
+    ]
+  },
+  {
+    "id": "materia-01086",
+    "code": "01086",
+    "nombre": "Investigación en Enfermería I",
+    "variantes": [
+      "Investigación en Enfermería I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2218"
+    ]
+  },
+  {
+    "id": "materia-01087",
+    "code": "01087",
+    "nombre": "Epidemiología y Estadísticas de la Salud I",
+    "variantes": [
+      "Epidemiología y Estadísticas de la Salud I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2219"
+    ]
+  },
+  {
+    "id": "materia-01088",
+    "code": "01088",
+    "nombre": "Informática Aplicada a la Enfermería I",
+    "variantes": [
+      "Informática Aplicada a la Enfermería I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2220"
+    ]
+  },
+  {
+    "id": "materia-01089",
+    "code": "01089",
+    "nombre": "Puericultura",
+    "variantes": [
+      "Puericultura"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2221"
+    ]
+  },
+  {
+    "id": "materia-01090",
+    "code": "01090",
+    "nombre": "Sociología",
+    "variantes": [
+      "Sociología"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2222"
+    ]
+  },
+  {
+    "id": "materia-01094",
+    "code": "01094",
+    "nombre": "Derecho Animal",
+    "variantes": [
+      "Derecho Animal"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2226"
+    ]
+  },
+  {
+    "id": "materia-01095",
+    "code": "01095",
+    "nombre": "Filosofía en Enfermería II",
+    "variantes": [
+      "Filosofía en Enfermería II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2227"
+    ]
+  },
+  {
+    "id": "materia-01096",
+    "code": "01096",
+    "nombre": "Investigación en Enfermería II",
+    "variantes": [
+      "Investigación en Enfermería II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2228"
+    ]
+  },
+  {
+    "id": "materia-01097",
+    "code": "01097",
+    "nombre": "Epidemiología y Estadísticas de la Salud II",
+    "variantes": [
+      "Epidemiología y Estadísticas de la Salud II"
+    ],
+    "planes": [
+      "P0286-2",
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2229"
+    ]
+  },
+  {
+    "id": "materia-01098",
+    "code": "01098",
+    "nombre": "Enfermería Comunitaria II",
+    "variantes": [
+      "Enfermería Comunitaria II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2230"
+    ]
+  },
+  {
+    "id": "materia-01099",
+    "code": "01099",
+    "nombre": "Enfermería en Cuidados Críticos II",
+    "variantes": [
+      "Enfermería en Cuidados Críticos II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2231"
+    ]
+  },
+  {
+    "id": "materia-01100",
+    "code": "01100",
+    "nombre": "Gestión de los Servicios de Enfermería Hospitalarios y Comunitarios",
+    "variantes": [
+      "Gestión de los Servicios de Enfermería Hospitalarios y Comunitarios"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2232"
+    ]
+  },
+  {
+    "id": "materia-01101",
+    "code": "01101",
+    "nombre": "Ética Profesional II",
+    "variantes": [
+      "Ética Profesional II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2233"
+    ]
+  },
+  {
+    "id": "materia-01102",
+    "code": "01102",
+    "nombre": "Enfermería en Cuidados Críticos III",
+    "variantes": [
+      "Enfermería en Cuidados Críticos III"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2234"
+    ]
+  },
+  {
+    "id": "materia-01103",
+    "code": "01103",
+    "nombre": "Informática Aplicada a la Enfermería II",
+    "variantes": [
+      "Informática Aplicada a la Enfermería II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2235"
+    ]
+  },
+  {
+    "id": "materia-01104",
+    "code": "01104",
+    "nombre": "Inglés Técnico II",
+    "variantes": [
+      "Inglés Técnico II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2236"
+    ]
+  },
+  {
+    "id": "materia-01105",
+    "code": "01105",
+    "nombre": "Práctica Integrada I",
+    "variantes": [
+      "Práctica Integrada I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2238"
+    ]
+  },
+  {
+    "id": "materia-01106",
+    "code": "01106",
+    "nombre": "Practica Integrada II",
+    "variantes": [
+      "Practica Integrada II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2239"
+    ]
+  },
+  {
+    "id": "materia-01107",
+    "code": "01107",
+    "nombre": "Trabajo Final de Grado",
+    "variantes": [
+      "Trabajo Final de Grado"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2240"
+    ]
+  },
+  {
+    "id": "materia-01109",
+    "code": "01109",
+    "nombre": "Elementos de Análisis Matemático",
+    "variantes": [
+      "Elementos de Análisis Matemático"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0297-4",
+      "P0307-3",
+      "P0466-4",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "2245"
+    ]
+  },
+  {
+    "id": "materia-01110",
+    "code": "01110",
+    "nombre": "Elementos de Álgebra",
+    "variantes": [
+      "Elementos de Álgebra"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0297-4",
+      "P0307-3",
+      "P0466-4",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "2246"
+    ]
+  },
+  {
+    "id": "materia-01111",
+    "code": "01111",
+    "nombre": "Biofísica",
+    "variantes": [
+      "Biofísica"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2247"
+    ]
+  },
+  {
+    "id": "materia-01112",
+    "code": "01112",
+    "nombre": "Biología Celular y Molecular",
+    "variantes": [
+      "Biología Celular y Molecular"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2248"
+    ]
+  },
+  {
+    "id": "materia-01113",
+    "code": "01113",
+    "nombre": "Sistemática",
+    "variantes": [
+      "Sistemática"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2249"
+    ]
+  },
+  {
+    "id": "materia-01114",
+    "code": "01114",
+    "nombre": "Biología Animal",
+    "variantes": [
+      "Biología Animal"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2250"
+    ]
+  },
+  {
+    "id": "materia-01115",
+    "code": "01115",
+    "nombre": "Ecología",
+    "variantes": [
+      "Ecología"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2251"
+    ]
+  },
+  {
+    "id": "materia-01116",
+    "code": "01116",
+    "nombre": "Biología Humana",
+    "variantes": [
+      "Biología Humana"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2252"
+    ]
+  },
+  {
+    "id": "materia-01117",
+    "code": "01117",
+    "nombre": "Biología de los Microorganismos",
+    "variantes": [
+      "Biología de los Microorganismos"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2253"
+    ]
+  },
+  {
+    "id": "materia-01118",
+    "code": "01118",
+    "nombre": "Epistemología y Metodología de la Investigación",
+    "variantes": [
+      "Epistemología y Metodología de la Investigación"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0334-2",
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2254"
+    ]
+  },
+  {
+    "id": "materia-01119",
+    "code": "01119",
+    "nombre": "Fisiología Animal",
+    "variantes": [
+      "Fisiología Animal"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2255"
+    ]
+  },
+  {
+    "id": "materia-01120",
+    "code": "01120",
+    "nombre": "Biodiversidad y Recursos Genéticos",
+    "variantes": [
+      "Biodiversidad y Recursos Genéticos"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2256"
+    ]
+  },
+  {
+    "id": "materia-01121",
+    "code": "01121",
+    "nombre": "Evolución",
+    "variantes": [
+      "Evolución"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2257"
+    ]
+  },
+  {
+    "id": "materia-01122",
+    "code": "01122",
+    "nombre": "Genética de Poblaciones y Evolutiva",
+    "variantes": [
+      "Genética de Poblaciones y Evolutiva"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2259"
+    ]
+  },
+  {
+    "id": "materia-01123",
+    "code": "01123",
+    "nombre": "Genética de los Microorganismos",
+    "variantes": [
+      "Genética de los Microorganismos"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2261"
+    ]
+  },
+  {
+    "id": "materia-01124",
+    "code": "01124",
+    "nombre": "Biotecnología",
+    "variantes": [
+      "Biotecnología"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2262"
+    ]
+  },
+  {
+    "id": "materia-01125",
+    "code": "01125",
+    "nombre": "Bioética y Legislación",
+    "variantes": [
+      "Bioética y Legislación"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2258"
+    ]
+  },
+  {
+    "id": "materia-01126",
+    "code": "01126",
+    "nombre": "Genética Cuantitativa",
+    "variantes": [
+      "Genética Cuantitativa"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2260"
+    ]
+  },
+  {
+    "id": "materia-01127",
+    "code": "01127",
+    "nombre": "Enfermería en Cuidados Críticos I",
+    "variantes": [
+      "Enfermería en Cuidados Críticos I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2316"
+    ]
+  },
+  {
+    "id": "materia-01128",
+    "code": "01128",
+    "nombre": "Marco Normativo de la Profesión y Actuación Judicial",
+    "variantes": [
+      "Marco Normativo de la Profesión y Actuación Judicial"
+    ],
+    "planes": [
+      "P0297-4"
+    ],
+    "actividadIds": [
+      "2318"
+    ]
+  },
+  {
+    "id": "materia-01129",
+    "code": "01129",
+    "nombre": "Práctica Profesional Supervisada",
+    "variantes": [
+      "Práctica Profesional Supervisada"
+    ],
+    "planes": [
+      "P0297-4"
+    ],
+    "actividadIds": [
+      "2319"
+    ]
+  },
+  {
+    "id": "materia-01130",
+    "code": "01130",
+    "nombre": "Gestión del Talento Humano",
+    "variantes": [
+      "Gestión del Talento Humano"
+    ],
+    "planes": [
+      "P0307-3"
+    ],
+    "actividadIds": [
+      "2349"
+    ]
+  },
+  {
+    "id": "materia-01131",
+    "code": "01131",
+    "nombre": "Inglés Técnico",
+    "variantes": [
+      "Inglés Técnico"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "2350"
+    ]
+  },
+  {
+    "id": "materia-01132",
+    "code": "01132",
+    "nombre": "Bases Históricas del Derecho",
+    "variantes": [
+      "Bases Históricas del Derecho"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2355"
+    ]
+  },
+  {
+    "id": "materia-01133",
+    "code": "01133",
+    "nombre": "Sociología Jurídica",
+    "variantes": [
+      "Sociología Jurídica"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2356"
+    ]
+  },
+  {
+    "id": "materia-01134",
+    "code": "01134",
+    "nombre": "Métodos Alternativos de Resolución de Conflictos",
+    "variantes": [
+      "Métodos Alternativos de Resolución de Conflictos"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2357"
+    ]
+  },
+  {
+    "id": "materia-01135",
+    "code": "01135",
+    "nombre": "Litigación Oral",
+    "variantes": [
+      "Litigación Oral"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2358"
+    ]
+  },
+  {
+    "id": "materia-01136",
+    "code": "01136",
+    "nombre": "Práctica Profesional II - Laboral",
+    "variantes": [
+      "Práctica Profesional II - Laboral"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2359"
+    ]
+  },
+  {
+    "id": "materia-01137",
+    "code": "01137",
+    "nombre": "Derecho Procesal II - Civil y Comercial",
+    "variantes": [
+      "Derecho Procesal II - Civil y Comercial"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2360"
+    ]
+  },
+  {
+    "id": "materia-01138",
+    "code": "01138",
+    "nombre": "Práctica Profesional III - Civil y Comercial",
+    "variantes": [
+      "Práctica Profesional III - Civil y Comercial"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2377"
+    ]
+  },
+  {
+    "id": "materia-01139",
+    "code": "01139",
+    "nombre": "Ética Profesional",
+    "variantes": [
+      "Ética Profesional"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2361"
+    ]
+  },
+  {
+    "id": "materia-01140",
+    "code": "01140",
+    "nombre": "Inglés Técnico",
+    "variantes": [
+      "Inglés Técnico"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2354"
+    ]
+  },
+  {
+    "id": "materia-01141",
+    "code": "01141",
+    "nombre": "Práctica Profesional Supervisada",
+    "variantes": [
+      "Práctica Profesional Supervisada"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2362"
+    ]
+  },
+  {
+    "id": "materia-01146",
+    "code": "01146",
+    "nombre": "Impuestos I",
+    "variantes": [
+      "Impuestos I"
+    ],
+    "planes": [
+      "P0297-4"
+    ],
+    "actividadIds": [
+      "2410"
+    ]
+  },
+  {
+    "id": "materia-01147",
+    "code": "01147",
+    "nombre": "Impuestos II",
+    "variantes": [
+      "Impuestos II"
+    ],
+    "planes": [
+      "P0297-4"
+    ],
+    "actividadIds": [
+      "2411"
+    ]
+  },
+  {
+    "id": "materia-01148",
+    "code": "01148",
+    "nombre": "Perspectiva de Género y Derecho",
+    "variantes": [
+      "Perspectiva de Género y Derecho"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "2417"
+    ]
+  },
+  {
+    "id": "materia-01153",
+    "code": "01153",
+    "nombre": "Farmacogenética",
+    "variantes": [
+      "Farmacogenética"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2425"
+    ]
+  },
+  {
+    "id": "materia-01155",
+    "code": "01155",
+    "nombre": "Seminario de Formulación de Proyecto",
+    "variantes": [
+      "Seminario de Formulación de Proyecto"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "2427"
+    ]
+  },
+  {
+    "id": "materia-01163",
+    "code": "01163",
+    "nombre": "Energía y Sostenibilidad",
+    "variantes": [
+      "Energía y Sostenibilidad"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "2436"
+    ]
+  },
+  {
+    "id": "materia-01175",
+    "code": "01175",
+    "nombre": "Primeros Auxilios de Enfermaría",
+    "variantes": [
+      "Primeros Auxilios de Enfermaría"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": [
+      "2449"
+    ]
+  },
+  {
+    "id": "materia-01176",
+    "code": "01176",
+    "nombre": "Empresas del Sector Agropecuario: Aspectos Contables, Impositivos y Contractuales en Argentina especifícos del Sector",
+    "variantes": [
+      "Empresas del Sector Agropecuario: Aspectos Contables, Impositivos y Contractuales en Argentina especifícos del Sector"
+    ],
+    "planes": [
+      "P0297-4"
+    ],
+    "actividadIds": [
+      "2468"
+    ]
+  },
+  {
+    "id": "materia-01197",
+    "code": "01197",
+    "nombre": "Modelado Digital",
+    "variantes": [
+      "Modelado Digital"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "2512"
+    ]
+  },
+  {
+    "id": "materia-01207",
+    "code": "01207",
+    "nombre": "Programación en Python",
+    "variantes": [
+      "Programación en Python"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2679"
+    ]
+  },
+  {
+    "id": "materia-01221",
+    "code": "01221",
+    "nombre": "Biogeografía",
+    "variantes": [
+      "Biogeografía"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2699"
+    ]
+  },
+  {
+    "id": "materia-01222",
+    "code": "01222",
+    "nombre": "Virología",
+    "variantes": [
+      "Virología"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2794"
+    ]
+  },
+  {
+    "id": "materia-01223",
+    "code": "01223",
+    "nombre": "Impactos Productivos de las MicroBioTecnologías",
+    "variantes": [
+      "Impactos Productivos de las MicroBioTecnologías"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "2795"
+    ]
+  },
+  {
+    "id": "materia-01229",
+    "code": "01229",
+    "nombre": "Fauna Silvestre y Zoocría",
+    "variantes": [
+      "Fauna Silvestre y Zoocría"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2807"
+    ]
+  },
+  {
+    "id": "materia-01230",
+    "code": "01230",
+    "nombre": "Endocrinología",
+    "variantes": [
+      "Endocrinología"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2808"
+    ]
+  },
+  {
+    "id": "materia-01231",
+    "code": "01231",
+    "nombre": "Genética Médica",
+    "variantes": [
+      "Genética Médica"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2809"
+    ]
+  },
+  {
+    "id": "materia-01234",
+    "code": "01234",
+    "nombre": "Estadística II",
+    "variantes": [
+      "Estadística II"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2841"
+    ]
+  },
+  {
+    "id": "materia-01237",
+    "code": "01237",
+    "nombre": "Diagnóstico Molecular",
+    "variantes": [
+      "Diagnóstico Molecular"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2844"
+    ]
+  },
+  {
+    "id": "materia-01238",
+    "code": "01238",
+    "nombre": "Gobernanza de Sistemas y Tecnologías de la Información (SI/TI)",
+    "variantes": [
+      "Gobernanza de Sistemas y Tecnologías de la Información (SI/TI)"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "2845"
+    ]
+  },
+  {
+    "id": "materia-01239",
+    "code": "01239",
+    "nombre": "Genética Orientada a la Biomedicina",
+    "variantes": [
+      "Genética Orientada a la Biomedicina"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2846"
+    ]
+  },
+  {
+    "id": "materia-01240",
+    "code": "01240",
+    "nombre": "Neurobiología",
+    "variantes": [
+      "Neurobiología"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2847"
+    ]
+  },
+  {
+    "id": "materia-01241",
+    "code": "01241",
+    "nombre": "Virología",
+    "variantes": [
+      "Virología"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2848"
+    ]
+  },
+  {
+    "id": "materia-01242",
+    "code": "01242",
+    "nombre": "Jardinería",
+    "variantes": [
+      "Jardinería"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2868"
+    ]
+  },
+  {
+    "id": "materia-01244",
+    "code": "01244",
+    "nombre": "Toxicología",
+    "variantes": [
+      "Toxicología"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "2870"
+    ]
+  },
+  {
+    "id": "materia-01253",
+    "code": "01253",
+    "nombre": "Desarrollo Web",
+    "variantes": [
+      "Desarrollo Web"
+    ],
+    "planes": [
+      "P0041-1",
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "2894"
+    ]
+  },
+  {
+    "id": "materia-01254",
+    "code": "01254",
+    "nombre": "Introducción al Diseño de Interfaz",
+    "variantes": [
+      "Introducción al Diseño de Interfaz"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2895"
+    ]
+  },
+  {
+    "id": "materia-01255",
+    "code": "01255",
+    "nombre": "Conceptos de Programación",
+    "variantes": [
+      "Conceptos de Programación"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2896"
+    ]
+  },
+  {
+    "id": "materia-01256",
+    "code": "01256",
+    "nombre": "Análisis Funcional de Aplicaciones Web",
+    "variantes": [
+      "Análisis Funcional de Aplicaciones Web"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2897"
+    ]
+  },
+  {
+    "id": "materia-01257",
+    "code": "01257",
+    "nombre": "Planificación de Proyectos",
+    "variantes": [
+      "Planificación de Proyectos"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2898"
+    ]
+  },
+  {
+    "id": "materia-01258",
+    "code": "01258",
+    "nombre": "Sistemas Operativos",
+    "variantes": [
+      "Sistemas Operativos"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2899"
+    ]
+  },
+  {
+    "id": "materia-01259",
+    "code": "01259",
+    "nombre": "Maquetación y Desarrollo Web I",
+    "variantes": [
+      "Maquetación y Desarrollo Web I"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2900"
+    ]
+  },
+  {
+    "id": "materia-01260",
+    "code": "01260",
+    "nombre": "Protocolo y Arquitectura Web",
+    "variantes": [
+      "Protocolo y Arquitectura Web"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2901"
+    ]
+  },
+  {
+    "id": "materia-01261",
+    "code": "01261",
+    "nombre": "Desarrollo de Aplicaciones para Dispositivos Móviles",
+    "variantes": [
+      "Desarrollo de Aplicaciones para Dispositivos Móviles"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2902"
+    ]
+  },
+  {
+    "id": "materia-01262",
+    "code": "01262",
+    "nombre": "Diseño Interactivo",
+    "variantes": [
+      "Diseño Interactivo"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2903"
+    ]
+  },
+  {
+    "id": "materia-01263",
+    "code": "01263",
+    "nombre": "Programación Full Stack",
+    "variantes": [
+      "Programación Full Stack"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2904"
+    ]
+  },
+  {
+    "id": "materia-01264",
+    "code": "01264",
+    "nombre": "Maquetación y Desarrollo Web II",
+    "variantes": [
+      "Maquetación y Desarrollo Web II"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2905"
+    ]
+  },
+  {
+    "id": "materia-01265",
+    "code": "01265",
+    "nombre": "Marketing Digital",
+    "variantes": [
+      "Marketing Digital"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2906"
+    ]
+  },
+  {
+    "id": "materia-01266",
+    "code": "01266",
+    "nombre": "Programación Dinámica",
+    "variantes": [
+      "Programación Dinámica"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2907"
+    ]
+  },
+  {
+    "id": "materia-01267",
+    "code": "01267",
+    "nombre": "Emprendimiento de Negocios",
+    "variantes": [
+      "Emprendimiento de Negocios"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2908"
+    ]
+  },
+  {
+    "id": "materia-01268",
+    "code": "01268",
+    "nombre": "Seguridad Informática",
+    "variantes": [
+      "Seguridad Informática"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2909"
+    ]
+  },
+  {
+    "id": "materia-01269",
+    "code": "01269",
+    "nombre": "Proyecto Final",
+    "variantes": [
+      "Proyecto Final"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2910"
+    ]
+  },
+  {
+    "id": "materia-01270",
+    "code": "01270",
+    "nombre": "Inglés Técnico",
+    "variantes": [
+      "Inglés Técnico"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2911"
+    ]
+  },
+  {
+    "id": "materia-01272",
+    "code": "01272",
+    "nombre": "Práctica Profesional y Legislación",
+    "variantes": [
+      "Práctica Profesional y Legislación"
+    ],
+    "planes": [
+      "P0041-1"
+    ],
+    "actividadIds": [
+      "2913"
+    ]
+  },
+  {
+    "id": "materia-01289",
+    "code": "01289",
+    "nombre": "Fundamentos de Biología",
+    "variantes": [
+      "Fundamentos de Biología"
+    ],
+    "planes": [
+      "P0097-1",
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3031"
+    ]
+  },
+  {
+    "id": "materia-01290",
+    "code": "01290",
+    "nombre": "Introducción a la Tecnología de los Alimentos",
+    "variantes": [
+      "Introducción a la Tecnología de los Alimentos"
+    ],
+    "planes": [
+      "P0097-1",
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3032"
+    ]
+  },
+  {
+    "id": "analisis-1",
+    "code": "01291",
+    "nombre": "Análisis Matemático 1",
+    "variantes": [
+      "Análisis Matemático I"
+    ],
+    "planes": [
+      "P0097-1",
+      "P0107-2",
+      "P0368-2",
+      "P0409-3",
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3033"
+    ]
+  },
+  {
+    "id": "algebra-y-geometria-analitica",
+    "code": "01292",
+    "nombre": "Álgebra y Geometría Analítica",
+    "variantes": [
+      "Álgebra y Geometría Analítica"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2",
+      "P0409-3",
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3034"
+    ]
+  },
+  {
+    "id": "materia-01293",
+    "code": "01293",
+    "nombre": "Química Analítica",
+    "variantes": [
+      "Química Analítica"
+    ],
+    "planes": [
+      "P0097-1",
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3035"
+    ]
+  },
+  {
+    "id": "probabilidades-y-estadistica",
+    "code": "01294",
+    "nombre": "Probabilidades y Estadística",
+    "variantes": [
+      "Probabilidades y Estadística"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2",
+      "P0409-3",
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3036"
+    ]
+  },
+  {
+    "id": "materia-01295",
+    "code": "01295",
+    "nombre": "Física II",
+    "variantes": [
+      "Física II"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3037"
+    ]
+  },
+  {
+    "id": "analisis-matematico-ii",
+    "code": "01296",
+    "nombre": "Análisis Matemático II",
+    "variantes": [
+      "Análisis Matemático II"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2",
+      "P0409-3",
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3091"
+    ]
+  },
+  {
+    "id": "materia-01297",
+    "code": "01297",
+    "nombre": "Física III",
+    "variantes": [
+      "Física III"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3092"
+    ]
+  },
+  {
+    "id": "materia-01298",
+    "code": "01298",
+    "nombre": "Química de los Alimentos",
+    "variantes": [
+      "Química de los Alimentos"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3093"
+    ]
+  },
+  {
+    "id": "materia-01299",
+    "code": "01299",
+    "nombre": "Fenómenos de Transporte",
+    "variantes": [
+      "Fenómenos de Transporte"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3094"
+    ]
+  },
+  {
+    "id": "materia-01300",
+    "code": "01300",
+    "nombre": "Análisis Instrumental",
+    "variantes": [
+      "Análisis Instrumental"
+    ],
+    "planes": [
+      "P0097-1",
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3042"
+    ]
+  },
+  {
+    "id": "materia-01301",
+    "code": "01301",
+    "nombre": "Aplicaciones Termodinámicas y Servicios",
+    "variantes": [
+      "Aplicaciones Termodinámicas y Servicios"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3043"
+    ]
+  },
+  {
+    "id": "materia-01302",
+    "code": "01302",
+    "nombre": "Operaciones Unitarias I",
+    "variantes": [
+      "Operaciones Unitarias I"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3044"
+    ]
+  },
+  {
+    "id": "materia-01303",
+    "code": "01303",
+    "nombre": "Cálculo Numérico",
+    "variantes": [
+      "Cálculo Numérico"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3045"
+    ]
+  },
+  {
+    "id": "materia-01304",
+    "code": "01304",
+    "nombre": "Fisicoquímica",
+    "variantes": [
+      "Fisicoquímica"
+    ],
+    "planes": [
+      "P0097-1",
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3046"
+    ]
+  },
+  {
+    "id": "materia-01305",
+    "code": "01305",
+    "nombre": "Sistemas de Representación",
+    "variantes": [
+      "Sistemas de Representación"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2",
+      "P0376-1",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3047"
+    ]
+  },
+  {
+    "id": "materia-01306",
+    "code": "01306",
+    "nombre": "Microbiología General y de los Alimentos",
+    "variantes": [
+      "Microbiología General y de los Alimentos"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3048"
+    ]
+  },
+  {
+    "id": "materia-01307",
+    "code": "01307",
+    "nombre": "Operaciones Unitarias II",
+    "variantes": [
+      "Operaciones Unitarias II"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3049"
+    ]
+  },
+  {
+    "id": "materia-01308",
+    "code": "01308",
+    "nombre": "Nutrición y Análisis de Alimentos",
+    "variantes": [
+      "Nutrición y Análisis de Alimentos"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3050"
+    ]
+  },
+  {
+    "id": "materia-01309",
+    "code": "01309",
+    "nombre": "Toxicología de los Alimentos",
+    "variantes": [
+      "Toxicología de los Alimentos"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3051"
+    ]
+  },
+  {
+    "id": "materia-01310",
+    "code": "01310",
+    "nombre": "Instalaciones Industriales",
+    "variantes": [
+      "Instalaciones Industriales"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2",
+      "P0376-1",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3052"
+    ]
+  },
+  {
+    "id": "materia-01311",
+    "code": "01311",
+    "nombre": "Fundamentos de Programación de Sistemas Informáticos",
+    "variantes": [
+      "Fundamentos de Programación de Sistemas Informáticos"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0355-2",
+      "P0368-2",
+      "P0376-1",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3053"
+    ]
+  },
+  {
+    "id": "materia-01312",
+    "code": "01312",
+    "nombre": "Procesos de Preservación de Alimentos",
+    "variantes": [
+      "Procesos de Preservación de Alimentos"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3054"
+    ]
+  },
+  {
+    "id": "materia-01313",
+    "code": "01313",
+    "nombre": "Bromatología y Legislación Alimentaria",
+    "variantes": [
+      "Bromatología y Legislación Alimentaria"
+    ],
+    "planes": [
+      "P0097-1",
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3095"
+    ]
+  },
+  {
+    "id": "economia-y-organizaciones",
+    "code": "01314",
+    "nombre": "Economía y Organizaciones",
+    "variantes": [
+      "Economía y Organizaciones"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0409-3",
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3096"
+    ]
+  },
+  {
+    "id": "materia-01315",
+    "code": "01315",
+    "nombre": "Microbiología Industrial y Procesos de Alimentos",
+    "variantes": [
+      "Microbiología Industrial y Procesos de Alimentos"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3057"
+    ]
+  },
+  {
+    "id": "materia-01316",
+    "code": "01316",
+    "nombre": "Higiene y Seguridad",
+    "variantes": [
+      "Higiene y Seguridad"
+    ],
+    "planes": [
+      "P0097-1",
+      "P0107-2",
+      "P0368-2",
+      "P0376-1",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3058"
+    ]
+  },
+  {
+    "id": "materia-01317",
+    "code": "01317",
+    "nombre": "Proyecto Industrial",
+    "variantes": [
+      "Proyecto Industrial"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3059"
+    ]
+  },
+  {
+    "id": "materia-01318",
+    "code": "01318",
+    "nombre": "Procesos de Alimentos",
+    "variantes": [
+      "Procesos de Alimentos"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3060"
+    ]
+  },
+  {
+    "id": "materia-01319",
+    "code": "01319",
+    "nombre": "Ingeniería de Procesos",
+    "variantes": [
+      "Ingeniería de Procesos"
+    ],
+    "planes": [
+      "P0107-2",
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3061"
+    ]
+  },
+  {
+    "id": "materia-01320",
+    "code": "01320",
+    "nombre": "Evaluación Sensorial",
+    "variantes": [
+      "Evaluación Sensorial"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3062"
+    ]
+  },
+  {
+    "id": "materia-01321",
+    "code": "01321",
+    "nombre": "Gestión de la Calidad, Inocuidad y Ambiente",
+    "variantes": [
+      "Gestión de la Calidad, Inocuidad y Ambiente"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3063"
+    ]
+  },
+  {
+    "id": "materia-01322",
+    "code": "01322",
+    "nombre": "Taller de Trabajo Final de Ingeniería en Alimentos",
+    "variantes": [
+      "Taller de Trabajo Final de Ingeniería en Alimentos"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3064"
+    ]
+  },
+  {
+    "id": "materia-01323",
+    "code": "01323",
+    "nombre": "Práctica Profesional Supervisada",
+    "variantes": [
+      "Práctica Profesional Supervisada"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3120"
+    ]
+  },
+  {
+    "id": "materia-01324",
+    "code": "01324",
+    "nombre": "Actividades Formativas Complementarias",
+    "variantes": [
+      "Actividades Formativas Complementarias"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": [
+      "3067"
+    ]
+  },
+  {
+    "id": "materia-01325",
+    "code": "01325",
+    "nombre": "Inglés Técnico",
+    "variantes": [
+      "Inglés Técnico"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0107-2",
+      "P0368-2",
+      "P0376-1",
+      "P0409-3",
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3068"
+    ]
+  },
+  {
+    "id": "materia-01326",
+    "code": "01326",
+    "nombre": "Inglés Técnico",
+    "variantes": [
+      "Inglés Técnico"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3098"
+    ]
+  },
+  {
+    "id": "materia-01327",
+    "code": "01327",
+    "nombre": "Ingeniería y Sociedad",
+    "variantes": [
+      "Ingeniería y Sociedad"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3099"
+    ]
+  },
+  {
+    "id": "materia-01328",
+    "code": "01328",
+    "nombre": "Tecnología de Materiales I",
+    "variantes": [
+      "Tecnología de Materiales I"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3100"
+    ]
+  },
+  {
+    "id": "materia-01329",
+    "code": "01329",
+    "nombre": "Administración en la Industria",
+    "variantes": [
+      "Administración en la Industria"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3101"
+    ]
+  },
+  {
+    "id": "materia-01330",
+    "code": "01330",
+    "nombre": "Termodinámica y Máquinas Térmicas",
+    "variantes": [
+      "Termodinámica y Máquinas Térmicas"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0376-1",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3102"
+    ]
+  },
+  {
+    "id": "materia-01331",
+    "code": "01331",
+    "nombre": "Estática y Resistencia de los Materiales",
+    "variantes": [
+      "Estática y Resistencia de los Materiales"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3103"
+    ]
+  },
+  {
+    "id": "materia-01332",
+    "code": "01332",
+    "nombre": "Mecánica y Mecanismos",
+    "variantes": [
+      "Mecánica y Mecanismos"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3104"
+    ]
+  },
+  {
+    "id": "materia-01333",
+    "code": "01333",
+    "nombre": "Gestión Financiera y Contable de la Empresa",
+    "variantes": [
+      "Gestión Financiera y Contable de la Empresa"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3105"
+    ]
+  },
+  {
+    "id": "materia-01334",
+    "code": "01334",
+    "nombre": "Electrotecnica y Máquinas Eléctricas",
+    "variantes": [
+      "Electrotecnica y Máquinas Eléctricas",
+      "Electrotecnia y Máquinas Eléctricas"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0376-1",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3106"
+    ]
+  },
+  {
+    "id": "materia-01335",
+    "code": "01335",
+    "nombre": "Ingeniería de Métodos y Tiempo",
+    "variantes": [
+      "Ingeniería de Métodos y Tiempo"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3107"
+    ]
+  },
+  {
+    "id": "materia-01336",
+    "code": "01336",
+    "nombre": "Tecnología de Procesos",
+    "variantes": [
+      "Tecnología de Procesos"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3108"
+    ]
+  },
+  {
+    "id": "materia-01337",
+    "code": "01337",
+    "nombre": "Sistemas Informáticos para la Gestión",
+    "variantes": [
+      "Sistemas Informáticos para la Gestión"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3109"
+    ]
+  },
+  {
+    "id": "materia-01338",
+    "code": "01338",
+    "nombre": "Energías Renovables",
+    "variantes": [
+      "Energías Renovables"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3110"
+    ]
+  },
+  {
+    "id": "materia-01339",
+    "code": "01339",
+    "nombre": "Planificación, Programación y Control de la Producción",
+    "variantes": [
+      "Planificación, Programación y Control de la Producción"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3111"
+    ]
+  },
+  {
+    "id": "materia-01340",
+    "code": "01340",
+    "nombre": "Sistemas de Gestión y Mejora Contínua",
+    "variantes": [
+      "Sistemas de Gestión y Mejora Contínua"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3112"
+    ]
+  },
+  {
+    "id": "formulacion-y-evaluacion-de-proyectos",
+    "code": "01341",
+    "nombre": "Formulación y Evaluación de Proyectos",
+    "variantes": [
+      "Formulación y Evaluación de Proyectos de Ingeniería",
+      "Formulación y Evaluación de Proyectos"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3",
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3113"
+    ]
+  },
+  {
+    "id": "materia-01342",
+    "code": "01342",
+    "nombre": "Gestión del Mantenimiento",
+    "variantes": [
+      "Gestión del Mantenimiento"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3114"
+    ]
+  },
+  {
+    "id": "materia-01343",
+    "code": "01343",
+    "nombre": "Comportamiento Organizacional y Relaciones del Trabajo",
+    "variantes": [
+      "Comportamiento Organizacional y Relaciones del Trabajo"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3115"
+    ]
+  },
+  {
+    "id": "materia-01344",
+    "code": "01344",
+    "nombre": "Análisis para la Toma de Decisiones",
+    "variantes": [
+      "Análisis para la Toma de Decisiones"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3116"
+    ]
+  },
+  {
+    "id": "materia-01345",
+    "code": "01345",
+    "nombre": "Práctica Profesional Supervisada",
+    "variantes": [
+      "Práctica Profesional Supervisada"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3135"
+    ]
+  },
+  {
+    "id": "materia-01346",
+    "code": "01346",
+    "nombre": "Física General",
+    "variantes": [
+      "Física General"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0097-1"
+    ],
+    "actividadIds": [
+      "3161"
+    ]
+  },
+  {
+    "id": "materia-01347",
+    "code": "01347",
+    "nombre": "Botánica II",
+    "variantes": [
+      "Botánica II"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3162"
+    ]
+  },
+  {
+    "id": "materia-01348",
+    "code": "01348",
+    "nombre": "Diseño de Experimentos",
+    "variantes": [
+      "Diseño de Experimentos"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3163"
+    ]
+  },
+  {
+    "id": "materia-01349",
+    "code": "01349",
+    "nombre": "Microbiología Agrícola y Bioinsumos",
+    "variantes": [
+      "Microbiología Agrícola y Bioinsumos"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3164"
+    ]
+  },
+  {
+    "id": "materia-01350",
+    "code": "01350",
+    "nombre": "Edafología",
+    "variantes": [
+      "Edafología"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3167"
+    ]
+  },
+  {
+    "id": "materia-01351",
+    "code": "01351",
+    "nombre": "Agroclimatología",
+    "variantes": [
+      "Agroclimatología"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3166"
+    ]
+  },
+  {
+    "id": "materia-01352",
+    "code": "01352",
+    "nombre": "Nutrición Animal",
+    "variantes": [
+      "Nutrición Animal"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3168"
+    ]
+  },
+  {
+    "id": "materia-01353",
+    "code": "01353",
+    "nombre": "Fisiología Vegetal",
+    "variantes": [
+      "Fisiología Vegetal"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3169"
+    ]
+  },
+  {
+    "id": "materia-01354",
+    "code": "01354",
+    "nombre": "Economía General y del Sistema Agroalimentario",
+    "variantes": [
+      "Economía General y del Sistema Agroalimentario"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3170"
+    ]
+  },
+  {
+    "id": "materia-01355",
+    "code": "01355",
+    "nombre": "Riego y Drenaje",
+    "variantes": [
+      "Riego y Drenaje"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3171"
+    ]
+  },
+  {
+    "id": "materia-01356",
+    "code": "01356",
+    "nombre": "Maquinaria y Tecnología de Uso Agrícola",
+    "variantes": [
+      "Maquinaria y Tecnología de Uso Agrícola"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3172"
+    ]
+  },
+  {
+    "id": "materia-01357",
+    "code": "01357",
+    "nombre": "Ecofisiología Vegetal",
+    "variantes": [
+      "Ecofisiología Vegetal"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3173"
+    ]
+  },
+  {
+    "id": "materia-01358",
+    "code": "01358",
+    "nombre": "Producción de Forrajes y Pasturas",
+    "variantes": [
+      "Producción de Forrajes y Pasturas"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3174"
+    ]
+  },
+  {
+    "id": "materia-01359",
+    "code": "01359",
+    "nombre": "Malezas",
+    "variantes": [
+      "Malezas"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3175"
+    ]
+  },
+  {
+    "id": "materia-01360",
+    "code": "01360",
+    "nombre": "Zoología Agrícola",
+    "variantes": [
+      "Zoología Agrícola"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3176"
+    ]
+  },
+  {
+    "id": "materia-01361",
+    "code": "01361",
+    "nombre": "Fitopatología",
+    "variantes": [
+      "Fitopatología"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3177"
+    ]
+  },
+  {
+    "id": "materia-01362",
+    "code": "01362",
+    "nombre": "Conservación y Planificación del Uso de la Tierra",
+    "variantes": [
+      "Conservación y Planificación del Uso de la Tierra"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3178"
+    ]
+  },
+  {
+    "id": "materia-01363",
+    "code": "01363",
+    "nombre": "Producción Porcina y Aviar",
+    "variantes": [
+      "Producción Porcina y Aviar"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3179"
+    ]
+  },
+  {
+    "id": "materia-01364",
+    "code": "01364",
+    "nombre": "Producción Bovina",
+    "variantes": [
+      "Producción Bovina"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3180"
+    ]
+  },
+  {
+    "id": "materia-01365",
+    "code": "01365",
+    "nombre": "Producción de Semillas",
+    "variantes": [
+      "Producción de Semillas"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3181"
+    ]
+  },
+  {
+    "id": "materia-01366",
+    "code": "01366",
+    "nombre": "Producción de Oleaginosas",
+    "variantes": [
+      "Producción de Oleaginosas"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3182"
+    ]
+  },
+  {
+    "id": "materia-01367",
+    "code": "01367",
+    "nombre": "Geomática Aplicada a la Agronomía",
+    "variantes": [
+      "Geomática Aplicada a la Agronomía"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3183"
+    ]
+  },
+  {
+    "id": "materia-01368",
+    "code": "01368",
+    "nombre": "Producción de Cereales",
+    "variantes": [
+      "Producción de Cereales"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3184"
+    ]
+  },
+  {
+    "id": "materia-01369",
+    "code": "01369",
+    "nombre": "Horticultura",
+    "variantes": [
+      "Horticultura"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3185"
+    ]
+  },
+  {
+    "id": "materia-01370",
+    "code": "01370",
+    "nombre": "Gestión de Agronegocios",
+    "variantes": [
+      "Gestión de Agronegocios"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3211"
+    ]
+  },
+  {
+    "id": "materia-01371",
+    "code": "01371",
+    "nombre": "Actividades Formativas Prácticas",
+    "variantes": [
+      "Actividades Formativas Prácticas"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3187"
+    ]
+  },
+  {
+    "id": "materia-01372",
+    "code": "01372",
+    "nombre": "Biofármacos",
+    "variantes": [
+      "Biofármacos"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3209"
+    ]
+  },
+  {
+    "id": "materia-01373",
+    "code": "01373",
+    "nombre": "Micología",
+    "variantes": [
+      "Micología"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3210"
+    ]
+  },
+  {
+    "id": "elementos-de-matematica",
+    "code": "01374",
+    "nombre": "Elementos de Matemática",
+    "variantes": [
+      "Elementos de Matemática"
+    ],
+    "planes": [
+      "P0097-1",
+      "P0107-2",
+      "P0368-2",
+      "P0376-1",
+      "P0409-3",
+      "P0416-1",
+      "P0435-1",
+      "P0456-1",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3230"
+    ]
+  },
+  {
+    "id": "materia-01375",
+    "code": "01375",
+    "nombre": "Taller de Diseño de Indumentaria y Textil I",
+    "variantes": [
+      "Taller de Diseño de Indumentaria y Textil I"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3254"
+    ]
+  },
+  {
+    "id": "materia-01376",
+    "code": "01376",
+    "nombre": "Sistemas de Representación I",
+    "variantes": [
+      "Sistemas de Representación I"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3255"
+    ]
+  },
+  {
+    "id": "materia-01377",
+    "code": "01377",
+    "nombre": "Introducción a los Textiles",
+    "variantes": [
+      "Introducción a los Textiles"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3256"
+    ]
+  },
+  {
+    "id": "materia-01378",
+    "code": "01378",
+    "nombre": "Geometría Elemental",
+    "variantes": [
+      "Geometría Elemental"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3257"
+    ]
+  },
+  {
+    "id": "materia-01379",
+    "code": "01379",
+    "nombre": "Taller de Diseño de Indumentaria y Textil II",
+    "variantes": [
+      "Taller de Diseño de Indumentaria y Textil II"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3258"
+    ]
+  },
+  {
+    "id": "materia-01380",
+    "code": "01380",
+    "nombre": "Sistemas de Representación II",
+    "variantes": [
+      "Sistemas de Representación II"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3259"
+    ]
+  },
+  {
+    "id": "materia-01381",
+    "code": "01381",
+    "nombre": "Moldería I",
+    "variantes": [
+      "Moldería I"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3260"
+    ]
+  },
+  {
+    "id": "materia-01382",
+    "code": "01382",
+    "nombre": "Historia del Diseño",
+    "variantes": [
+      "Historia del Diseño"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3261"
+    ]
+  },
+  {
+    "id": "materia-01383",
+    "code": "01383",
+    "nombre": "Taller de Diseño de Indumentaria y Textil III",
+    "variantes": [
+      "Taller de Diseño de Indumentaria y Textil III"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3262"
+    ]
+  },
+  {
+    "id": "materia-01384",
+    "code": "01384",
+    "nombre": "Tecnología y Producción de Indumentaria y Textil I",
+    "variantes": [
+      "Tecnología y Producción de Indumentaria y Textil I"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3263"
+    ]
+  },
+  {
+    "id": "materia-01385",
+    "code": "01385",
+    "nombre": "Sistemas de Representación para Diseño de Indumentaria y Textil",
+    "variantes": [
+      "Sistemas de Representación para Diseño de Indumentaria y Textil"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3264"
+    ]
+  },
+  {
+    "id": "materia-01386",
+    "code": "01386",
+    "nombre": "Moldería II",
+    "variantes": [
+      "Moldería II"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3265"
+    ]
+  },
+  {
+    "id": "materia-01387",
+    "code": "01387",
+    "nombre": "Morfología I",
+    "variantes": [
+      "Morfología I"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3266"
+    ]
+  },
+  {
+    "id": "materia-01388",
+    "code": "01388",
+    "nombre": "Historia del Textil y la Indumentaria",
+    "variantes": [
+      "Historia del Textil y la Indumentaria"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3267"
+    ]
+  },
+  {
+    "id": "materia-01389",
+    "code": "01389",
+    "nombre": "Taller de Diseño de Indumentaria y Textil IV",
+    "variantes": [
+      "Taller de Diseño de Indumentaria y Textil IV"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3268"
+    ]
+  },
+  {
+    "id": "materia-01390",
+    "code": "01390",
+    "nombre": "Tecnología y Producción de Indumentaria y Textil II",
+    "variantes": [
+      "Tecnología y Producción de Indumentaria y Textil II"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3269"
+    ]
+  },
+  {
+    "id": "materia-01391",
+    "code": "01391",
+    "nombre": "Comunicación I",
+    "variantes": [
+      "Comunicación I"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3270"
+    ]
+  },
+  {
+    "id": "materia-01392",
+    "code": "01392",
+    "nombre": "Moldería III",
+    "variantes": [
+      "Moldería III"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3271"
+    ]
+  },
+  {
+    "id": "materia-01393",
+    "code": "01393",
+    "nombre": "Morfología II",
+    "variantes": [
+      "Morfología II"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3272"
+    ]
+  },
+  {
+    "id": "materia-01394",
+    "code": "01394",
+    "nombre": "Taller de Diseño de Indumentaria y Textil V",
+    "variantes": [
+      "Taller de Diseño de Indumentaria y Textil V"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3323"
+    ]
+  },
+  {
+    "id": "materia-01395",
+    "code": "01395",
+    "nombre": "Tecnología y Producción de Indumentaria y Textil III",
+    "variantes": [
+      "Tecnología y Producción de Indumentaria y Textil III"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3274"
+    ]
+  },
+  {
+    "id": "materia-01396",
+    "code": "01396",
+    "nombre": "Comunicación II",
+    "variantes": [
+      "Comunicación II"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3275"
+    ]
+  },
+  {
+    "id": "materia-01397",
+    "code": "01397",
+    "nombre": "Taller de Diseño de Indumentaria y Textil VI",
+    "variantes": [
+      "Taller de Diseño de Indumentaria y Textil VI"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3276"
+    ]
+  },
+  {
+    "id": "materia-01398",
+    "code": "01398",
+    "nombre": "Laboratorio de Experimentación Textil y Biomateriales",
+    "variantes": [
+      "Laboratorio de Experimentación Textil y Biomateriales"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3278"
+    ]
+  },
+  {
+    "id": "materia-01399",
+    "code": "01399",
+    "nombre": "Análisis de Tendencias",
+    "variantes": [
+      "Análisis de Tendencias"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3277"
+    ]
+  },
+  {
+    "id": "materia-01400",
+    "code": "01400",
+    "nombre": "Taller de Diseño de Indumentaria y Textil VII",
+    "variantes": [
+      "Taller de Diseño de Indumentaria y Textil VII"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3279"
+    ]
+  },
+  {
+    "id": "materia-01401",
+    "code": "01401",
+    "nombre": "Tecnología y Producción de Indumentaria y Textil IV",
+    "variantes": [
+      "Tecnología y Producción de Indumentaria y Textil IV"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3280"
+    ]
+  },
+  {
+    "id": "materia-01402",
+    "code": "01402",
+    "nombre": "Taller de Diseño de Indumentaria y Textil VIII",
+    "variantes": [
+      "Taller de Diseño de Indumentaria y Textil VIII"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3281"
+    ]
+  },
+  {
+    "id": "materia-01403",
+    "code": "01403",
+    "nombre": "Taller de Diseño Gráfico I",
+    "variantes": [
+      "Taller de Diseño Gráfico I"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3282"
+    ]
+  },
+  {
+    "id": "materia-01404",
+    "code": "01404",
+    "nombre": "Tecnología y Producción de Diseño Gráfico I",
+    "variantes": [
+      "Tecnología y Producción de Diseño Gráfico I"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3283"
+    ]
+  },
+  {
+    "id": "materia-01405",
+    "code": "01405",
+    "nombre": "Taller de Diseño Gráfico II",
+    "variantes": [
+      "Taller de Diseño Gráfico II"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3284"
+    ]
+  },
+  {
+    "id": "materia-01406",
+    "code": "01406",
+    "nombre": "Tecnología y Producción de Diseño Gráfico II",
+    "variantes": [
+      "Tecnología y Producción de Diseño Gráfico II"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3285"
+    ]
+  },
+  {
+    "id": "materia-01407",
+    "code": "01407",
+    "nombre": "Taller de Diseño Gráfico III",
+    "variantes": [
+      "Taller de Diseño Gráfico III"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3286"
+    ]
+  },
+  {
+    "id": "materia-01409",
+    "code": "01409",
+    "nombre": "Sistema de Representación para Diseño Gráfico",
+    "variantes": [
+      "Sistema de Representación para Diseño Gráfico"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3288"
+    ]
+  },
+  {
+    "id": "materia-01410",
+    "code": "01410",
+    "nombre": "Tipografía I",
+    "variantes": [
+      "Tipografía I"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3289"
+    ]
+  },
+  {
+    "id": "materia-01411",
+    "code": "01411",
+    "nombre": "Historia del Diseño Gráfico",
+    "variantes": [
+      "Historia del Diseño Gráfico"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3324"
+    ]
+  },
+  {
+    "id": "materia-01412",
+    "code": "01412",
+    "nombre": "Taller de Diseño Gráfico IV",
+    "variantes": [
+      "Taller de Diseño Gráfico IV"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3291"
+    ]
+  },
+  {
+    "id": "materia-01413",
+    "code": "01413",
+    "nombre": "Narrativa Audiovisual I",
+    "variantes": [
+      "Narrativa Audiovisual I"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3292"
+    ]
+  },
+  {
+    "id": "materia-01414",
+    "code": "01414",
+    "nombre": "Tipografía II",
+    "variantes": [
+      "Tipografía II"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3293"
+    ]
+  },
+  {
+    "id": "materia-01415",
+    "code": "01415",
+    "nombre": "Taller de Diseño Gráfico V",
+    "variantes": [
+      "Taller de Diseño Gráfico V"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3294"
+    ]
+  },
+  {
+    "id": "materia-01416",
+    "code": "01416",
+    "nombre": "Narrativa Audiovisual II",
+    "variantes": [
+      "Narrativa Audiovisual II"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3295"
+    ]
+  },
+  {
+    "id": "materia-01417",
+    "code": "01417",
+    "nombre": "Taller de Diseño Gráfico VI",
+    "variantes": [
+      "Taller de Diseño Gráfico VI"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3296"
+    ]
+  },
+  {
+    "id": "materia-01418",
+    "code": "01418",
+    "nombre": "Narrativa Audiovisual III",
+    "variantes": [
+      "Narrativa Audiovisual III"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3297"
+    ]
+  },
+  {
+    "id": "materia-01419",
+    "code": "01419",
+    "nombre": "Laboratorio de Tecnologías Emergentes I",
+    "variantes": [
+      "Laboratorio de Tecnologías Emergentes I"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3300"
+    ]
+  },
+  {
+    "id": "materia-01420",
+    "code": "01420",
+    "nombre": "Taller de Diseño Gráfico VII",
+    "variantes": [
+      "Taller de Diseño Gráfico VII"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3301"
+    ]
+  },
+  {
+    "id": "materia-01421",
+    "code": "01421",
+    "nombre": "Laboratorio de Tecnologías Emergentes II",
+    "variantes": [
+      "Laboratorio de Tecnologías Emergentes II"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3302"
+    ]
+  },
+  {
+    "id": "materia-01422",
+    "code": "01422",
+    "nombre": "Taller de Diseño Gráfico VIII",
+    "variantes": [
+      "Taller de Diseño Gráfico VIII"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3303"
+    ]
+  },
+  {
+    "id": "materia-01423",
+    "code": "01423",
+    "nombre": "Taller de Diseño Industrial I",
+    "variantes": [
+      "Taller de Diseño Industrial I"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3304"
+    ]
+  },
+  {
+    "id": "materia-01424",
+    "code": "01424",
+    "nombre": "Introducción a los Procesos de Producción Industrial",
+    "variantes": [
+      "Introducción a los Procesos de Producción Industrial"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3305"
+    ]
+  },
+  {
+    "id": "materia-01425",
+    "code": "01425",
+    "nombre": "Taller de Diseño Industrial II",
+    "variantes": [
+      "Taller de Diseño Industrial II"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3306"
+    ]
+  },
+  {
+    "id": "materia-01426",
+    "code": "01426",
+    "nombre": "Elementos de Máquina",
+    "variantes": [
+      "Elementos de Máquina"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3307"
+    ]
+  },
+  {
+    "id": "materia-01427",
+    "code": "01427",
+    "nombre": "Taller de Diseño Industrial III",
+    "variantes": [
+      "Taller de Diseño Industrial III"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3308"
+    ]
+  },
+  {
+    "id": "materia-01428",
+    "code": "01428",
+    "nombre": "Procesos de Producción Industrial I",
+    "variantes": [
+      "Procesos de Producción Industrial I"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3309"
+    ]
+  },
+  {
+    "id": "materia-01429",
+    "code": "01429",
+    "nombre": "Sistemas de Representación para Diseño Industrial",
+    "variantes": [
+      "Sistemas de Representación para Diseño Industrial"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3310"
+    ]
+  },
+  {
+    "id": "materia-01430",
+    "code": "01430",
+    "nombre": "Historia del Diseño Industrial",
+    "variantes": [
+      "Historia del Diseño Industrial"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3311"
+    ]
+  },
+  {
+    "id": "materia-01431",
+    "code": "01431",
+    "nombre": "Taller de Diseño Industrial IV",
+    "variantes": [
+      "Taller de Diseño Industrial IV"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3312"
+    ]
+  },
+  {
+    "id": "materia-01432",
+    "code": "01432",
+    "nombre": "Procesos de Fabricación",
+    "variantes": [
+      "Procesos de Fabricación"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3313"
+    ]
+  },
+  {
+    "id": "materia-01433",
+    "code": "01433",
+    "nombre": "Física General",
+    "variantes": [
+      "Física General"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3314"
+    ]
+  },
+  {
+    "id": "materia-01434",
+    "code": "01434",
+    "nombre": "Taller de Diseño Industrial V",
+    "variantes": [
+      "Taller de Diseño Industrial V"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3315"
+    ]
+  },
+  {
+    "id": "materia-01435",
+    "code": "01435",
+    "nombre": "Tecnología Mecánica",
+    "variantes": [
+      "Tecnología Mecánica"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3319"
+    ]
+  },
+  {
+    "id": "materia-01436",
+    "code": "01436",
+    "nombre": "Taller de Diseño Industrial VI",
+    "variantes": [
+      "Taller de Diseño Industrial VI"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3316"
+    ]
+  },
+  {
+    "id": "materia-01437",
+    "code": "01437",
+    "nombre": "Procesos de Producción Industrial II",
+    "variantes": [
+      "Procesos de Producción Industrial II"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3320"
+    ]
+  },
+  {
+    "id": "materia-01438",
+    "code": "01438",
+    "nombre": "Ergonomía",
+    "variantes": [
+      "Ergonomía"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3321"
+    ]
+  },
+  {
+    "id": "materia-01439",
+    "code": "01439",
+    "nombre": "Taller de Diseño Industrial VII",
+    "variantes": [
+      "Taller de Diseño Industrial VII"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3382"
+    ]
+  },
+  {
+    "id": "materia-01440",
+    "code": "01440",
+    "nombre": "Procesos de Producción Industrial III",
+    "variantes": [
+      "Procesos de Producción Industrial III"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3325"
+    ]
+  },
+  {
+    "id": "materia-01441",
+    "code": "01441",
+    "nombre": "Taller de Diseño Industrial VIII",
+    "variantes": [
+      "Taller de Diseño Industrial VIII"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3318"
+    ]
+  },
+  {
+    "id": "materia-01442",
+    "code": "01442",
+    "nombre": "Introducción a la Ingeniería Mecánica",
+    "variantes": [
+      "Introducción a la Ingeniería Mecánica"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3377"
+    ]
+  },
+  {
+    "id": "materia-01443",
+    "code": "01443",
+    "nombre": "Análisis Matemático III",
+    "variantes": [
+      "Análisis Matemático III"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3379"
+    ]
+  },
+  {
+    "id": "materia-01444",
+    "code": "01444",
+    "nombre": "Cálculo Numérico",
+    "variantes": [
+      "Cálculo Numérico"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3380"
+    ]
+  },
+  {
+    "id": "materia-01445",
+    "code": "01445",
+    "nombre": "Mecánica Teórica y Mecanismos",
+    "variantes": [
+      "Mecánica Teórica y Mecanismos"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3381"
+    ]
+  },
+  {
+    "id": "materia-01446",
+    "code": "01446",
+    "nombre": "Estática y Resistencia de Materiales II",
+    "variantes": [
+      "Estática y Resistencia de Materiales II"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3383"
+    ]
+  },
+  {
+    "id": "materia-01447",
+    "code": "01447",
+    "nombre": "Tecnología de Materiales II",
+    "variantes": [
+      "Tecnología de Materiales II"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3384"
+    ]
+  },
+  {
+    "id": "materia-01448",
+    "code": "01448",
+    "nombre": "Máquinas Alternativas y Turbomáquinas",
+    "variantes": [
+      "Máquinas Alternativas y Turbomáquinas"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3385"
+    ]
+  },
+  {
+    "id": "materia-01449",
+    "code": "01449",
+    "nombre": "Tecnología del Calor",
+    "variantes": [
+      "Tecnología del Calor"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3386"
+    ]
+  },
+  {
+    "id": "materia-01450",
+    "code": "01450",
+    "nombre": "Mecánica Aplicada",
+    "variantes": [
+      "Mecánica Aplicada"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3387"
+    ]
+  },
+  {
+    "id": "materia-01451",
+    "code": "01451",
+    "nombre": "Elementos de Máquinas",
+    "variantes": [
+      "Elementos de Máquinas"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3388"
+    ]
+  },
+  {
+    "id": "materia-01452",
+    "code": "01452",
+    "nombre": "Sistemas Hidráulicos y Neumáticos",
+    "variantes": [
+      "Sistemas Hidráulicos y Neumáticos"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0376-1"
+    ],
+    "actividadIds": [
+      "3389"
+    ]
+  },
+  {
+    "id": "materia-01453",
+    "code": "01453",
+    "nombre": "Tecnología de Fabricación",
+    "variantes": [
+      "Tecnología de Fabricación"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3390"
+    ]
+  },
+  {
+    "id": "materia-01454",
+    "code": "01454",
+    "nombre": "Gestión e Ingeniería del Mantenimiento",
+    "variantes": [
+      "Gestión e Ingeniería del Mantenimiento"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3391"
+    ]
+  },
+  {
+    "id": "materia-01455",
+    "code": "01455",
+    "nombre": "Proyecto Mecánico",
+    "variantes": [
+      "Proyecto Mecánico"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3392"
+    ]
+  },
+  {
+    "id": "materia-01456",
+    "code": "01456",
+    "nombre": "Estática y Resistencia de Materiales I",
+    "variantes": [
+      "Estática y Resistencia de Materiales I"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3378"
+    ]
+  },
+  {
+    "id": "materia-01457",
+    "code": "01457",
+    "nombre": "Práctica Profesional Supervisada",
+    "variantes": [
+      "Práctica Profesional Supervisada"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": [
+      "3393"
+    ]
+  },
+  {
+    "id": "materia-01459",
+    "code": "01459",
+    "nombre": "Genética del Cáncer",
+    "variantes": [
+      "Genética del Cáncer"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3411"
+    ]
+  },
+  {
+    "id": "materia-01466",
+    "code": "01466",
+    "nombre": "Control Microbiológico del Agua",
+    "variantes": [
+      "Control Microbiológico del Agua"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3436"
+    ]
+  },
+  {
+    "id": "materia-01468",
+    "code": "01468",
+    "nombre": "Aleaciones Metálicas Utilizadas en Ingeniería",
+    "variantes": [
+      "Aleaciones Metálicas Utilizadas en Ingeniería"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3484"
+    ]
+  },
+  {
+    "id": "materia-01469",
+    "code": "01469",
+    "nombre": "Modelado e Impresión 3D",
+    "variantes": [
+      "Modelado e Impresión 3D"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0409-3"
+    ],
+    "actividadIds": [
+      "3485"
+    ]
+  },
+  {
+    "id": "introduccion-a-la-programacion-imperativa",
+    "code": "01474",
+    "nombre": "Introducción a la Programación Imperativa",
+    "variantes": [
+      "Introducción a la Programación Imperativa"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3492"
+    ]
+  },
+  {
+    "id": "sistemas-y-organizaciones",
+    "code": "01475",
+    "nombre": "Sistemas y Organizaciones",
+    "variantes": [
+      "Sistemas y Organizaciones"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3493"
+    ]
+  },
+  {
+    "id": "organizacion-y-arquitectura-de-computadoras",
+    "code": "01476",
+    "nombre": "Organización y Arquitectura de Computadoras",
+    "variantes": [
+      "Organización y Arquitectura de Computadoras"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3494"
+    ]
+  },
+  {
+    "id": "estructura-de-datos",
+    "code": "01477",
+    "nombre": "Estructura de Datos",
+    "variantes": [
+      "Estructura de Datos"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3495"
+    ]
+  },
+  {
+    "id": "ingenieria-de-requisitos",
+    "code": "01478",
+    "nombre": "Ingeniería de Requisitos",
+    "variantes": [
+      "Ingeniería de Requisitos"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3496"
+    ]
+  },
+  {
+    "id": "proceso-de-software",
+    "code": "01479",
+    "nombre": "Proceso de Software",
+    "variantes": [
+      "Proceso de Software"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3497"
+    ]
+  },
+  {
+    "id": "introduccion-a-la-programacion-orientada-a-objetos",
+    "code": "01480",
+    "nombre": "Introducción a la Programación Orientada a Objetos",
+    "variantes": [
+      "Introducción a la Programación Orientada a Objetos"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3499"
+    ]
+  },
+  {
+    "id": "base-de-datos-i",
+    "code": "01481",
+    "nombre": "Base de Datos I",
+    "variantes": [
+      "Base de Datos I"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3500"
+    ]
+  },
+  {
+    "id": "matematica-discreta",
+    "code": "01482",
+    "nombre": "Matemática Discreta",
+    "variantes": [
+      "Matemática Discreta"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3501"
+    ]
+  },
+  {
+    "id": "programacion-orientada-a-objetos",
+    "code": "01483",
+    "nombre": "Programación Orientada a Objetos",
+    "variantes": [
+      "Programación Orientada a Objetos"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3502"
+    ]
+  },
+  {
+    "id": "base-de-datos-ii",
+    "code": "01484",
+    "nombre": "Base de Datos II",
+    "variantes": [
+      "Base de Datos II"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3503"
+    ]
+  },
+  {
+    "id": "diseno-de-sistemas",
+    "code": "01485",
+    "nombre": "Diseño de Sistemas",
+    "variantes": [
+      "Diseño de Sistemas"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3504"
+    ]
+  },
+  {
+    "id": "comunicacion-de-datos",
+    "code": "01486",
+    "nombre": "Comunicación de Datos",
+    "variantes": [
+      "Comunicación de Datos"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3505"
+    ]
+  },
+  {
+    "id": "fisica-ii-para-informatica",
+    "code": "01487",
+    "nombre": "Física II",
+    "variantes": [
+      "Física II para Informática"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3506"
+    ]
+  },
+  {
+    "id": "programacion-multiplataforma",
+    "code": "01488",
+    "nombre": "Programación Multiplataforma",
+    "variantes": [
+      "Programación Multiplataforma"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3507"
+    ]
+  },
+  {
+    "id": "electronica-digital",
+    "code": "01489",
+    "nombre": "Electrónica Digital",
+    "variantes": [
+      "Electrónica Digital"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3508"
+    ]
+  },
+  {
+    "id": "redes-i",
+    "code": "01490",
+    "nombre": "Redes I",
+    "variantes": [
+      "Redes I"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3509"
+    ]
+  },
+  {
+    "id": "programacion-distribuida-concurrente-y-paralela",
+    "code": "01491",
+    "nombre": "Programación Distribuida, Concurrente y Paralela",
+    "variantes": [
+      "Programación Distribuida, Concurrente y Paralela"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3519"
+    ]
+  },
+  {
+    "id": "ciencias-de-la-computacion",
+    "code": "01492",
+    "nombre": "Ciencias de la Computación",
+    "variantes": [
+      "Ciencias de la Computación"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3511"
+    ]
+  },
+  {
+    "id": "sistemas-operativos-ii",
+    "code": "01493",
+    "nombre": "Sistemas Operativos II",
+    "variantes": [
+      "Sistemas Operativos II"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3512"
+    ]
+  },
+  {
+    "id": "introduccion-a-la-inteligencia-computacional",
+    "code": "01494",
+    "nombre": "Introducción a la Inteligencia Computacional",
+    "variantes": [
+      "Introducción a la Inteligencia Computacional"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3513"
+    ]
+  },
+  {
+    "id": "optimizacion-y-simulacion-de-sistemas",
+    "code": "01495",
+    "nombre": "Optimización y Simulación de Sistemas",
+    "variantes": [
+      "Optimización y Simulación de Sistemas"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3514"
+    ]
+  },
+  {
+    "id": "administracion-avanzada-de-redes-y-servidores",
+    "code": "01496",
+    "nombre": "Administración Avanzada de Redes y Servidores",
+    "variantes": [
+      "Administración Avanzada de Redes y Servidores"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3515"
+    ]
+  },
+  {
+    "id": "procesamiento-de-senales",
+    "code": "01497",
+    "nombre": "Procesamiento de Señales",
+    "variantes": [
+      "Procesamiento de Señales"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3516"
+    ]
+  },
+  {
+    "id": "construccion-de-prototipos",
+    "code": "01498",
+    "nombre": "Construcción de Prototipos",
+    "variantes": [
+      "Construcción de Prototipos"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3517"
+    ]
+  },
+  {
+    "id": "practica-profesional-supervisada",
+    "code": "01499",
+    "nombre": "Práctica Profesional Supervisada",
+    "variantes": [
+      "Práctica Profesional Supervisada"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3518"
+    ]
+  },
+  {
+    "id": "materia-01500",
+    "code": "01500",
+    "nombre": "Redes de Datos",
+    "variantes": [
+      "Redes de Datos"
+    ],
+    "planes": [
+      "P0416-1",
+      "P0435-1"
+    ],
+    "actividadIds": [
+      "3520"
+    ]
+  },
+  {
+    "id": "materia-01501",
+    "code": "01501",
+    "nombre": "Base de Datos III",
+    "variantes": [
+      "Base de Datos III"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "3521"
+    ]
+  },
+  {
+    "id": "materia-01502",
+    "code": "01502",
+    "nombre": "Diseño de Interfaz",
+    "variantes": [
+      "Diseño de Interfaz"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "3522"
+    ]
+  },
+  {
+    "id": "materia-01503",
+    "code": "01503",
+    "nombre": "Calidad y Testing",
+    "variantes": [
+      "Calidad y Testing"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "3523"
+    ]
+  },
+  {
+    "id": "materia-01504",
+    "code": "01504",
+    "nombre": "Lenguajes y Compiladores",
+    "variantes": [
+      "Lenguajes y Compiladores"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "3524"
+    ]
+  },
+  {
+    "id": "materia-01505",
+    "code": "01505",
+    "nombre": "Ciencia de Datos",
+    "variantes": [
+      "Ciencia de Datos"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "3525"
+    ]
+  },
+  {
+    "id": "materia-01506",
+    "code": "01506",
+    "nombre": "Trabajo Final",
+    "variantes": [
+      "Trabajo Final"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": [
+      "3526"
+    ]
+  },
+  {
+    "id": "materia-01507",
+    "code": "01507",
+    "nombre": "Química Biológica",
+    "variantes": [
+      "Química Biológica"
+    ],
+    "planes": [
+      "P0097-1"
+    ],
+    "actividadIds": [
+      "3573"
+    ]
+  },
+  {
+    "id": "materia-01508",
+    "code": "01508",
+    "nombre": "Microbiología de los Alimentos",
+    "variantes": [
+      "Microbiología de los Alimentos"
+    ],
+    "planes": [
+      "P0097-1"
+    ],
+    "actividadIds": [
+      "3574"
+    ]
+  },
+  {
+    "id": "materia-01509",
+    "code": "01509",
+    "nombre": "Preservación de Alimentos",
+    "variantes": [
+      "Preservación de Alimentos"
+    ],
+    "planes": [
+      "P0097-1"
+    ],
+    "actividadIds": [
+      "3575"
+    ]
+  },
+  {
+    "id": "materia-01510",
+    "code": "01510",
+    "nombre": "Industrias Alimentarias",
+    "variantes": [
+      "Industrias Alimentarias"
+    ],
+    "planes": [
+      "P0097-1"
+    ],
+    "actividadIds": [
+      "3576"
+    ]
+  },
+  {
+    "id": "materia-01511",
+    "code": "01511",
+    "nombre": "Práctica Profesional",
+    "variantes": [
+      "Práctica Profesional"
+    ],
+    "planes": [
+      "P0097-1"
+    ],
+    "actividadIds": [
+      "3577"
+    ]
+  },
+  {
+    "id": "materia-01513",
+    "code": "01513",
+    "nombre": "Introducción al Mantenimiento Industrial",
+    "variantes": [
+      "Introducción al Mantenimiento Industrial"
+    ],
+    "planes": [
+      "P0376-1"
+    ],
+    "actividadIds": [
+      "3628"
+    ]
+  },
+  {
+    "id": "materia-01514",
+    "code": "01514",
+    "nombre": "Tecnología Mecánica Aplicada",
+    "variantes": [
+      "Tecnología Mecánica Aplicada"
+    ],
+    "planes": [
+      "P0376-1"
+    ],
+    "actividadIds": [
+      "3629"
+    ]
+  },
+  {
+    "id": "materia-01515",
+    "code": "01515",
+    "nombre": "Materiales y Estructuras",
+    "variantes": [
+      "Materiales y Estructuras"
+    ],
+    "planes": [
+      "P0376-1"
+    ],
+    "actividadIds": [
+      "3630"
+    ]
+  },
+  {
+    "id": "materia-01516",
+    "code": "01516",
+    "nombre": "Elementos de Máquinas",
+    "variantes": [
+      "Elementos de Máquinas"
+    ],
+    "planes": [
+      "P0376-1"
+    ],
+    "actividadIds": [
+      "3631"
+    ]
+  },
+  {
+    "id": "materia-01517",
+    "code": "01517",
+    "nombre": "Gestión del Mantenimiento Industrial",
+    "variantes": [
+      "Gestión del Mantenimiento Industrial"
+    ],
+    "planes": [
+      "P0376-1"
+    ],
+    "actividadIds": [
+      "3632"
+    ]
+  },
+  {
+    "id": "materia-01518",
+    "code": "01518",
+    "nombre": "Mantenimiento Aplicado",
+    "variantes": [
+      "Mantenimiento Aplicado"
+    ],
+    "planes": [
+      "P0376-1"
+    ],
+    "actividadIds": [
+      "3633"
+    ]
+  },
+  {
+    "id": "materia-01519",
+    "code": "01519",
+    "nombre": "Automatización",
+    "variantes": [
+      "Automatización"
+    ],
+    "planes": [
+      "P0376-1"
+    ],
+    "actividadIds": [
+      "3634"
+    ]
+  },
+  {
+    "id": "materia-01520",
+    "code": "01520",
+    "nombre": "Pasantía Mantenimiento",
+    "variantes": [
+      "Pasantía Mantenimiento"
+    ],
+    "planes": [
+      "P0376-1"
+    ],
+    "actividadIds": [
+      "3635"
+    ]
+  },
+  {
+    "id": "materia-01532",
+    "code": "01532",
+    "nombre": "Fotografía de Producto",
+    "variantes": [
+      "Fotografía de Producto"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3719"
+    ]
+  },
+  {
+    "id": "materia-01533",
+    "code": "01533",
+    "nombre": "Arquigrafía de la Marca",
+    "variantes": [
+      "Arquigrafía de la Marca"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3720"
+    ]
+  },
+  {
+    "id": "materia-01534",
+    "code": "01534",
+    "nombre": "Laboratorio de Diseño Digital Educativo",
+    "variantes": [
+      "Laboratorio de Diseño Digital Educativo"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": [
+      "3728"
+    ]
+  },
+  {
+    "id": "materia-01535",
+    "code": "01535",
+    "nombre": "Sistemas de Producción Acuícola",
+    "variantes": [
+      "Sistemas de Producción Acuícola"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "3730"
+    ]
+  },
+  {
+    "id": "materia-01552",
+    "code": "01552",
+    "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+    "variantes": [
+      "Educación Superior, Igualdad y Derechos Humanos"
+    ],
+    "planes": [
+      "P0016-2",
+      "P0286-2",
+      "P0297-4",
+      "P0307-3",
+      "P0334-2",
+      "P0345-2",
+      "P0355-2",
+      "P0368-2",
+      "P0409-3",
+      "P0416-1",
+      "P0456-1",
+      "P0466-4",
+      "P0476-3",
+      "P0486-3",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3803"
+    ]
+  },
+  {
+    "id": "materia-01553",
+    "code": "01553",
+    "nombre": "Farmacología Integrada",
+    "variantes": [
+      "Farmacología Integrada"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3875"
+    ]
+  },
+  {
+    "id": "materia-01554",
+    "code": "01554",
+    "nombre": "Entomología Médica",
+    "variantes": [
+      "Entomología Médica"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3876"
+    ]
+  },
+  {
+    "id": "materia-01555",
+    "code": "01555",
+    "nombre": "Núcleo Mutis en Ciencia: ADN & la Evolución Humana",
+    "variantes": [
+      "Núcleo Mutis en Ciencia: ADN & la Evolución Humana"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3877"
+    ]
+  },
+  {
+    "id": "materia-01556",
+    "code": "01556",
+    "nombre": "Bioética y Bioderecho",
+    "variantes": [
+      "Bioética y Bioderecho"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3878"
+    ]
+  },
+  {
+    "id": "materia-01558",
+    "code": "01558",
+    "nombre": "Técnicas para el Diseño Asistido por Computador",
+    "variantes": [
+      "Técnicas para el Diseño Asistido por Computador"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3884"
+    ]
+  },
+  {
+    "id": "materia-01559",
+    "code": "01559",
+    "nombre": "Laboratorio de Técnicas y Procesos II",
+    "variantes": [
+      "Laboratorio de Técnicas y Procesos II"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3885"
+    ]
+  },
+  {
+    "id": "materia-01560",
+    "code": "01560",
+    "nombre": "Laboratorio de Prototipos I",
+    "variantes": [
+      "Laboratorio de Prototipos I"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3886"
+    ]
+  },
+  {
+    "id": "materia-01561",
+    "code": "01561",
+    "nombre": "Principios de Biología de la Conservación",
+    "variantes": [
+      "Principios de Biología de la Conservación"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3893"
+    ]
+  },
+  {
+    "id": "materia-01562",
+    "code": "01562",
+    "nombre": "Citogenética y Genética en Infertilidad y Reproducción",
+    "variantes": [
+      "Citogenética y Genética en Infertilidad y Reproducción"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3894"
+    ]
+  },
+  {
+    "id": "materia-01563",
+    "code": "01563",
+    "nombre": "Epidemiología",
+    "variantes": [
+      "Epidemiología"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3895"
+    ]
+  },
+  {
+    "id": "materia-01565",
+    "code": "01565",
+    "nombre": "Proteínas Recombinantes",
+    "variantes": [
+      "Proteínas Recombinantes"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3909"
+    ]
+  },
+  {
+    "id": "materia-01566",
+    "code": "01566",
+    "nombre": "Virología",
+    "variantes": [
+      "Virología"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "3910"
+    ]
+  },
+  {
+    "id": "materia-01567",
+    "code": "01567",
+    "nombre": "Tendencias Sociales en el Diseño",
+    "variantes": [
+      "Tendencias Sociales en el Diseño"
+    ],
+    "planes": [
+      "P0345-2",
+      "P0355-2",
+      "P0653-2"
+    ],
+    "actividadIds": [
+      "3923"
+    ]
+  },
+  {
+    "id": "materia-01568",
+    "code": "01568",
+    "nombre": "Textiles e Innovación",
+    "variantes": [
+      "Textiles e Innovación"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3924"
+    ]
+  },
+  {
+    "id": "materia-01569",
+    "code": "01569",
+    "nombre": "Gestión y Desarrollo de Producto en Empresas de Indumentaria",
+    "variantes": [
+      "Gestión y Desarrollo de Producto en Empresas de Indumentaria"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": [
+      "3925"
+    ]
+  },
+  {
+    "id": "materia-01570",
+    "code": "01570",
+    "nombre": "Taller de Escritura Académica",
+    "variantes": [
+      "Taller de Escritura Académica"
+    ],
+    "planes": [
+      "P0368-2",
+      "P0409-3",
+      "P0416-1",
+      "P0456-1"
+    ],
+    "actividadIds": [
+      "3933"
+    ]
+  },
+  {
+    "id": "materia-ge038",
+    "code": "GE038",
+    "nombre": "Electiva I",
+    "variantes": [
+      "Electiva I"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge039",
+    "code": "GE039",
+    "nombre": "Electiva II",
+    "variantes": [
+      "Electiva II"
+    ],
+    "planes": [
+      "P0286-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge040",
+    "code": "GE040",
+    "nombre": "Electiva",
+    "variantes": [
+      "Electiva"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge041",
+    "code": "GE041",
+    "nombre": "Electiva",
+    "variantes": [
+      "Electiva"
+    ],
+    "planes": [
+      "P0297-4"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge042",
+    "code": "GE042",
+    "nombre": "Electiva",
+    "variantes": [
+      "Electiva"
+    ],
+    "planes": [
+      "P0307-3"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge043",
+    "code": "GE043",
+    "nombre": "Seminario I",
+    "variantes": [
+      "Seminario I"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge044",
+    "code": "GE044",
+    "nombre": "Seminario II",
+    "variantes": [
+      "Seminario II"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge045",
+    "code": "GE045",
+    "nombre": "Seminario III",
+    "variantes": [
+      "Seminario III"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge046",
+    "code": "GE046",
+    "nombre": "Electiva",
+    "variantes": [
+      "Electiva"
+    ],
+    "planes": [
+      "P0476-3"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge047",
+    "code": "GE047",
+    "nombre": "Electiva",
+    "variantes": [
+      "Electiva"
+    ],
+    "planes": [
+      "P0486-3"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge049",
+    "code": "GE049",
+    "nombre": "Lengua Extranjera",
+    "variantes": [
+      "Lengua Extranjera"
+    ],
+    "planes": [
+      "P0107-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge050",
+    "code": "GE050",
+    "nombre": "Lengua Extranjera",
+    "variantes": [
+      "Lengua Extranjera"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge051",
+    "code": "GE051",
+    "nombre": "Lengua Extranjera",
+    "variantes": [
+      "Lengua Extranjera"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge052",
+    "code": "GE052",
+    "nombre": "Optativa I",
+    "variantes": [
+      "Optativa I"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge053",
+    "code": "GE053",
+    "nombre": "Optativa II",
+    "variantes": [
+      "Optativa II"
+    ],
+    "planes": [
+      "P0409-3"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge054",
+    "code": "GE054",
+    "nombre": "Lengua Extranjera",
+    "variantes": [
+      "Lengua Extranjera"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge055",
+    "code": "GE055",
+    "nombre": "Actividades Formativas Académicas",
+    "variantes": [
+      "Actividades Formativas Académicas"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge056",
+    "code": "GE056",
+    "nombre": "Lengua Extranjera",
+    "variantes": [
+      "Lengua Extranjera"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge057",
+    "code": "GE057",
+    "nombre": "Lengua Extranjera",
+    "variantes": [
+      "Lengua Extranjera"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge058",
+    "code": "GE058",
+    "nombre": "Optativa I",
+    "variantes": [
+      "Optativa I"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge059",
+    "code": "GE059",
+    "nombre": "Optativa II",
+    "variantes": [
+      "Optativa II"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge060",
+    "code": "GE060",
+    "nombre": "Optativa III",
+    "variantes": [
+      "Optativa III"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge061",
+    "code": "GE061",
+    "nombre": "Optativa IV",
+    "variantes": [
+      "Optativa IV"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge062",
+    "code": "GE062",
+    "nombre": "Optativa V",
+    "variantes": [
+      "Optativa V"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge063",
+    "code": "GE063",
+    "nombre": "Optativa VI",
+    "variantes": [
+      "Optativa VI"
+    ],
+    "planes": [
+      "P0345-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge064",
+    "code": "GE064",
+    "nombre": "Optativa I",
+    "variantes": [
+      "Optativa I"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge065",
+    "code": "GE065",
+    "nombre": "Optativa II",
+    "variantes": [
+      "Optativa II"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge066",
+    "code": "GE066",
+    "nombre": "Optativa III",
+    "variantes": [
+      "Optativa III"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge067",
+    "code": "GE067",
+    "nombre": "Optativa IV",
+    "variantes": [
+      "Optativa IV"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge068",
+    "code": "GE068",
+    "nombre": "Optativa V",
+    "variantes": [
+      "Optativa V"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge069",
+    "code": "GE069",
+    "nombre": "Optativa VI",
+    "variantes": [
+      "Optativa VI"
+    ],
+    "planes": [
+      "P0355-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge070",
+    "code": "GE070",
+    "nombre": "Optativa I",
+    "variantes": [
+      "Optativa I"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge071",
+    "code": "GE071",
+    "nombre": "Optativa II",
+    "variantes": [
+      "Optativa II"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge072",
+    "code": "GE072",
+    "nombre": "Optativa III",
+    "variantes": [
+      "Optativa III"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge073",
+    "code": "GE073",
+    "nombre": "Optativa IV",
+    "variantes": [
+      "Optativa IV"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge074",
+    "code": "GE074",
+    "nombre": "Optativa V",
+    "variantes": [
+      "Optativa V"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge075",
+    "code": "GE075",
+    "nombre": "Optativa VI",
+    "variantes": [
+      "Optativa VI"
+    ],
+    "planes": [
+      "P0653-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge076",
+    "code": "GE076",
+    "nombre": "Lengua Extranjera",
+    "variantes": [
+      "Lengua Extranjera"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge077",
+    "code": "GE077",
+    "nombre": "Optativa I",
+    "variantes": [
+      "Optativa I"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge078",
+    "code": "GE078",
+    "nombre": "Optativa II",
+    "variantes": [
+      "Optativa II"
+    ],
+    "planes": [
+      "P0368-2"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "lengua-extranjera",
+    "code": "GE079",
+    "nombre": "Lengua Extranjera",
+    "variantes": [
+      "Lengua Extranjera"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge080",
+    "code": "GE080",
+    "nombre": "Lengua Extranjera",
+    "variantes": [
+      "Lengua Extranjera"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "optativa-i",
+    "code": "GE081",
+    "nombre": "Optativa I",
+    "variantes": [
+      "Optativa I"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "optativa-ii",
+    "code": "GE082",
+    "nombre": "Optativa II",
+    "variantes": [
+      "Optativa II"
+    ],
+    "planes": [
+      "P0456-1"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge083",
+    "code": "GE083",
+    "nombre": "Optativa I",
+    "variantes": [
+      "Optativa I"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge084",
+    "code": "GE084",
+    "nombre": "Optativa II",
+    "variantes": [
+      "Optativa II"
+    ],
+    "planes": [
+      "P0416-1"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge085",
+    "code": "GE085",
+    "nombre": "Lengua Extranjera",
+    "variantes": [
+      "Lengua Extranjera"
+    ],
+    "planes": [
+      "P0435-1"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-ge086",
+    "code": "GE086",
+    "nombre": "Lengua Extranjera",
+    "variantes": [
+      "Lengua Extranjera"
+    ],
+    "planes": [
+      "P0376-1"
+    ],
+    "actividadIds": []
+  },
+  {
+    "id": "materia-op019",
+    "code": "OP019",
+    "nombre": "Derecho de los Recursos Naturales y Medio Ambiente",
+    "variantes": [
+      "Derecho de los Recursos Naturales y Medio Ambiente"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "860"
+    ]
+  },
+  {
+    "id": "materia-op030",
+    "code": "OP030",
+    "nombre": "Inmunología Avanzada",
+    "variantes": [
+      "Inmunología Avanzada"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "926"
+    ]
+  },
+  {
+    "id": "materia-op039",
+    "code": "OP039",
+    "nombre": "Antropología Jurídica y Política",
+    "variantes": [
+      "Antropología Jurídica y Política"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "975"
+    ]
+  },
+  {
+    "id": "materia-op040",
+    "code": "OP040",
+    "nombre": "Perspectivas socioculturales sobre ciudadanía",
+    "variantes": [
+      "Perspectivas socioculturales sobre ciudadanía",
+      "Perspectivas Socioculturales sobre Ciudadanía"
+    ],
+    "planes": [
+      "P0297-4",
+      "P0307-3",
+      "P0334-2",
+      "P0476-3",
+      "P0486-3"
+    ],
+    "actividadIds": [
+      "976"
+    ]
+  },
+  {
+    "id": "materia-op041",
+    "code": "OP041",
+    "nombre": "Sujeto Colectivo y Políticas de Estado: Derechos Humanos y Construcción de Memorias",
+    "variantes": [
+      "Sujeto Colectivo y Políticas de Estado: Derechos Humanos y Construcción de Memorias"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "977"
+    ]
+  },
+  {
+    "id": "materia-op042",
+    "code": "OP042",
+    "nombre": "Recursos Genéticos",
+    "variantes": [
+      "Recursos Genéticos"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "1024"
+    ]
+  },
+  {
+    "id": "materia-op052",
+    "code": "OP052",
+    "nombre": "Biotecnología Vegetal",
+    "variantes": [
+      "Biotecnología Vegetal"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "1129"
+    ]
+  },
+  {
+    "id": "materia-op053",
+    "code": "OP053",
+    "nombre": "Derechos de la Incidencia Colectiva",
+    "variantes": [
+      "Derechos de la Incidencia Colectiva"
+    ],
+    "planes": [
+      "P0334-2"
+    ],
+    "actividadIds": [
+      "1137"
+    ]
+  },
+  {
+    "id": "materia-op063",
+    "code": "OP063",
+    "nombre": "Citogenética",
+    "variantes": [
+      "Citogenética"
+    ],
+    "planes": [
+      "P0466-4"
+    ],
+    "actividadIds": [
+      "1254"
+    ]
+  },
+  {
+    "id": "materia-op067",
+    "code": "OP067",
+    "nombre": "Producción de Plantas Forestales en Viveros",
+    "variantes": [
+      "Producción de Plantas Forestales en Viveros"
+    ],
+    "planes": [
+      "P0016-2"
+    ],
+    "actividadIds": [
+      "1297"
+    ]
+  }
+]

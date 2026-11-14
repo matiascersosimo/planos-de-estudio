@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { CONTACT, mailto } from '../data/site';
+import { AUTHOR, CONTACT, mailto } from '../data/site';
 import { u } from '../lib/url';
 ---
 <Base title="Contacto">
@@ -8,7 +8,8 @@ import { u } from '../lib/url';
     <div class="crumbs"><a href={u()}>Carreras</a> / Contacto</div>
     <div class="page-title"><h1>Contacto</h1></div>
     <section class="block help">
-      <p>Escribinos para sugerir un tema, avisar de un error o sumar contenido de tu carrera.</p>
+      <p>{AUTHOR}</p>
+      <p>Escribime para sugerir un tema, avisar de un error o sumar contenido de tu carrera.</p>
       <p><a class="mail" href={mailto('Contacto desde Planos de estudio')}>{CONTACT}</a></p>
     </section>
   </div>

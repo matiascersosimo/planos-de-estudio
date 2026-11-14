@@ -1,0 +1,402 @@
+{
+  "version": "P0653-2",
+  "carrera": "065 - LICENCIATURA EN DISEÑO INDUSTRIAL",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0653-2",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Geometría Elemental",
+              "code": "01378",
+              "actividadId": "3257"
+            },
+            {
+              "nombre": "Sistemas de Representación I",
+              "code": "01376",
+              "actividadId": "3255"
+            },
+            {
+              "nombre": "Introducción a los Procesos de Producción Industrial",
+              "code": "01424",
+              "actividadId": "3305"
+            },
+            {
+              "nombre": "Taller de Diseño Industrial I",
+              "code": "01423",
+              "actividadId": "3304"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Historia del Diseño",
+              "code": "01382",
+              "actividadId": "3261"
+            },
+            {
+              "nombre": "Elementos de Máquina",
+              "code": "01426",
+              "actividadId": "3307"
+            },
+            {
+              "nombre": "Taller de Diseño Industrial II",
+              "code": "01425",
+              "actividadId": "3306"
+            },
+            {
+              "nombre": "Sistemas de Representación II",
+              "code": "01380",
+              "actividadId": "3259"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Historia del Diseño Industrial",
+              "code": "01430",
+              "actividadId": "3311"
+            },
+            {
+              "nombre": "Taller de Diseño Industrial III",
+              "code": "01427",
+              "actividadId": "3308"
+            },
+            {
+              "nombre": "Sistemas de Representación para Diseño Industrial",
+              "code": "01429",
+              "actividadId": "3310"
+            },
+            {
+              "nombre": "Morfología I",
+              "code": "01387",
+              "actividadId": "3266"
+            },
+            {
+              "nombre": "Elementos de Matemática",
+              "code": "01374",
+              "actividadId": "3230"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Física General",
+              "code": "01433",
+              "actividadId": "3314"
+            },
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+              "code": "00902",
+              "actividadId": "1276"
+            },
+            {
+              "nombre": "Comunicación I",
+              "code": "01391",
+              "actividadId": "3270"
+            },
+            {
+              "nombre": "Morfología II",
+              "code": "01393",
+              "actividadId": "3272"
+            },
+            {
+              "nombre": "Procesos de Producción Industrial I",
+              "code": "01428",
+              "actividadId": "3309"
+            },
+            {
+              "nombre": "Taller de Diseño Industrial IV",
+              "code": "01431",
+              "actividadId": "3312"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Optativa I",
+              "code": "GE070",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Gestión Financiera y Contable de la Empresa",
+                  "code": "00218",
+                  "actividadId": "653"
+                },
+                {
+                  "nombre": "Gestión de Diseño",
+                  "code": "00337",
+                  "actividadId": "771"
+                },
+                {
+                  "nombre": "Estadística",
+                  "code": "00838",
+                  "actividadId": "1195"
+                }
+              ]
+            },
+            {
+              "nombre": "Procesos de Fabricación",
+              "code": "01432",
+              "actividadId": "3313"
+            },
+            {
+              "nombre": "Taller de Diseño Industrial V",
+              "code": "01434",
+              "actividadId": "3315"
+            },
+            {
+              "nombre": "Comunicación II",
+              "code": "01396",
+              "actividadId": "3275"
+            },
+            {
+              "nombre": "Procesos de Producción Industrial II",
+              "code": "01437",
+              "actividadId": "3320"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Tecnología Mecánica",
+              "code": "01435",
+              "actividadId": "3319"
+            },
+            {
+              "nombre": "Optativa II",
+              "code": "GE071",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Introducción a los Materiales",
+                  "code": "00795",
+                  "actividadId": "1152"
+                },
+                {
+                  "nombre": "Materiales",
+                  "code": "00896",
+                  "actividadId": "1272"
+                },
+                {
+                  "nombre": "Modelado Digital",
+                  "code": "01197",
+                  "actividadId": "2512"
+                },
+                {
+                  "nombre": "Técnicas para el Diseño Asistido por Computador",
+                  "code": "01558",
+                  "actividadId": "3884"
+                }
+              ]
+            },
+            {
+              "nombre": "Lengua Extranjera",
+              "code": "GE057",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01326",
+                  "actividadId": "3098"
+                }
+              ]
+            },
+            {
+              "nombre": "Ergonomía",
+              "code": "01438",
+              "actividadId": "3321"
+            },
+            {
+              "nombre": "Taller de Diseño Industrial VI",
+              "code": "01436",
+              "actividadId": "3316"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "4º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Taller de Diseño Industrial VII",
+              "code": "01439",
+              "actividadId": "3382"
+            },
+            {
+              "nombre": "Optativa III",
+              "code": "GE072",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Estética",
+                  "code": "00796",
+                  "actividadId": "1153"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación I",
+                  "code": "00900",
+                  "actividadId": "1274"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                },
+                {
+                  "nombre": "Laboratorio de Técnicas y Procesos II",
+                  "code": "01559",
+                  "actividadId": "3885"
+                }
+              ]
+            },
+            {
+              "nombre": "Optativa IV",
+              "code": "GE073",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Seminario DI: Electrónica",
+                  "code": "00833",
+                  "actividadId": "1190"
+                },
+                {
+                  "nombre": "Fotografía",
+                  "code": "00843",
+                  "actividadId": "1200"
+                }
+              ]
+            },
+            {
+              "nombre": "Procesos de Producción Industrial III",
+              "code": "01440",
+              "actividadId": "3325"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Optativa VI",
+              "code": "GE075",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Marketing Estratégico",
+                  "code": "00097",
+                  "actividadId": "527"
+                },
+                {
+                  "nombre": "Economía y Organización Industrial",
+                  "code": "00162",
+                  "actividadId": "587"
+                },
+                {
+                  "nombre": "Ingeniería, Desarrollo Local y Sustentable",
+                  "code": "00744",
+                  "actividadId": "1106"
+                },
+                {
+                  "nombre": "Serigrafía y Estampado",
+                  "code": "00841",
+                  "actividadId": "1198"
+                },
+                {
+                  "nombre": "Gestión de Calidad Total",
+                  "code": "00739",
+                  "actividadId": "1471"
+                },
+                {
+                  "nombre": "Tendencias Sociales en el Diseño",
+                  "code": "01567",
+                  "actividadId": "3923"
+                }
+              ]
+            },
+            {
+              "nombre": "Optativa V",
+              "code": "GE074",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Higiene y Seguridad en el Trabajo",
+                  "code": "00190",
+                  "actividadId": "624"
+                },
+                {
+                  "nombre": "Introducción a la Comercialización",
+                  "code": "00324",
+                  "actividadId": "759"
+                },
+                {
+                  "nombre": "Métodos del Diseño",
+                  "code": "00818",
+                  "actividadId": "1175"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación II",
+                  "code": "00901",
+                  "actividadId": "1275"
+                },
+                {
+                  "nombre": "Seminario de Formulación de Proyecto",
+                  "code": "01155",
+                  "actividadId": "2427"
+                },
+                {
+                  "nombre": "Fotografía de Producto",
+                  "code": "01532",
+                  "actividadId": "3719"
+                },
+                {
+                  "nombre": "Laboratorio de Prototipos I",
+                  "code": "01560",
+                  "actividadId": "3886"
+                }
+              ]
+            },
+            {
+              "nombre": "Legislación y Práctica Profesional",
+              "code": "00722",
+              "actividadId": "1091"
+            },
+            {
+              "nombre": "Taller de Diseño Industrial VIII",
+              "code": "01441",
+              "actividadId": "3318"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

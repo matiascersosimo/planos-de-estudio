@@ -1,0 +1,387 @@
+{
+  "version": "P0355-2",
+  "carrera": "035 - LICENCIATURA EN DISEÑO GRÁFICO",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0355-2",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Geometría Elemental",
+              "code": "01378",
+              "actividadId": "3257"
+            },
+            {
+              "nombre": "Sistemas de Representación I",
+              "code": "01376",
+              "actividadId": "3255"
+            },
+            {
+              "nombre": "Tecnología y Producción de Diseño Gráfico I",
+              "code": "01404",
+              "actividadId": "3283"
+            },
+            {
+              "nombre": "Taller de Diseño Gráfico I",
+              "code": "01403",
+              "actividadId": "3282"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Historia del Diseño",
+              "code": "01382",
+              "actividadId": "3261"
+            },
+            {
+              "nombre": "Sistemas de Representación II",
+              "code": "01380",
+              "actividadId": "3259"
+            },
+            {
+              "nombre": "Tecnología y Producción de Diseño Gráfico II",
+              "code": "01406",
+              "actividadId": "3285"
+            },
+            {
+              "nombre": "Taller de Diseño Gráfico II",
+              "code": "01405",
+              "actividadId": "3284"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Historia del Diseño Gráfico",
+              "code": "01411",
+              "actividadId": "3324"
+            },
+            {
+              "nombre": "Desarrollo Web",
+              "code": "01253",
+              "actividadId": "2894"
+            },
+            {
+              "nombre": "Morfología I",
+              "code": "01387",
+              "actividadId": "3266"
+            },
+            {
+              "nombre": "Taller de Diseño Gráfico III",
+              "code": "01407",
+              "actividadId": "3286"
+            },
+            {
+              "nombre": "Sistema de Representación para Diseño Gráfico",
+              "code": "01409",
+              "actividadId": "3288"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Comunicación I",
+              "code": "01391",
+              "actividadId": "3270"
+            },
+            {
+              "nombre": "Tipografía I",
+              "code": "01410",
+              "actividadId": "3289"
+            },
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+              "code": "00902",
+              "actividadId": "1276"
+            },
+            {
+              "nombre": "Morfología II",
+              "code": "01393",
+              "actividadId": "3272"
+            },
+            {
+              "nombre": "Narrativa Audiovisual I",
+              "code": "01413",
+              "actividadId": "3292"
+            },
+            {
+              "nombre": "Taller de Diseño Gráfico IV",
+              "code": "01412",
+              "actividadId": "3291"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Taller de Diseño Gráfico V",
+              "code": "01415",
+              "actividadId": "3294"
+            },
+            {
+              "nombre": "Comunicación II",
+              "code": "01396",
+              "actividadId": "3275"
+            },
+            {
+              "nombre": "Optativa I",
+              "code": "GE064",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Introducción a los Procesos de Producción",
+                  "code": "00305",
+                  "actividadId": "741"
+                },
+                {
+                  "nombre": "Gestión de Diseño",
+                  "code": "00337",
+                  "actividadId": "771"
+                },
+                {
+                  "nombre": "Estadística",
+                  "code": "00838",
+                  "actividadId": "1195"
+                }
+              ]
+            },
+            {
+              "nombre": "Tipografía II",
+              "code": "01414",
+              "actividadId": "3293"
+            },
+            {
+              "nombre": "Narrativa Audiovisual II",
+              "code": "01416",
+              "actividadId": "3295"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Lengua Extranjera",
+              "code": "GE056",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01326",
+                  "actividadId": "3098"
+                }
+              ]
+            },
+            {
+              "nombre": "Optativa II",
+              "code": "GE065",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Introducción a los Materiales",
+                  "code": "00795",
+                  "actividadId": "1152"
+                },
+                {
+                  "nombre": "Tecnología III",
+                  "code": "00827",
+                  "actividadId": "1184"
+                },
+                {
+                  "nombre": "Modelado e Impresión 3D",
+                  "code": "01469",
+                  "actividadId": "3485"
+                }
+              ]
+            },
+            {
+              "nombre": "Taller de Diseño Gráfico VI",
+              "code": "01417",
+              "actividadId": "3296"
+            },
+            {
+              "nombre": "Laboratorio de Tecnologías Emergentes I",
+              "code": "01419",
+              "actividadId": "3300"
+            },
+            {
+              "nombre": "Narrativa Audiovisual III",
+              "code": "01418",
+              "actividadId": "3297"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "4º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Optativa IV",
+              "code": "GE067",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Diseño para Publicidad",
+                  "code": "00353",
+                  "actividadId": "787"
+                },
+                {
+                  "nombre": "Seminario DG: Diseño y Dirección Prog. Identidad",
+                  "code": "00831",
+                  "actividadId": "1188"
+                },
+                {
+                  "nombre": "Fotografía",
+                  "code": "00843",
+                  "actividadId": "1200"
+                },
+                {
+                  "nombre": "Fundamentos de Programación de Sistemas Informáticos",
+                  "code": "01311",
+                  "actividadId": "3053"
+                }
+              ]
+            },
+            {
+              "nombre": "Laboratorio de Tecnologías Emergentes II",
+              "code": "01421",
+              "actividadId": "3302"
+            },
+            {
+              "nombre": "Taller de Diseño Gráfico VII",
+              "code": "01420",
+              "actividadId": "3301"
+            },
+            {
+              "nombre": "Optativa III",
+              "code": "GE066",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Estética",
+                  "code": "00796",
+                  "actividadId": "1153"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación I",
+                  "code": "00900",
+                  "actividadId": "1274"
+                },
+                {
+                  "nombre": "Laboratorio de Diseño Digital Educativo",
+                  "code": "01534",
+                  "actividadId": "3728"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Optativa V",
+              "code": "GE068",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Introducción a la Comercialización",
+                  "code": "00324",
+                  "actividadId": "759"
+                },
+                {
+                  "nombre": "Métodos del Diseño",
+                  "code": "00818",
+                  "actividadId": "1175"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación II",
+                  "code": "00901",
+                  "actividadId": "1275"
+                },
+                {
+                  "nombre": "Seminario de Formulación de Proyecto",
+                  "code": "01155",
+                  "actividadId": "2427"
+                },
+                {
+                  "nombre": "Fotografía de Producto",
+                  "code": "01532",
+                  "actividadId": "3719"
+                }
+              ]
+            },
+            {
+              "nombre": "Optativa VI",
+              "code": "GE069",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Marketing Estratégico",
+                  "code": "00097",
+                  "actividadId": "527"
+                },
+                {
+                  "nombre": "Serigrafía y Estampado",
+                  "code": "00841",
+                  "actividadId": "1198"
+                },
+                {
+                  "nombre": "Arquigrafía de la Marca",
+                  "code": "01533",
+                  "actividadId": "3720"
+                },
+                {
+                  "nombre": "Tendencias Sociales en el Diseño",
+                  "code": "01567",
+                  "actividadId": "3923"
+                }
+              ]
+            },
+            {
+              "nombre": "Legislación y Práctica Profesional",
+              "code": "00722",
+              "actividadId": "1091"
+            },
+            {
+              "nombre": "Taller de Diseño Gráfico VIII",
+              "code": "01422",
+              "actividadId": "3303"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

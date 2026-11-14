@@ -1,101 +1,30 @@
 ---
-import Base from '../../layouts/Base.astro';
-import { getCollection, render } from 'astro:content';
-import { todasLasCarreras } from '../../data/catalogo';
+import { getEstudios, idsDeCarrera } from '../../lib/estudios';
 import { u } from '../../lib/url';
 
+// Compatibilidad con los marcadores anteriores: no se vuelve a renderizar el manual.
 export async function getStaticPaths() {
-  const carreras = await getCollection('carreras');
-  const materias = new Map((await getCollection('materias')).map((m) => [m.id, m]));
-  const idsDe = (c: (typeof carreras)[number]) =>
-    new Set(c.data.plan.flatMap((a) => a.cuatrimestres.flatMap((q) => q.materias)));
-
-  // En qué carreras se cursa cada materia (una materia, varias carreras).
-  const usos = new Map<string, string[]>();
-  for (const c of carreras) for (const id of idsDe(c)) usos.set(id, [...(usos.get(id) ?? []), c.id]);
-
-  const paths = [];
-  for (const c of carreras) {
-    const meta = todasLasCarreras.find((x) => x.id === c.id);
-    if (!meta) throw new Error(`La carrera "${c.id}" no está en src/data/catalogo.ts`);
-    for (const id of idsDe(c)) {
-      const m = materias.get(id);
-      if (!m) throw new Error(`La materia "${id}" (carrera ${c.id}) no existe en src/content/materias/`);
-      if (!m.body?.trim()) continue;
-      const otras = (usos.get(id) ?? []).filter((x) => x !== c.id).map((x) => todasLasCarreras.find((y) => y.id === x)!);
-      paths.push({ params: { carrera: c.id, materia: id }, props: { carrera: meta, materia: m, otras } });
-    }
-  }
-  return paths;
+  const { disponibles, materias } = await getEstudios();
+  return disponibles.flatMap(c => [...idsDeCarrera(c.entry)]
+    .filter(id => materias.get(id)?.disponible)
+    .map(id => ({ params: { carrera: c.id, materia: id }, props: { id: materias.get(id)!.manualId, nombre: materias.get(id)!.data.nombre } })));
 }
-
-const { carrera, materia, otras } = Astro.props;
-const { Content, headings } = await render(materia);
-const toc = headings.filter((h) => h.depth === 2);
+const { id, nombre } = Astro.props;
+const target = u(`materias/${id}/`);
 ---
-<Base title={`${materia.data.nombre} · ${carrera.nombre}`} description={materia.data.resumen}>
-  <div class="wrap">
-    <div class="crumbs"><a href={u()}>Carreras</a> / <a href={u(carrera.id + '/')}>{carrera.nombre}</a> / {materia.data.nombre}</div>
-    <div class="page-title"><h1>{materia.data.nombre}</h1></div>
-    <div class="layout">
-      <nav class="toc" aria-label="Temas">
-        <b>En esta página</b>
-        {toc.map((h) => <a href={`#${h.slug}`}>{h.text}</a>)}
-      </nav>
-      <div>
-        <div class="acciones-unidades">
-          <button type="button" id="abrirTodo">Expandir todo</button>
-          <button type="button" id="cerrarTodo">Colapsar todo</button>
-        </div>
-        <div class="prose"><Content /></div>
-        {otras.length > 0 && (
-          <p class="also">
-            Esta materia también forma parte de:{' '}
-            {otras.map((o, i) => (<>{i > 0 && ', '}<a href={u(`${o.id}/${materia.id}/`)}>{o.nombre}</a></>))}.
-          </p>
-        )}
-      </div>
-    </div>
-  </div>
-</Base>
-
-<script>
-  // Arma los desplegables en el navegador si el servidor no los generó
-  // (así funciona aunque falte el plugin en astro.config.mjs).
-  const prose = document.querySelector('.prose');
-  if (prose && !prose.querySelector('details.unidad') && prose.querySelector(':scope > h2')) {
-    const nodos = [...prose.childNodes];
-    prose.replaceChildren();
-    let cuerpo: HTMLElement | null = null;
-    let primera = true;
-    for (const n of nodos) {
-      if (n.nodeType === 1 && (n as HTMLElement).tagName === 'H2') {
-        const d = document.createElement('details');
-        d.className = 'unidad';
-        if (primera) { d.open = true; primera = false; }
-        const sm = document.createElement('summary');
-        sm.appendChild(n);
-        cuerpo = document.createElement('div');
-        cuerpo.className = 'cuerpo';
-        d.append(sm, cuerpo);
-        prose.appendChild(d);
-      } else {
-        (cuerpo ?? prose).appendChild(n);
-      }
-    }
-  }
-
-  const unidades = () => [...document.querySelectorAll<HTMLDetailsElement>('.prose details.unidad')];
-  document.getElementById('abrirTodo')?.addEventListener('click', () => unidades().forEach((d) => (d.open = true)));
-  document.getElementById('cerrarTodo')?.addEventListener('click', () => unidades().forEach((d) => (d.open = false)));
-
-  // Si se entra por un link con #tema (o desde el índice), abrir esa unidad.
-  function abrirDestino() {
-    const id = decodeURIComponent(location.hash.slice(1));
-    if (!id) return;
-    const d = document.getElementById(id)?.closest('details');
-    if (d) d.open = true;
-  }
-  addEventListener('hashchange', abrirDestino);
-  abrirDestino();
-</script>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{nombre} · Dirección de la guía</title>
+    <link rel="canonical" href={target} />
+    <noscript><meta http-equiv="refresh" content={`0;url=${target}`} /></noscript>
+  </head>
+  <body>
+    <p>La guía tiene una dirección compartida para todas las carreras. <a href={target}>Abrir {nombre}</a>.</p>
+    <script is:inline define:vars={{ target }}>
+      window.location.replace(target + window.location.search + window.location.hash);
+    </script>
+  </body>
+</html>

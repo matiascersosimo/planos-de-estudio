@@ -1,0 +1,320 @@
+{
+  "version": "P0107-2",
+  "carrera": "010 - INGENIERÍA EN ALIMENTOS",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0107-2",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Introducción a la Tecnología de los Alimentos",
+              "code": "01290",
+              "actividadId": "3032"
+            },
+            {
+              "nombre": "Química General e Inorgánica",
+              "code": "00431",
+              "actividadId": "874"
+            },
+            {
+              "nombre": "Elementos de Matemática",
+              "code": "01374",
+              "actividadId": "3230"
+            },
+            {
+              "nombre": "Fundamentos de Biología",
+              "code": "01289",
+              "actividadId": "3031"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Física I",
+              "code": "00131",
+              "actividadId": "557"
+            },
+            {
+              "nombre": "Análisis Matemático I",
+              "code": "01291",
+              "actividadId": "3033"
+            },
+            {
+              "nombre": "Álgebra y Geometría Analítica",
+              "code": "01292",
+              "actividadId": "3034"
+            },
+            {
+              "nombre": "Química Orgánica",
+              "code": "00179",
+              "actividadId": "604"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Química Analítica",
+              "code": "01293",
+              "actividadId": "3035"
+            },
+            {
+              "nombre": "Física II",
+              "code": "01295",
+              "actividadId": "3037"
+            },
+            {
+              "nombre": "Análisis Matemático II",
+              "code": "01296",
+              "actividadId": "3091"
+            },
+            {
+              "nombre": "Probabilidades y Estadística",
+              "code": "01294",
+              "actividadId": "3036"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Química de los Alimentos",
+              "code": "01298",
+              "actividadId": "3093"
+            },
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+              "code": "00902",
+              "actividadId": "1276"
+            },
+            {
+              "nombre": "Análisis Instrumental",
+              "code": "01300",
+              "actividadId": "3042"
+            },
+            {
+              "nombre": "Física III",
+              "code": "01297",
+              "actividadId": "3092"
+            },
+            {
+              "nombre": "Fenómenos de Transporte",
+              "code": "01299",
+              "actividadId": "3094"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Cálculo Numérico",
+              "code": "01303",
+              "actividadId": "3045"
+            },
+            {
+              "nombre": "Lengua Extranjera",
+              "code": "GE049",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01325",
+                  "actividadId": "3068"
+                }
+              ]
+            },
+            {
+              "nombre": "Química Biológica",
+              "code": "00146",
+              "actividadId": "572"
+            },
+            {
+              "nombre": "Aplicaciones Termodinámicas y Servicios",
+              "code": "01301",
+              "actividadId": "3043"
+            },
+            {
+              "nombre": "Operaciones Unitarias I",
+              "code": "01302",
+              "actividadId": "3044"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Operaciones Unitarias II",
+              "code": "01307",
+              "actividadId": "3049"
+            },
+            {
+              "nombre": "Microbiología General y de los Alimentos",
+              "code": "01306",
+              "actividadId": "3048"
+            },
+            {
+              "nombre": "Sistemas de Representación",
+              "code": "01305",
+              "actividadId": "3047"
+            },
+            {
+              "nombre": "Fisicoquímica",
+              "code": "01304",
+              "actividadId": "3046"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "4º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Nutrición y Análisis de Alimentos",
+              "code": "01308",
+              "actividadId": "3050"
+            },
+            {
+              "nombre": "Toxicología de los Alimentos",
+              "code": "01309",
+              "actividadId": "3051"
+            },
+            {
+              "nombre": "Instalaciones Industriales",
+              "code": "01310",
+              "actividadId": "3052"
+            },
+            {
+              "nombre": "Fundamentos de Programación de Sistemas Informáticos",
+              "code": "01311",
+              "actividadId": "3053"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Procesos de Preservación de Alimentos",
+              "code": "01312",
+              "actividadId": "3054"
+            },
+            {
+              "nombre": "Bromatología y Legislación Alimentaria",
+              "code": "01313",
+              "actividadId": "3095"
+            },
+            {
+              "nombre": "Ingeniería Legal",
+              "code": "00215",
+              "actividadId": "650"
+            },
+            {
+              "nombre": "Economía y Organizaciones",
+              "code": "01314",
+              "actividadId": "3096"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "5º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Instrumentación y Control",
+              "code": "00163",
+              "actividadId": "588"
+            },
+            {
+              "nombre": "Proyecto Industrial",
+              "code": "01317",
+              "actividadId": "3059"
+            },
+            {
+              "nombre": "Higiene y Seguridad",
+              "code": "01316",
+              "actividadId": "3058"
+            },
+            {
+              "nombre": "Microbiología Industrial y Procesos de Alimentos",
+              "code": "01315",
+              "actividadId": "3057"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Gestión de la Calidad, Inocuidad y Ambiente",
+              "code": "01321",
+              "actividadId": "3063"
+            },
+            {
+              "nombre": "Evaluación Sensorial",
+              "code": "01320",
+              "actividadId": "3062"
+            },
+            {
+              "nombre": "Taller de Trabajo Final de Ingeniería en Alimentos",
+              "code": "01322",
+              "actividadId": "3064"
+            },
+            {
+              "nombre": "Procesos de Alimentos",
+              "code": "01318",
+              "actividadId": "3060"
+            },
+            {
+              "nombre": "Ingeniería de Procesos",
+              "code": "01319",
+              "actividadId": "3061"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Práctica Profesional Supervisada",
+              "code": "01323",
+              "actividadId": "3120"
+            },
+            {
+              "nombre": "Actividades Formativas Complementarias",
+              "code": "01324",
+              "actividadId": "3067"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

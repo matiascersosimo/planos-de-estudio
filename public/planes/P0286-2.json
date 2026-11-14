@@ -1,0 +1,382 @@
+{
+  "version": "P0286-2",
+  "carrera": "028 - LICENCIATURA EN ENFERMERÍA",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0286-2",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Enfermería Comunitaria I",
+              "code": "00269",
+              "actividadId": "704"
+            },
+            {
+              "nombre": "Ciencias Biológicas I",
+              "code": "01080",
+              "actividadId": "2212"
+            },
+            {
+              "nombre": "Socioantropología de la Salud",
+              "code": "00267",
+              "actividadId": "702"
+            },
+            {
+              "nombre": "Salud Pública I",
+              "code": "00268",
+              "actividadId": "703"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Ciencias Biológicas II",
+              "code": "01081",
+              "actividadId": "2213"
+            },
+            {
+              "nombre": "Microbiología y Parasitología",
+              "code": "00271",
+              "actividadId": "706"
+            },
+            {
+              "nombre": "Nutrición",
+              "code": "00273",
+              "actividadId": "708"
+            },
+            {
+              "nombre": "Enfermería Básica",
+              "code": "00274",
+              "actividadId": "709"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Enfermería del Adulto y del Anciano I",
+              "code": "00278",
+              "actividadId": "713"
+            },
+            {
+              "nombre": "Farmacología y Toxicología",
+              "code": "00277",
+              "actividadId": "712"
+            },
+            {
+              "nombre": "Dietoterapia",
+              "code": "00276",
+              "actividadId": "711"
+            },
+            {
+              "nombre": "Psicología General e Institucional",
+              "code": "01082",
+              "actividadId": "2214"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Filosofía en Enfermería I",
+              "code": "01084",
+              "actividadId": "2216"
+            },
+            {
+              "nombre": "Enfermería del Adulto y del Anciano II",
+              "code": "00280",
+              "actividadId": "715"
+            },
+            {
+              "nombre": "Enfermería en Salud Mental",
+              "code": "00281",
+              "actividadId": "716"
+            },
+            {
+              "nombre": "Psicología Evolutiva",
+              "code": "01083",
+              "actividadId": "2215"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Enfermería Materno Infantil",
+              "code": "00282",
+              "actividadId": "717"
+            },
+            {
+              "nombre": "Aspectos Legales de la Práctica Profesional",
+              "code": "00284",
+              "actividadId": "719"
+            },
+            {
+              "nombre": "Ética Profesional",
+              "code": "00904",
+              "actividadId": "1279"
+            },
+            {
+              "nombre": "Administración en Enfermería",
+              "code": "00283",
+              "actividadId": "718"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Investigación en Enfermería I",
+              "code": "01086",
+              "actividadId": "2218"
+            },
+            {
+              "nombre": "Enfermería Infanto Juvenil",
+              "code": "00285",
+              "actividadId": "720"
+            },
+            {
+              "nombre": "Epidemiología y Estadísticas de la Salud I",
+              "code": "01087",
+              "actividadId": "2219"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Electiva I",
+              "code": "GE038",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Enfermería en Cuidados Paliativos",
+                  "code": "00286",
+                  "actividadId": "721"
+                },
+                {
+                  "nombre": "Inglés Técnico I",
+                  "code": "01085",
+                  "actividadId": "2217"
+                },
+                {
+                  "nombre": "Informática Aplicada a la Enfermería I",
+                  "code": "01088",
+                  "actividadId": "2220"
+                },
+                {
+                  "nombre": "Puericultura",
+                  "code": "01089",
+                  "actividadId": "2221"
+                },
+                {
+                  "nombre": "Primeros Auxilios de Enfermaría",
+                  "code": "01175",
+                  "actividadId": "2449"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                }
+              ]
+            },
+            {
+              "nombre": "Práctica Integrada I",
+              "code": "01105",
+              "actividadId": "2238"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "4º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Epidemiología y Estadísticas de la Salud II",
+              "code": "01097",
+              "actividadId": "2229"
+            },
+            {
+              "nombre": "Filosofía en Enfermería II",
+              "code": "01095",
+              "actividadId": "2227"
+            },
+            {
+              "nombre": "Sociología",
+              "code": "01090",
+              "actividadId": "2222"
+            },
+            {
+              "nombre": "Enfermería en Cuidados Críticos I",
+              "code": "01127",
+              "actividadId": "2316"
+            },
+            {
+              "nombre": "Investigación en Enfermería II",
+              "code": "01096",
+              "actividadId": "2228"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+              "code": "00902",
+              "actividadId": "1276"
+            },
+            {
+              "nombre": "Educación en Enfermería",
+              "code": "00293",
+              "actividadId": "728"
+            },
+            {
+              "nombre": "Salud Pública II",
+              "code": "00290",
+              "actividadId": "725"
+            },
+            {
+              "nombre": "Enfermería Comunitaria II",
+              "code": "01098",
+              "actividadId": "2230"
+            },
+            {
+              "nombre": "Enfermería en Cuidados Críticos II",
+              "code": "01099",
+              "actividadId": "2231"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "5º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Antropología de la Comunicación I",
+              "code": "00900",
+              "actividadId": "1274"
+            },
+            {
+              "nombre": "Ética Profesional II",
+              "code": "01101",
+              "actividadId": "2233"
+            },
+            {
+              "nombre": "Enfermería en Cuidados Críticos III",
+              "code": "01102",
+              "actividadId": "2234"
+            },
+            {
+              "nombre": "Gestión de los Servicios de Enfermería Hospitalarios y Comunitarios",
+              "code": "01100",
+              "actividadId": "2232"
+            }
+          ]
+        },
+        {
+          "nombre": "2° cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Antropología de la Comunicación II",
+              "code": "00901",
+              "actividadId": "1275"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Taller de Trabajo Final de Grado",
+              "code": "00297",
+              "actividadId": "732"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Trabajo Final de Grado",
+              "code": "01107",
+              "actividadId": "2240"
+            },
+            {
+              "nombre": "Practica Integrada II",
+              "code": "01106",
+              "actividadId": "2239"
+            },
+            {
+              "nombre": "Electiva II",
+              "code": "GE039",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Ecología general y evolutiva",
+                  "code": "00889",
+                  "actividadId": "1263"
+                },
+                {
+                  "nombre": "Recursos Humanos",
+                  "code": "00554",
+                  "actividadId": "1515"
+                },
+                {
+                  "nombre": "Informática Aplicada a la Enfermería II",
+                  "code": "01103",
+                  "actividadId": "2235"
+                },
+                {
+                  "nombre": "Inglés Técnico II",
+                  "code": "01104",
+                  "actividadId": "2236"
+                },
+                {
+                  "nombre": "Primeros Auxilios de Enfermaría",
+                  "code": "01175",
+                  "actividadId": "2449"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

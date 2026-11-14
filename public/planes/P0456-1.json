@@ -1,0 +1,414 @@
+{
+  "version": "P0456-1",
+  "carrera": "045 - INGENIERÍA EN INFORMÁTICA",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0456-1",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Elementos de Matemática",
+              "code": "01374",
+              "actividadId": "3230"
+            },
+            {
+              "nombre": "Organización y Arquitectura de Computadoras",
+              "code": "01476",
+              "actividadId": "3494"
+            },
+            {
+              "nombre": "Sistemas y Organizaciones",
+              "code": "01475",
+              "actividadId": "3493"
+            },
+            {
+              "nombre": "Introducción a la Programación Imperativa",
+              "code": "01474",
+              "actividadId": "3492"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Sistemas de Información",
+              "code": "00677",
+              "actividadId": "1052"
+            },
+            {
+              "nombre": "Álgebra y Geometría Analítica",
+              "code": "01292",
+              "actividadId": "3034"
+            },
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+              "code": "00902",
+              "actividadId": "1276"
+            },
+            {
+              "nombre": "Análisis Matemático I",
+              "code": "01291",
+              "actividadId": "3033"
+            },
+            {
+              "nombre": "Programación Imperativa",
+              "code": "00364",
+              "actividadId": "798"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Ingeniería de Requisitos",
+              "code": "01478",
+              "actividadId": "3496"
+            },
+            {
+              "nombre": "Lengua Extranjera",
+              "code": "GE079",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01325",
+                  "actividadId": "3068"
+                }
+              ]
+            },
+            {
+              "nombre": "Análisis Matemático II",
+              "code": "01296",
+              "actividadId": "3091"
+            },
+            {
+              "nombre": "Estructura de Datos",
+              "code": "01477",
+              "actividadId": "3495"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Física I",
+              "code": "00131",
+              "actividadId": "557"
+            },
+            {
+              "nombre": "Proceso de Software",
+              "code": "01479",
+              "actividadId": "3497"
+            },
+            {
+              "nombre": "Introducción a la Programación Orientada a Objetos",
+              "code": "01480",
+              "actividadId": "3499"
+            },
+            {
+              "nombre": "Base de Datos I",
+              "code": "01481",
+              "actividadId": "3500"
+            },
+            {
+              "nombre": "Matemática Discreta",
+              "code": "01482",
+              "actividadId": "3501"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Física II para Informática",
+              "code": "01487",
+              "actividadId": "3506"
+            },
+            {
+              "nombre": "Programación Orientada a Objetos",
+              "code": "01483",
+              "actividadId": "3502"
+            },
+            {
+              "nombre": "Base de Datos II",
+              "code": "01484",
+              "actividadId": "3503"
+            },
+            {
+              "nombre": "Diseño de Sistemas",
+              "code": "01485",
+              "actividadId": "3504"
+            },
+            {
+              "nombre": "Comunicación de Datos",
+              "code": "01486",
+              "actividadId": "3505"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Programación Lógica y Funcional",
+              "code": "00871",
+              "actividadId": "1235"
+            },
+            {
+              "nombre": "Electrónica Digital",
+              "code": "01489",
+              "actividadId": "3508"
+            },
+            {
+              "nombre": "Redes I",
+              "code": "01490",
+              "actividadId": "3509"
+            },
+            {
+              "nombre": "Programación Multiplataforma",
+              "code": "01488",
+              "actividadId": "3507"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "4º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Programación Distribuida, Concurrente y Paralela",
+              "code": "01491",
+              "actividadId": "3519"
+            },
+            {
+              "nombre": "Redes II",
+              "code": "00419",
+              "actividadId": "852"
+            },
+            {
+              "nombre": "Sistemas Operativos I",
+              "code": "00373",
+              "actividadId": "807"
+            },
+            {
+              "nombre": "Probabilidades y Estadística",
+              "code": "01294",
+              "actividadId": "3036"
+            },
+            {
+              "nombre": "Economía y Organizaciones",
+              "code": "01314",
+              "actividadId": "3096"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Ciencias de la Computación",
+              "code": "01492",
+              "actividadId": "3511"
+            },
+            {
+              "nombre": "Sistemas Operativos II",
+              "code": "01493",
+              "actividadId": "3512"
+            },
+            {
+              "nombre": "Práctica Profesional y Legislación",
+              "code": "00870",
+              "actividadId": "1234"
+            },
+            {
+              "nombre": "Gestión de Proyectos",
+              "code": "00872",
+              "actividadId": "1236"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "5º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Optativa I",
+              "code": "GE081",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Arquitectura I",
+                  "code": "00357",
+                  "actividadId": "791"
+                },
+                {
+                  "nombre": "Calidad de Software",
+                  "code": "00873",
+                  "actividadId": "1237"
+                },
+                {
+                  "nombre": "Sistemas de Representación",
+                  "code": "00878",
+                  "actividadId": "1244"
+                },
+                {
+                  "nombre": "Química General e Inorgánica",
+                  "code": "00879",
+                  "actividadId": "1245"
+                },
+                {
+                  "nombre": "Complementos de cálculo",
+                  "code": "00880",
+                  "actividadId": "1246"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación I",
+                  "code": "00900",
+                  "actividadId": "1274"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación II",
+                  "code": "00901",
+                  "actividadId": "1275"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                },
+                {
+                  "nombre": "Taller de Escritura Académica",
+                  "code": "01570",
+                  "actividadId": "3933"
+                }
+              ]
+            },
+            {
+              "nombre": "Introducción a la Inteligencia Computacional",
+              "code": "01494",
+              "actividadId": "3513"
+            },
+            {
+              "nombre": "Optimización y Simulación de Sistemas",
+              "code": "01495",
+              "actividadId": "3514"
+            },
+            {
+              "nombre": "Formulación y Evaluación de Proyectos",
+              "code": "01341",
+              "actividadId": "3113"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Administración Avanzada de Redes y Servidores",
+              "code": "01496",
+              "actividadId": "3515"
+            },
+            {
+              "nombre": "Optativa II",
+              "code": "GE082",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Arquitectura I",
+                  "code": "00357",
+                  "actividadId": "791"
+                },
+                {
+                  "nombre": "Calidad de Software",
+                  "code": "00873",
+                  "actividadId": "1237"
+                },
+                {
+                  "nombre": "Sistemas de Representación",
+                  "code": "00878",
+                  "actividadId": "1244"
+                },
+                {
+                  "nombre": "Química General e Inorgánica",
+                  "code": "00879",
+                  "actividadId": "1245"
+                },
+                {
+                  "nombre": "Complementos de cálculo",
+                  "code": "00880",
+                  "actividadId": "1246"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación I",
+                  "code": "00900",
+                  "actividadId": "1274"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación II",
+                  "code": "00901",
+                  "actividadId": "1275"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                },
+                {
+                  "nombre": "Taller de Escritura Académica",
+                  "code": "01570",
+                  "actividadId": "3933"
+                }
+              ]
+            },
+            {
+              "nombre": "Construcción de Prototipos",
+              "code": "01498",
+              "actividadId": "3517"
+            },
+            {
+              "nombre": "Procesamiento de Señales",
+              "code": "01497",
+              "actividadId": "3516"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Práctica Profesional Supervisada",
+              "code": "01499",
+              "actividadId": "3518"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

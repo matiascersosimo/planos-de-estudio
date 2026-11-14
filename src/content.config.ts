@@ -13,12 +13,21 @@ const materias = defineCollection({
 });
 
 // Una carrera con contenido = un archivo .md (el cuerpo es la introducción).
-// Las carreras sin archivo siguen apareciendo en el catálogo como "Próximamente".
+// El catálogo público incluye solo planes con al menos una guía disponible.
 const carreras = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/carreras' }),
   schema: z.object({
     planParcial: z.boolean().default(false),
     imagen: z.string().optional(), // ruta dentro de /public, ej: "img/informatica.jpg"
+    planVersion: z.string(),
+    fuentePlan: z.string().url(),
+    paginaOficial: z.string().url(),
+    consultaPlan: z.string(),
+    archivoPlan: z.string(),
+    datosPlan: z.string(),
+    notaPlan: z.string().default(''),
+    nombresEnPlan: z.record(z.string(), z.string()).default({}),
+    opciones: z.record(z.string(), z.array(z.string())).default({}),
     plan: z.array(
       z.object({
         anio: z.string(),

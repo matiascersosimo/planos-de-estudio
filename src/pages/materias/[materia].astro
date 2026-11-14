@@ -1,0 +1,105 @@
+---
+import Base from '../../layouts/Base.astro';
+import { render } from 'astro:content';
+import { getEstudios, idsDeCarrera } from '../../lib/estudios';
+import { u } from '../../lib/url';
+import '../../styles/study.css';
+
+export async function getStaticPaths() {
+  const { materias, disponibles } = await getEstudios();
+  return [...materias.values()].filter(m => m.disponible && m.manual && m.manualId === m.id).map(m => ({
+    params: { materia: m.id },
+    props: { materia: m.manual!, carreras: disponibles.filter(c => [...idsDeCarrera(c.entry)].some(id => materias.get(id)?.manualId === m.id)) },
+  }));
+}
+
+const { materia, carreras } = Astro.props;
+const { Content, headings } = await render(materia);
+const toc = headings.filter((h) => h.depth === 2);
+const generalFormula = toc.find((h) => h.text.toLocaleLowerCase('es').includes('formulario general'));
+const chapters = toc.map((h, index) => {
+  const next = headings.findIndex((item, i) => i > headings.indexOf(h) && item.depth === 2);
+  const children = headings.slice(headings.indexOf(h) + 1, next < 0 ? undefined : next).filter((item) => item.depth === 3);
+  return { ...h, index, children };
+});
+---
+<Base title={materia.data.nombre} description={materia.data.resumen} canonical={u(`materias/${materia.id}/`)}>
+  <div class="wrap study-wrap" data-study data-subject={materia.id}>
+    <div class="crumbs"><a href={u()}>Carreras</a> / Materia / {materia.data.nombre}</div>
+    <div class="page-title study-title">
+      <div><p class="study-eyebrow">Tu espacio de estudio</p><h1>{materia.data.nombre}</h1></div>
+      <span class="study-count">{chapters.length} secciones</span>
+    </div>
+
+    <p class="shared-careers">Esta guía se comparte en: {carreras.map((c, i) => <>{i > 0 && ' · '}<a href={u(c.id + '/')}>{c.nombre}</a></>)}.</p>
+
+    <div class="study-toolbar" data-enhanced hidden>
+      <div class="study-views" role="group" aria-label="Vista del manual">
+        <button type="button" data-view="overview" aria-pressed="true">Índice</button>
+        <button type="button" data-view="continuous" aria-pressed="false">Lectura continua</button>
+      </div>
+      {generalFormula && <a class="study-formula-link" href={`#${generalFormula.slug}`}>Formulario general ↗</a>}
+      <p class="study-progress-label" data-progress-label>El progreso se guarda en este navegador.</p>
+    </div>
+    <div class="study-progress" data-enhanced hidden><span data-progress-bar></span></div>
+
+    <section class="study-overview" data-overview hidden aria-label="Índice del manual">
+      <div class="study-intro">
+        <div><h2>Un capítulo a la vez</h2><p>Elegí por dónde empezar. Podés marcar cada sección al terminar y retomar la última que abriste.</p></div>
+        <a class="study-primary" href={`#${chapters[0]?.slug ?? ''}`} data-resume>Comenzar a estudiar <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="study-catalogue-tools">
+        <label class="study-search"><span>Buscar en el índice</span><input type="search" data-search="overview" placeholder="Capítulo o tema…" autocomplete="off" /></label>
+        <p data-result-count aria-live="polite">{chapters.length} secciones disponibles</p>
+      </div>
+      <div class="study-cards">
+        {chapters.map((chapter) => (
+          <a class="study-card" href={`#${chapter.slug}`} data-card={chapter.slug} data-search-text={[chapter.text, ...chapter.children.map(h => h.text)].join(' ')}>
+            <div class="study-card-top"><span class="study-number">{String(chapter.index + 1).padStart(2, '0')}</span><span class="study-card-status" data-status={chapter.slug}>Por estudiar</span></div>
+            <h3>{chapter.text}</h3>
+            <p>{chapter.children.slice(0, 3).map(h => h.text).join(' · ')}</p>
+            <span class="study-card-bottom">{chapter.children.length} temas <span aria-hidden="true">Abrir sección →</span></span>
+          </a>
+        ))}
+      </div>
+      <p class="study-empty" data-empty="overview" hidden>No encontramos ese tema. Probá con otra palabra.</p>
+    </section>
+
+    <div class="study-layout" data-reading>
+      <aside class="study-sidebar">
+        <details class="study-menu" open>
+          <summary>Capítulos del manual</summary>
+          <div class="study-menu-body">
+            <label class="study-search" data-enhanced hidden><span>Buscar capítulo</span><input type="search" data-search="sidebar" placeholder="Filtrar temas…" autocomplete="off" /></label>
+            <nav aria-label="Capítulos">
+              {chapters.map(h => <a href={`#${h.slug}`} data-chapter-link={h.slug} data-search-text={[h.text, ...h.children.map(c => c.text)].join(' ')}><span class="study-nav-number" aria-hidden="true">{String(h.index + 1).padStart(2, '0')}</span><span>{h.text}</span><span data-nav-status={h.slug} class="study-nav-check" aria-hidden="true"></span></a>)}
+            </nav>
+            <p class="study-empty" data-empty="sidebar" hidden>Sin coincidencias.</p>
+          </div>
+        </details>
+      </aside>
+      <div class="study-reader">
+        <div class="study-reader-tools" data-reader-tools hidden>
+          <span class="study-position" data-position></span>
+          <a class="study-formula-link" href="#" data-chapter-formulas hidden>Fórmulas del capítulo ↓</a>
+          <label class="study-subtopics">Dentro del capítulo<select data-subtopics aria-label="Ir a un tema del capítulo"><option value="">Elegir un tema…</option></select></label>
+        </div>
+        <div class="prose study-prose" data-content><Content /></div>
+        <div class="study-chapter-end" data-reader-tools hidden>
+          <button class="study-complete" type="button" data-complete aria-pressed="false">Marcar como estudiado</button>
+          <p>Marcá el capítulo cuando hayas trabajado su contenido y sus ejercicios.</p>
+          <nav class="study-pagination" aria-label="Continuar estudiando">
+            <a href="#" data-previous><small>Anterior</small><span></span></a>
+            <a href="#" data-next><small>Siguiente</small><span></span></a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <p class="study-announcement" data-announcement role="status" aria-live="polite"></p>
+    <noscript><p class="study-notice">El manual completo está disponible debajo del índice. Activá JavaScript para leer por capítulos y guardar tu avance.</p></noscript>
+  </div>
+</Base>
+
+<script>
+  import '../../scripts/study-reader';
+</script>

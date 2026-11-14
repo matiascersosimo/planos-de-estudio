@@ -1,0 +1,160 @@
+{
+  "version": "P0435-1",
+  "carrera": "043 - ANALISTA DE SISTEMAS",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0435-1",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Organización y Arquitectura de Computadoras",
+              "code": "01476",
+              "actividadId": "3494"
+            },
+            {
+              "nombre": "Sistemas y Organizaciones",
+              "code": "01475",
+              "actividadId": "3493"
+            },
+            {
+              "nombre": "Elementos de Matemática",
+              "code": "01374",
+              "actividadId": "3230"
+            },
+            {
+              "nombre": "Introducción a la Programación Imperativa",
+              "code": "01474",
+              "actividadId": "3492"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Álgebra y Geometría Analítica",
+              "code": "01292",
+              "actividadId": "3034"
+            },
+            {
+              "nombre": "Programación Imperativa",
+              "code": "00364",
+              "actividadId": "798"
+            },
+            {
+              "nombre": "Sistemas de Información",
+              "code": "00677",
+              "actividadId": "1052"
+            },
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+              "code": "00902",
+              "actividadId": "1276"
+            },
+            {
+              "nombre": "Análisis Matemático I",
+              "code": "01291",
+              "actividadId": "3033"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Probabilidades y Estadística",
+              "code": "01294",
+              "actividadId": "3036"
+            },
+            {
+              "nombre": "Estructura de Datos",
+              "code": "01477",
+              "actividadId": "3495"
+            },
+            {
+              "nombre": "Ingeniería de Requisitos",
+              "code": "01478",
+              "actividadId": "3496"
+            },
+            {
+              "nombre": "Lengua Extranjera",
+              "code": "GE085",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01325",
+                  "actividadId": "3068"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Proceso de Software",
+              "code": "01479",
+              "actividadId": "3497"
+            },
+            {
+              "nombre": "Introducción a la Programación Orientada a Objetos",
+              "code": "01480",
+              "actividadId": "3499"
+            },
+            {
+              "nombre": "Base de Datos I",
+              "code": "01481",
+              "actividadId": "3500"
+            },
+            {
+              "nombre": "Redes de Datos",
+              "code": "01500",
+              "actividadId": "3520"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Base de Datos II",
+              "code": "01484",
+              "actividadId": "3503"
+            },
+            {
+              "nombre": "Sistemas Operativos I",
+              "code": "00373",
+              "actividadId": "807"
+            },
+            {
+              "nombre": "Diseño de Sistemas",
+              "code": "01485",
+              "actividadId": "3504"
+            },
+            {
+              "nombre": "Programación Orientada a Objetos",
+              "code": "01483",
+              "actividadId": "3502"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

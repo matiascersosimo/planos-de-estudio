@@ -1,5 +1,5 @@
 // Catálogo de carreras por escuela y área. El id coincide con el nombre del archivo
-// en src/content/carreras/ cuando la carrera ya tiene contenido.
+// en src/content/carreras/. getEstudios filtra la visibilidad según las guías disponibles.
 export type CarreraMeta = { id: string; code: string; nombre: string };
 export type Area = { nombre: string; carreras: CarreraMeta[] };
 export type Escuela = { nombre: string; completo: string; areas: Area[] };

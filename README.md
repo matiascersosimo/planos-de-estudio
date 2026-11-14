@@ -1,72 +1,40 @@
 # Planos de estudio
 
-Guías de estudio por carrera y por materia. Hecho con [Astro](https://astro.build).
+Guías de estudio con Astro. Desarrollo: `npm install`, `npm run dev`. Compilación: `npm run build`. Dirección local: http://localhost:4321/planos-de-estudio/.
 
-## Correr en local
+## Organización y fuentes
 
-```bash
-npm install
-npm run dev      # http://localhost:4321/planos-de-estudio/
-npm run build    # genera /dist
-```
+- `src/data/catalogo.ts`: identidad de las 21 carreras del catálogo del proyecto.
+- `src/content/carreras/*.md`: plan por carrera, versión, fuente institucional, fecha, nombres locales y alternativas de optativas.
+- `src/data/materias-oficiales.json`: registro de 589 códigos de asignatura o requisito de los 20 planes consultados; es metadata, no son 589 manuales.
+- `src/content/materias/*.md`: una sola fuente Markdown por materia; hay 45 archivos existentes, 12 con contenido.
+- `src/lib/estudios.ts`: cruza planes y manuales, valida referencias y calcula disponibilidad para toda la web.
+- `public/planes/`: copias imprimibles HTML y datos JSON de cada versión.
+- `Externo/planes-estudio-unnoba-2026-11-14/`: originales HTML descargados, fuentes y huellas SHA-256.
 
-## Cómo se organiza
+Se consultaron las versiones enlazadas desde https://elegi.unnoba.edu.ar/ el 2026-11-14. Las alternativas se conservan dentro de su requisito, sin convertirlas en materias obligatorias adicionales. Las copias locales no incluyen correlatividades; consultar la fuente oficial para condiciones académicas.
 
-```
-src/
-  content/
-    materias/     # un .md por materia (se escribe una sola vez)
-    carreras/     # un .md por carrera con contenido: plan en el frontmatter, intro en el cuerpo
-  data/
-    catalogo.ts   # escuelas > áreas > carreras (todas, tengan o no contenido)
-    site.ts       # nombre del sitio y mail de contacto
-  pages/          # rutas: /, /[carrera]/, /[carrera]/[materia]/, /acerca/, /contacto/
-  styles/global.css
-```
+Enfermería Universitaria enlaza el mismo plan P0286-2 de la Licenciatura. Se conserva la referencia con una nota explícita, sin atribuir el plan completo de cinco años al título de tres años.
 
-## Agregar una materia
+## Materias compartidas
 
-Crear `src/content/materias/algebra-1.md`:
+La identidad se determina por código institucional. Cada carrera referencia el mismo id de asignatura y conserva su denominación local. No se fusionan códigos diferentes por similitud de nombre sin verificar una equivalencia oficial.
 
-```md
----
-nombre: Álgebra I
-code: MAT-02
-resumen: Matrices, sistemas lineales y espacios vectoriales.
----
+El manual se genera una sola vez en `/materias/<id>/`. Las direcciones anteriores `/<carrera>/<id>/` redirigen a esa página y mantienen consulta y fragmento del capítulo. El progreso se guarda por id de materia en el navegador.
 
-## Primer tema
-Contenido en Markdown. Los `##` arman la tabla de contenidos.
-```
+Para escribir una guía, buscar el código en `materias-oficiales.json` y crear o completar `src/content/materias/<id>.md` usando exactamente ese id y código. El frontmatter contiene `nombre`, `code` (texto entre comillas para conservar ceros iniciales) y `resumen`. Los encabezados `##` forman las secciones del lector. Para una asignatura nueva, agregar su registro único y referenciarlo desde los períodos del plan correspondiente. Los nombres locales se guardan en `nombresEnPlan`; las alternativas se guardan en `opciones`.
 
-Sin contenido (solo el frontmatter) aparece como "Próximamente".
+## Visibilidad
 
-## Ubicarla en una carrera
+Una carrera aparece en portada, buscador y menú cuando alguna asignatura de su plan, incluidas alternativas, tiene un Markdown con cuerpo de contenido. Los archivos con solo frontmatter no cuentan. Actualmente se muestran 9 carreras; las otras 12 conservan sus planes pero no generan páginas públicas vacías. Al completar una guía se recalcula la disponibilidad en el siguiente build.
 
-En `src/content/carreras/<id-de-carrera>.md`, agregar el id (nombre del archivo) de la materia en el cuatrimestre que corresponda:
+Cada carrera permite consultar el plan completo o activar «Mostrar solo materias con guía». Las materias pendientes se identifican sin enlaces a manuales vacíos.
 
-```yaml
-plan:
-  - anio: 1º año
-    cuatrimestres:
-      - nombre: 1º cuatrimestre
-        materias: [analisis-1, algebra-1]
-```
+## Publicación
 
-Si la misma materia está en varias carreras, se escribe una sola vez y cada carrera la referencia por id. La página de la materia muestra "También forma parte de: ..." automáticamente.
+La base es `/planos-de-estudio/`. Antes de publicar en GitHub Pages, configurar `site` y `base` en `astro.config.mjs` y revisar el correo en `src/data/site.ts`. El workflow existente publica al enviar cambios a `main`; esta revisión no publica ni envía cambios al remoto.
 
-## Sumar una carrera con contenido
 
-1. Verificar que exista en `src/data/catalogo.ts` (todas las de la UNNOBA ya están).
-2. Crear `src/content/carreras/<id>.md` con `plan` y una introducción.
-3. Opcional: imagen propia en `public/img/` y `imagen: img/archivo.jpg` en el frontmatter (si no, se usa la ilustración por defecto).
+## Actualización · Equivalencia de Física II
 
-Las carreras sin archivo muestran "Ayudanos a completar el sitio" con el contacto.
-
-## Publicar en GitHub Pages
-
-1. En `astro.config.mjs` cambiar `site` (tu usuario) y `base` (nombre del repo).
-2. Subir a GitHub y en Settings → Pages elegir "GitHub Actions" como fuente.
-3. Cada push a `main` publica solo (`.github/workflows/deploy.yml`).
-
-Antes de publicar, cambiar el mail en `src/data/site.ts`.
+El usuario confirmó el 2026-11-14 que Física II (01295) y Física II para Informática (01487) comparten contenido. `src/data/equivalencias-manuales.json` registra esa indicación y ambas asignaturas abren el único manual `fisica-ii-para-informatica.md`. Se conservan los nombres y códigos originales de cada plan, las descargas oficiales y el progreso del lector por manual. Esta confirmación de contenido no se presenta como resolución institucional de acreditación. Ingeniería Industrial, Ingeniería Mecánica e Ingeniería en Alimentos pasan de 4 a 5 guías disponibles; continúan siendo 12 manuales únicos y 9 carreras visibles. Ahora se generan 50 redirecciones de compatibilidad.

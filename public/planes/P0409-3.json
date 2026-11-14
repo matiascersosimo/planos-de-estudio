@@ -1,0 +1,479 @@
+{
+  "version": "P0409-3",
+  "carrera": "040 - INGENIERÍA INDUSTRIAL",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0409-3",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Química General e Inorgánica",
+              "code": "00431",
+              "actividadId": "874"
+            },
+            {
+              "nombre": "Fundamentos de Programación de Sistemas Informáticos",
+              "code": "01311",
+              "actividadId": "3053"
+            },
+            {
+              "nombre": "Elementos de Matemática",
+              "code": "01374",
+              "actividadId": "3230"
+            },
+            {
+              "nombre": "Ingeniería y Sociedad",
+              "code": "01327",
+              "actividadId": "3099"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Análisis Matemático I",
+              "code": "01291",
+              "actividadId": "3033"
+            },
+            {
+              "nombre": "Física I",
+              "code": "00131",
+              "actividadId": "557"
+            },
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+              "code": "00902",
+              "actividadId": "1276"
+            },
+            {
+              "nombre": "Álgebra y Geometría Analítica",
+              "code": "01292",
+              "actividadId": "3034"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Tecnología de Materiales I",
+              "code": "01328",
+              "actividadId": "3100"
+            },
+            {
+              "nombre": "Probabilidades y Estadística",
+              "code": "01294",
+              "actividadId": "3036"
+            },
+            {
+              "nombre": "Física II",
+              "code": "01295",
+              "actividadId": "3037"
+            },
+            {
+              "nombre": "Análisis Matemático II",
+              "code": "01296",
+              "actividadId": "3091"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Lengua Extranjera",
+              "code": "GE051",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01325",
+                  "actividadId": "3068"
+                }
+              ]
+            },
+            {
+              "nombre": "Estática y Resistencia de los Materiales",
+              "code": "01331",
+              "actividadId": "3103"
+            },
+            {
+              "nombre": "Administración en la Industria",
+              "code": "01329",
+              "actividadId": "3101"
+            },
+            {
+              "nombre": "Termodinámica y Máquinas Térmicas",
+              "code": "01330",
+              "actividadId": "3102"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Mecánica de los Fluidos",
+              "code": "00198",
+              "actividadId": "635"
+            },
+            {
+              "nombre": "Economía y Organizaciones",
+              "code": "01314",
+              "actividadId": "3096"
+            },
+            {
+              "nombre": "Mecánica y Mecanismos",
+              "code": "01332",
+              "actividadId": "3104"
+            },
+            {
+              "nombre": "Instrumentación y Control",
+              "code": "00163",
+              "actividadId": "588"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Ingeniería de Procesos",
+              "code": "01319",
+              "actividadId": "3061"
+            },
+            {
+              "nombre": "Sistemas de Representación",
+              "code": "01305",
+              "actividadId": "3047"
+            },
+            {
+              "nombre": "Comercialización I",
+              "code": "00084",
+              "actividadId": "514"
+            },
+            {
+              "nombre": "Gestión Financiera y Contable de la Empresa",
+              "code": "01333",
+              "actividadId": "3105"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "4º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Higiene y Seguridad",
+              "code": "01316",
+              "actividadId": "3058"
+            },
+            {
+              "nombre": "Ingeniería de Métodos y Tiempo",
+              "code": "01335",
+              "actividadId": "3107"
+            },
+            {
+              "nombre": "Instalaciones Industriales",
+              "code": "01310",
+              "actividadId": "3052"
+            },
+            {
+              "nombre": "Electrotecnia y Máquinas Eléctricas",
+              "code": "01334",
+              "actividadId": "3106"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Sistemas Informáticos para la Gestión",
+              "code": "01337",
+              "actividadId": "3109"
+            },
+            {
+              "nombre": "Energías Renovables",
+              "code": "01338",
+              "actividadId": "3110"
+            },
+            {
+              "nombre": "Planificación, Programación y Control de la Producción",
+              "code": "01339",
+              "actividadId": "3111"
+            },
+            {
+              "nombre": "Tecnología de Procesos",
+              "code": "01336",
+              "actividadId": "3108"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "5º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Formulación y Evaluación de Proyectos de Ingeniería",
+              "code": "01341",
+              "actividadId": "3113"
+            },
+            {
+              "nombre": "Sistemas de Gestión y Mejora Contínua",
+              "code": "01340",
+              "actividadId": "3112"
+            },
+            {
+              "nombre": "Gestión del Mantenimiento",
+              "code": "01342",
+              "actividadId": "3114"
+            },
+            {
+              "nombre": "Optativa I",
+              "code": "GE052",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Creatividad e Innovación Tecnológica",
+                  "code": "00213",
+                  "actividadId": "648"
+                },
+                {
+                  "nombre": "Ingeniería Legal",
+                  "code": "00215",
+                  "actividadId": "650"
+                },
+                {
+                  "nombre": "Análisis Matemático Complejo",
+                  "code": "00670",
+                  "actividadId": "1047"
+                },
+                {
+                  "nombre": "Cálculo Numérico",
+                  "code": "00737",
+                  "actividadId": "1103"
+                },
+                {
+                  "nombre": "Ingeniería, Desarrollo Local y Sustentable",
+                  "code": "00744",
+                  "actividadId": "1106"
+                },
+                {
+                  "nombre": "Física III",
+                  "code": "00897",
+                  "actividadId": "1273"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación I",
+                  "code": "00900",
+                  "actividadId": "1274"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación II",
+                  "code": "00901",
+                  "actividadId": "1275"
+                },
+                {
+                  "nombre": "Construcción de Prototipos con Microcontroladores",
+                  "code": "01035",
+                  "actividadId": "1406"
+                },
+                {
+                  "nombre": "Fundamentos de la Ingeniería Ambiental",
+                  "code": "00225",
+                  "actividadId": "1448"
+                },
+                {
+                  "nombre": "Diseño de Producto",
+                  "code": "00750",
+                  "actividadId": "1475"
+                },
+                {
+                  "nombre": "Procesos Industriales",
+                  "code": "00753",
+                  "actividadId": "1479"
+                },
+                {
+                  "nombre": "Energía y Sostenibilidad",
+                  "code": "01163",
+                  "actividadId": "2436"
+                },
+                {
+                  "nombre": "Gobernanza de Sistemas y Tecnologías de la Información (SI/TI)",
+                  "code": "01238",
+                  "actividadId": "2845"
+                },
+                {
+                  "nombre": "Operaciones Unitarias I",
+                  "code": "01302",
+                  "actividadId": "3044"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                },
+                {
+                  "nombre": "Taller de Escritura Académica",
+                  "code": "01570",
+                  "actividadId": "3933"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Comportamiento Organizacional y Relaciones del Trabajo",
+              "code": "01343",
+              "actividadId": "3115"
+            },
+            {
+              "nombre": "Proyecto Final",
+              "code": "00755",
+              "actividadId": "1478"
+            },
+            {
+              "nombre": "Optativa II",
+              "code": "GE053",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Creatividad e Innovación Tecnológica",
+                  "code": "00213",
+                  "actividadId": "648"
+                },
+                {
+                  "nombre": "Ingeniería Legal",
+                  "code": "00215",
+                  "actividadId": "650"
+                },
+                {
+                  "nombre": "Análisis Matemático Complejo",
+                  "code": "00670",
+                  "actividadId": "1047"
+                },
+                {
+                  "nombre": "Cálculo Numérico",
+                  "code": "00737",
+                  "actividadId": "1103"
+                },
+                {
+                  "nombre": "Ingeniería, Desarrollo Local y Sustentable",
+                  "code": "00744",
+                  "actividadId": "1106"
+                },
+                {
+                  "nombre": "Física III",
+                  "code": "00897",
+                  "actividadId": "1273"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación I",
+                  "code": "00900",
+                  "actividadId": "1274"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación II",
+                  "code": "00901",
+                  "actividadId": "1275"
+                },
+                {
+                  "nombre": "Construcción de Prototipos con Microcontroladores",
+                  "code": "01035",
+                  "actividadId": "1406"
+                },
+                {
+                  "nombre": "Fundamentos de la Ingeniería Ambiental",
+                  "code": "00225",
+                  "actividadId": "1448"
+                },
+                {
+                  "nombre": "Diseño de Producto",
+                  "code": "00750",
+                  "actividadId": "1475"
+                },
+                {
+                  "nombre": "Procesos Industriales",
+                  "code": "00753",
+                  "actividadId": "1479"
+                },
+                {
+                  "nombre": "Energía y Sostenibilidad",
+                  "code": "01163",
+                  "actividadId": "2436"
+                },
+                {
+                  "nombre": "Gobernanza de Sistemas y Tecnologías de la Información (SI/TI)",
+                  "code": "01238",
+                  "actividadId": "2845"
+                },
+                {
+                  "nombre": "Aleaciones Metálicas Utilizadas en Ingeniería",
+                  "code": "01468",
+                  "actividadId": "3484"
+                },
+                {
+                  "nombre": "Modelado e Impresión 3D",
+                  "code": "01469",
+                  "actividadId": "3485"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                },
+                {
+                  "nombre": "Taller de Escritura Académica",
+                  "code": "01570",
+                  "actividadId": "3933"
+                }
+              ]
+            },
+            {
+              "nombre": "Análisis para la Toma de Decisiones",
+              "code": "01344",
+              "actividadId": "3116"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Práctica Profesional Supervisada",
+              "code": "01345",
+              "actividadId": "3135"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,82 +1,90 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Row from '../../components/Row.astro';
-import IlusChip from '../../components/IlusChip.astro';
-import { getCollection, render } from 'astro:content';
-import { todasLasCarreras } from '../../data/catalogo';
-import { mailto } from '../../data/site';
+import { render } from 'astro:content';
+import { getEstudios } from '../../lib/estudios';
 import { u } from '../../lib/url';
 
 export async function getStaticPaths() {
-  const entries = await getCollection('carreras');
-  const byId = new Map(entries.map((e) => [e.id, e]));
-  return todasLasCarreras.map((c) => ({ params: { carrera: c.id }, props: { meta: c, entry: byId.get(c.id) ?? null } }));
+  const { disponibles } = await getEstudios();
+  return disponibles.map(c => ({ params: { carrera: c.id }, props: { carrera: c } }));
 }
 
-const { meta, entry } = Astro.props;
-const materias = new Map((await getCollection('materias')).map((m) => [m.id, m]));
-const Intro = entry ? (await render(entry)).Content : null;
+const { carrera } = Astro.props;
+const { entry } = carrera;
+const { materias } = await getEstudios();
+const { Content: Intro } = await render(entry);
+const subject = (id: string) => {
+  const m = materias.get(id);
+  if (!m) throw new Error(`Materia inexistente en ${carrera.id}: ${id}`);
+  return m;
+};
+const title = (id: string) => entry.data.nombresEnPlan[id] ?? subject(id).data.nombre;
+const totals = entry.data.plan.reduce((n, a) => n + a.cuatrimestres.reduce((s, q) => s + q.materias.length, 0), 0);
 ---
-<Base title={meta.nombre}>
+<Base title={carrera.nombre}>
   <div class="wrap">
-    <div class="crumbs"><a href={u()}>Carreras</a> / {meta.nombre}</div>
-    <div class="page-title"><h1>{meta.nombre}</h1></div>
+    <div class="crumbs"><a href={u()}>Carreras</a> / {carrera.nombre}</div>
+    <div class="page-title"><h1>{carrera.nombre}</h1></div>
 
-    {entry && Intro ? (
-      <>
-        <div class="cintro">
-          <div><h2>Sobre la carrera</h2><div class="intro"><Intro /></div></div>
-          <div class="cimg">
-            {entry.data.imagen
-              ? <img src={u(entry.data.imagen)} alt={`Imagen de ${meta.nombre}`} />
-              : <IlusChip />}
-          </div>
-        </div>
+    <section class="plan-summary" aria-label="Plan y material disponible">
+      <div class="plan-summary-heading"><span class="plan-version">Plan {entry.data.planVersion}</span><span>{carrera.guias} {carrera.guias === 1 ? 'guía disponible' : 'guías disponibles'} · {totals} asignaturas y requisitos del plan</span></div>
+      <div class="intro"><Intro /></div>
+      <p class="plan-source">Versión enlazada desde la página institucional. Consulta: {entry.data.consultaPlan}. Las opciones se muestran dentro de su requisito y no se cuentan como materias adicionales obligatorias.</p>
+      {entry.data.notaPlan && <p class="study-notice">{entry.data.notaPlan}</p>}
+      <div class="actions">
+        <a class="btn" href={entry.data.fuentePlan} target="_blank" rel="noopener noreferrer">Ver plan oficial ↗</a>
+        <a class="btn ghost" href={u(entry.data.archivoPlan)} download={`${entry.data.planVersion}.html`}>Descargar plan (HTML)</a>
+        <a class="plan-data" href={u(entry.data.datosPlan)} download={`${entry.data.planVersion}.json`}>Datos del plan (JSON)</a>
+      </div>
+      <small class="plan-source">La descarga es una copia de consulta imprimible. Correlatividades y condiciones académicas: consultar la fuente oficial.</small>
+    </section>
 
-        <section class="block">
-          <h2>Plan de estudio</h2>
-          {entry.data.planParcial && <p class="sub2">Estamos cargando el plan completo. Por ahora figuran las materias con guía disponible.</p>}
-          {entry.data.plan.map((anio, ai) => (
-            <>
-              <h3 class="grp">{anio.anio}</h3>
-              {anio.cuatrimestres.map((q, qi) => (
-                <details class="cuat" open={ai === 0 && qi === 0}>
-                  <summary>
-                    <span>{q.nombre}</span>
-                    <span class="count">{q.materias.length} {q.materias.length === 1 ? 'materia' : 'materias'}</span>
-                  </summary>
-                  <div class="list">
-                    {q.materias.map((id) => {
-                      const m = materias.get(id);
-                      if (!m) throw new Error(`La materia "${id}" del plan de ${meta.id} no existe en src/content/materias/`);
-                      const live = Boolean(m.body?.trim());
-                      return (
-                        <Row
-                          href={live ? u(`${meta.id}/${id}/`) : undefined}
-                          code={m.data.code}
-                          nombre={m.data.nombre}
-                          desc={m.data.resumen}
-                          estado={live ? 'Disponible' : 'Próximamente'}
-                          live={live}
-                        />
-                      );
-                    })}
-                  </div>
-                </details>
-              ))}
-            </>
+    <section class="block" aria-label="Materias del plan">
+      <div class="plan-controls">
+        <div><h2>Materias del plan</h2><p class="sub2">Abrí una guía para estudiar. Las materias pendientes conservan su lugar en el plan.</p></div>
+        <label class="plan-filter"><input type="checkbox" data-only-guides /> Mostrar solo materias con guía</label>
+      </div>
+      {entry.data.plan.map((anio, ai) => (
+        <div data-plan-year>
+          <h3 class="grp">{anio.anio}</h3>
+          {anio.cuatrimestres.map((q, qi) => (
+            <details class="cuat" data-plan-period open={ai === 0 && qi === 0}>
+              <summary><span>{q.nombre}</span><span class="count">{q.materias.length} {q.materias.length === 1 ? 'asignatura o requisito' : 'asignaturas y requisitos'}</span></summary>
+              <div class="list">
+                {q.materias.map(id => {
+                  const m = subject(id);
+                  const choices = entry.data.opciones[id] ?? [];
+                  const hasGuide = m.disponible || choices.some(choice => subject(choice).disponible);
+                  return <div data-plan-subject data-has-guide={String(hasGuide)}>
+                    <Row href={m.disponible ? u(`materias/${m.manualId}/`) : undefined} code={m.data.code} nombre={title(id)} desc={m.disponible ? m.data.resumen : choices.length ? 'Requisito con opciones de asignaturas.' : 'Guía todavía no disponible.'} estado={m.disponible ? 'Abrir guía' : choices.length ? 'Opciones' : 'Pendiente'} live={m.disponible} />
+                    {choices.length > 0 && <details class="plan-options"><summary>Ver {choices.length} {choices.length === 1 ? 'opción publicada' : 'opciones publicadas'}</summary><p>Alternativas indicadas para este requisito. La elección y acreditación se rigen por el plan oficial.</p><ul>{choices.map(choice => {
+                      const o = subject(choice);
+                      return <li>{o.disponible ? <a href={u(`materias/${o.manualId}/`)}>{title(choice)} <span>({o.data.code}) · Abrir guía</span></a> : <span>{title(choice)} <small>({o.data.code}) · Sin guía</small></span>}</li>;
+                    })}</ul></details>}
+                  </div>;
+                })}
+              </div>
+            </details>
           ))}
-        </section>
-      </>
-    ) : (
-      <section class="block help">
-        <h2>¿Estudiás {meta.nombre}?</h2>
-        <p>Todavía no hay guías de esta carrera. Ayudanos a completar el sitio: podés compartirnos tus resúmenes y apuntes, sugerir materias o sumarte a armar las guías.</p>
-        <div class="actions">
-          <a class="btn" href={mailto('Quiero ayudar con ' + meta.nombre)}>Escribinos</a>
-          <a class="btn ghost" href={u('informatica/')}>Ver una carrera disponible</a>
         </div>
-      </section>
-    )}
+      ))}
+    </section>
   </div>
 </Base>
+
+<script>
+  const filter = document.querySelector<HTMLInputElement>('[data-only-guides]');
+  filter?.addEventListener('change', () => {
+    document.querySelectorAll<HTMLElement>('[data-plan-subject]').forEach(row => {
+      row.hidden = filter.checked && row.dataset.hasGuide !== 'true';
+    });
+    document.querySelectorAll<HTMLDetailsElement>('[data-plan-period]').forEach(period => {
+      period.hidden = !period.querySelector('[data-plan-subject]:not([hidden])');
+      if (filter.checked && !period.hidden) period.open = true;
+    });
+    document.querySelectorAll<HTMLElement>('[data-plan-year]').forEach(year => {
+      year.hidden = !year.querySelector('[data-plan-period]:not([hidden])');
+    });
+  });
+</script>

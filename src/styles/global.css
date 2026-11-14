@@ -29,7 +29,7 @@ main{flex:1}
 .sheet::after{bottom:0;right:-14px;border-width:0 1.5px 1.5px 0}
 .hero h1{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(2.8rem,11.5vw,8rem);line-height:.95;letter-spacing:.01em;margin:0;overflow-wrap:break-word}
 .lead{color:var(--ink-dim);max-width:54ch;margin:24px 0 0;font-size:1.05rem}
-.titleblock{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;border:1px solid var(--line-strong);margin-top:44px;background:rgba(10,34,67,.7);font-size:.84rem}
+.titleblock{display:grid;grid-template-columns:2fr 1fr 1fr;border:1px solid var(--line-strong);margin-top:44px;background:rgba(10,34,67,.7);font-size:.84rem}
 .titleblock div{padding:10px 14px;border-right:1px solid var(--line-strong)}
 .titleblock div:last-child{border-right:0}
 .titleblock small{display:block;font-family:var(--mono);font-size:.68rem;color:var(--ink-dim);margin-bottom:2px}
@@ -118,7 +118,7 @@ h3.grp:first-of-type{margin-top:22px}
   .toc{position:static;border-left:0;border-bottom:1px solid var(--line-strong);padding:0 0 12px}
   .row{grid-template-columns:1fr auto}.row .code{grid-column:1/-1}
   .foot{grid-template-columns:1fr}
-  .titleblock{grid-template-columns:1fr 1fr}.titleblock div:nth-child(2){border-right:0}.titleblock div:nth-child(-n+2){border-bottom:1px solid var(--line-strong)}
+  .titleblock{grid-template-columns:1fr 1fr}.titleblock div:first-child{grid-column:1/-1;border-right:0;border-bottom:1px solid var(--line-strong)}.titleblock div:nth-child(2){border-right:1px solid var(--line-strong)}
   .sheet::before{left:-8px}.sheet::after{right:-8px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
@@ -159,3 +159,12 @@ h3.grp:first-of-type{margin-top:22px}
 .prose details.unidad[open]>summary{border-bottom:1px solid var(--line)}
 .prose details.unidad .cuerpo{padding:18px 20px 8px}
 .prose details.unidad .cuerpo>:last-child{margin-bottom:12px}
+
+/* Figuras de estudio adaptadas al ancho de lectura */
+.prose img{max-width:100%;height:auto}
+
+/* Mantener accesible el índice de manuales largos y contener las fórmulas. */
+.layout>div{min-width:0}
+@media (min-width:721px){
+  .toc{max-height:calc(100vh - 104px - env(safe-area-inset-top,0px));overflow-y:auto;padding-right:10px}
+}

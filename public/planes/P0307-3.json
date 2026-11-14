@@ -1,0 +1,255 @@
+{
+  "version": "P0307-3",
+  "carrera": "030 - LICENCIATURA EN ADMINISTRACIÓN",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0307-3",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Contabilidad I (Básica)",
+              "code": "00527",
+              "actividadId": "906"
+            },
+            {
+              "nombre": "Introducción a las Ciencias Sociales",
+              "code": "00436",
+              "actividadId": "871"
+            },
+            {
+              "nombre": "Elementos de Análisis Matemático",
+              "code": "01109",
+              "actividadId": "2245"
+            },
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+              "code": "00902",
+              "actividadId": "1276"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Elementos de Álgebra",
+              "code": "01110",
+              "actividadId": "2246"
+            },
+            {
+              "nombre": "Microeconomía",
+              "code": "00086",
+              "actividadId": "516"
+            },
+            {
+              "nombre": "Derecho Público",
+              "code": "00435",
+              "actividadId": "736"
+            },
+            {
+              "nombre": "Introducción a la Administración",
+              "code": "00434",
+              "actividadId": "455"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Macroeconomía",
+              "code": "00082",
+              "actividadId": "512"
+            },
+            {
+              "nombre": "Análisis Organizacional",
+              "code": "00437",
+              "actividadId": "877"
+            },
+            {
+              "nombre": "Derecho Privado",
+              "code": "00558",
+              "actividadId": "942"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Finanzas Públicas",
+              "code": "00531",
+              "actividadId": "910"
+            },
+            {
+              "nombre": "Contabilidad II (Ajuste y Valuación)",
+              "code": "00529",
+              "actividadId": "909"
+            },
+            {
+              "nombre": "Comercialización I",
+              "code": "00084",
+              "actividadId": "514"
+            },
+            {
+              "nombre": "Costos para las Decisiones",
+              "code": "00546",
+              "actividadId": "870"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Electiva",
+              "code": "GE042",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Perspectivas socioculturales sobre ciudadanía",
+                  "code": "OP040",
+                  "actividadId": "976"
+                },
+                {
+                  "nombre": "Herramientas de Informática Básica",
+                  "code": "00948",
+                  "actividadId": "1322"
+                },
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01131",
+                  "actividadId": "2350"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Sistemas de Información",
+              "code": "00088",
+              "actividadId": "518"
+            },
+            {
+              "nombre": "Hacienda Pública",
+              "code": "00534",
+              "actividadId": "913"
+            },
+            {
+              "nombre": "Dirección General I",
+              "code": "00103",
+              "actividadId": "532"
+            },
+            {
+              "nombre": "Estadística",
+              "code": "00140",
+              "actividadId": "566"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Comercialización II",
+              "code": "00547",
+              "actividadId": "912"
+            },
+            {
+              "nombre": "Sociología de las Organizaciones",
+              "code": "00092",
+              "actividadId": "522"
+            },
+            {
+              "nombre": "Cálculo Financiero",
+              "code": "00535",
+              "actividadId": "914"
+            },
+            {
+              "nombre": "Derecho Laboral",
+              "code": "00537",
+              "actividadId": "1512"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "4º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Derecho Societario",
+              "code": "00539",
+              "actividadId": "917"
+            },
+            {
+              "nombre": "Epistemología y Metodología de la Investigación",
+              "code": "01118",
+              "actividadId": "2254"
+            },
+            {
+              "nombre": "Administración Financiera",
+              "code": "00552",
+              "actividadId": "1514"
+            },
+            {
+              "nombre": "Administración de las Operaciones",
+              "code": "00550",
+              "actividadId": "936"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Dirección General II",
+              "code": "00675",
+              "actividadId": "1051"
+            },
+            {
+              "nombre": "Gestión del Talento Humano",
+              "code": "01130",
+              "actividadId": "2349"
+            },
+            {
+              "nombre": "Derecho Concursal",
+              "code": "00251",
+              "actividadId": "685"
+            },
+            {
+              "nombre": "Psicología de las Organizaciones",
+              "code": "00555",
+              "actividadId": "939"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

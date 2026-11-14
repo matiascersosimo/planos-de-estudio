@@ -1,0 +1,384 @@
+{
+  "version": "P0334-2",
+  "carrera": "033 - ABOGACÍA",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0334-2",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Introducción al Derecho",
+              "code": "00044",
+              "actividadId": "476"
+            },
+            {
+              "nombre": "Bases Históricas del Derecho",
+              "code": "01132",
+              "actividadId": "2355"
+            },
+            {
+              "nombre": "Derecho Político",
+              "code": "00045",
+              "actividadId": "478"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Derecho Penal I",
+              "code": "00053",
+              "actividadId": "486"
+            },
+            {
+              "nombre": "Derecho Constitucional I",
+              "code": "00051",
+              "actividadId": "484"
+            },
+            {
+              "nombre": "Derecho Privado I - Parte General",
+              "code": "00048",
+              "actividadId": "481"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Seminario II",
+              "code": "GE044",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Antropología Jurídica y Política",
+                  "code": "OP039",
+                  "actividadId": "975"
+                },
+                {
+                  "nombre": "Perspectivas Socioculturales sobre Ciudadanía",
+                  "code": "OP040",
+                  "actividadId": "976"
+                },
+                {
+                  "nombre": "Sujeto Colectivo y Políticas de Estado: Derechos Humanos y Construcción de Memorias",
+                  "code": "OP041",
+                  "actividadId": "977"
+                },
+                {
+                  "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+                  "code": "00902",
+                  "actividadId": "1276"
+                },
+                {
+                  "nombre": "Medios de Comunicación y Sociedad",
+                  "code": "01075",
+                  "actividadId": "1446"
+                }
+              ]
+            },
+            {
+              "nombre": "Seminario I",
+              "code": "GE043",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Antropología Jurídica y Política",
+                  "code": "OP039",
+                  "actividadId": "975"
+                },
+                {
+                  "nombre": "Perspectivas Socioculturales sobre Ciudadanía",
+                  "code": "OP040",
+                  "actividadId": "976"
+                },
+                {
+                  "nombre": "Sujeto Colectivo y Políticas de Estado: Derechos Humanos y Construcción de Memorias",
+                  "code": "OP041",
+                  "actividadId": "977"
+                },
+                {
+                  "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+                  "code": "00902",
+                  "actividadId": "1276"
+                },
+                {
+                  "nombre": "Medios de Comunicación y Sociedad",
+                  "code": "01075",
+                  "actividadId": "1446"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Derecho Constitucional II",
+              "code": "00055",
+              "actividadId": "488"
+            },
+            {
+              "nombre": "Sociología Jurídica",
+              "code": "01133",
+              "actividadId": "2356"
+            },
+            {
+              "nombre": "Derecho Penal II",
+              "code": "00057",
+              "actividadId": "490"
+            },
+            {
+              "nombre": "Derecho Privado II - Obligaciones",
+              "code": "00058",
+              "actividadId": "491"
+            },
+            {
+              "nombre": "Derecho Procesal I - Teoría General del Proceso",
+              "code": "00052",
+              "actividadId": "485"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Litigación Oral",
+              "code": "01135",
+              "actividadId": "2358"
+            },
+            {
+              "nombre": "Economía Política",
+              "code": "00046",
+              "actividadId": "479"
+            },
+            {
+              "nombre": "Derecho Privado III - Responsabilidades",
+              "code": "00059",
+              "actividadId": "492"
+            },
+            {
+              "nombre": "Derecho Procesal Penal",
+              "code": "00060",
+              "actividadId": "493"
+            },
+            {
+              "nombre": "Métodos Alternativos de Resolución de Conflictos",
+              "code": "01134",
+              "actividadId": "2357"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Informática y Derecho Informático",
+              "code": "00785",
+              "actividadId": "1142"
+            },
+            {
+              "nombre": "Derecho Internacional Público",
+              "code": "00054",
+              "actividadId": "487"
+            },
+            {
+              "nombre": "Práctica Profesional I - Penal I",
+              "code": "00056",
+              "actividadId": "489"
+            },
+            {
+              "nombre": "Derecho Privado IV - Contratos",
+              "code": "00063",
+              "actividadId": "496"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Derecho Privado V - Reales",
+              "code": "00067",
+              "actividadId": "499"
+            },
+            {
+              "nombre": "Derecho del Trabajo y la Seguridad Social",
+              "code": "00064",
+              "actividadId": "497"
+            },
+            {
+              "nombre": "Derecho Administrativo I",
+              "code": "00061",
+              "actividadId": "494"
+            },
+            {
+              "nombre": "Filosofía del Derecho",
+              "code": "00069",
+              "actividadId": "501"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "4º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Práctica Profesional II - Laboral",
+              "code": "01136",
+              "actividadId": "2359"
+            },
+            {
+              "nombre": "Derecho Privado VI - Familia",
+              "code": "00072",
+              "actividadId": "504"
+            },
+            {
+              "nombre": "Derecho Administrativo II",
+              "code": "00076",
+              "actividadId": "508"
+            },
+            {
+              "nombre": "Derecho Comercial (1era. Parte)",
+              "code": "00609",
+              "actividadId": "992"
+            },
+            {
+              "nombre": "Derecho de los Recursos Naturales y Medio Ambiente",
+              "code": "OP019",
+              "actividadId": "860"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Derecho Comercial (2da. Parte)",
+              "code": "00610",
+              "actividadId": "993"
+            },
+            {
+              "nombre": "Epistemología y Metodología de la Investigación",
+              "code": "01118",
+              "actividadId": "2254"
+            },
+            {
+              "nombre": "Derecho Privado VII  -Sucesiones",
+              "code": "00073",
+              "actividadId": "505"
+            },
+            {
+              "nombre": "Derecho Procesal II - Civil y Comercial",
+              "code": "01137",
+              "actividadId": "2360"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Seminario III",
+              "code": "GE045",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Derechos de la Incidencia Colectiva",
+                  "code": "OP053",
+                  "actividadId": "1137"
+                },
+                {
+                  "nombre": "Derecho Deportivo",
+                  "code": "01066",
+                  "actividadId": "1437"
+                },
+                {
+                  "nombre": "Derecho Animal",
+                  "code": "01094",
+                  "actividadId": "2226"
+                },
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01140",
+                  "actividadId": "2354"
+                },
+                {
+                  "nombre": "Perspectiva de Género y Derecho",
+                  "code": "01148",
+                  "actividadId": "2417"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "5º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Finanzas y Derecho Financiero",
+              "code": "00611",
+              "actividadId": "994"
+            },
+            {
+              "nombre": "Derecho Internacional Privado",
+              "code": "00075",
+              "actividadId": "507"
+            },
+            {
+              "nombre": "Ética Profesional",
+              "code": "01139",
+              "actividadId": "2361"
+            },
+            {
+              "nombre": "Práctica Profesional III - Civil y Comercial",
+              "code": "01138",
+              "actividadId": "2377"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Práctica Profesional Supervisada",
+              "code": "01141",
+              "actividadId": "2362"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

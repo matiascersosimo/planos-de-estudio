@@ -1,0 +1,377 @@
+{
+  "version": "P0345-2",
+  "carrera": "034 - LICENCIATURA EN DISEÑO DE INDUMENTARIA Y TEXTIL",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0345-2",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Sistemas de Representación I",
+              "code": "01376",
+              "actividadId": "3255"
+            },
+            {
+              "nombre": "Geometría Elemental",
+              "code": "01378",
+              "actividadId": "3257"
+            },
+            {
+              "nombre": "Introducción a los Textiles",
+              "code": "01377",
+              "actividadId": "3256"
+            },
+            {
+              "nombre": "Taller de Diseño de Indumentaria y Textil I",
+              "code": "01375",
+              "actividadId": "3254"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Historia del Diseño",
+              "code": "01382",
+              "actividadId": "3261"
+            },
+            {
+              "nombre": "Sistemas de Representación II",
+              "code": "01380",
+              "actividadId": "3259"
+            },
+            {
+              "nombre": "Taller de Diseño de Indumentaria y Textil II",
+              "code": "01379",
+              "actividadId": "3258"
+            },
+            {
+              "nombre": "Moldería I",
+              "code": "01381",
+              "actividadId": "3260"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Tecnología y Producción de Indumentaria y Textil I",
+              "code": "01384",
+              "actividadId": "3263"
+            },
+            {
+              "nombre": "Historia del Textil y la Indumentaria",
+              "code": "01388",
+              "actividadId": "3267"
+            },
+            {
+              "nombre": "Morfología I",
+              "code": "01387",
+              "actividadId": "3266"
+            },
+            {
+              "nombre": "Taller de Diseño de Indumentaria y Textil III",
+              "code": "01383",
+              "actividadId": "3262"
+            },
+            {
+              "nombre": "Sistemas de Representación para Diseño de Indumentaria y Textil",
+              "code": "01385",
+              "actividadId": "3264"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Comunicación I",
+              "code": "01391",
+              "actividadId": "3270"
+            },
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidad",
+              "code": "00902",
+              "actividadId": "1276"
+            },
+            {
+              "nombre": "Morfología II",
+              "code": "01393",
+              "actividadId": "3272"
+            },
+            {
+              "nombre": "Moldería II",
+              "code": "01386",
+              "actividadId": "3265"
+            },
+            {
+              "nombre": "Taller de Diseño de Indumentaria y Textil IV",
+              "code": "01389",
+              "actividadId": "3268"
+            },
+            {
+              "nombre": "Tecnología y Producción de Indumentaria y Textil II",
+              "code": "01390",
+              "actividadId": "3269"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Taller de Diseño de Indumentaria y Textil V",
+              "code": "01394",
+              "actividadId": "3323"
+            },
+            {
+              "nombre": "Optativa I",
+              "code": "GE058",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Gestión de Diseño",
+                  "code": "00337",
+                  "actividadId": "771"
+                },
+                {
+                  "nombre": "Estadística",
+                  "code": "00838",
+                  "actividadId": "1195"
+                }
+              ]
+            },
+            {
+              "nombre": "Moldería III",
+              "code": "01392",
+              "actividadId": "3271"
+            },
+            {
+              "nombre": "Tecnología y Producción de Indumentaria y Textil III",
+              "code": "01395",
+              "actividadId": "3274"
+            },
+            {
+              "nombre": "Comunicación II",
+              "code": "01396",
+              "actividadId": "3275"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Análisis de Tendencias",
+              "code": "01399",
+              "actividadId": "3277"
+            },
+            {
+              "nombre": "Taller de Diseño de Indumentaria y Textil VI",
+              "code": "01397",
+              "actividadId": "3276"
+            },
+            {
+              "nombre": "Optativa II",
+              "code": "GE059",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Diseño de Accesorios",
+                  "code": "00334",
+                  "actividadId": "768"
+                },
+                {
+                  "nombre": "Introducción a los materiales",
+                  "code": "00795",
+                  "actividadId": "1152"
+                },
+                {
+                  "nombre": "Modelado e Impresión 3D",
+                  "code": "01469",
+                  "actividadId": "3485"
+                }
+              ]
+            },
+            {
+              "nombre": "Lengua Extranjera",
+              "code": "GE050",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01326",
+                  "actividadId": "3098"
+                }
+              ]
+            },
+            {
+              "nombre": "Laboratorio de Experimentación Textil y Biomateriales",
+              "code": "01398",
+              "actividadId": "3278"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "4º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Optativa IV",
+              "code": "GE061",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Seminario DIT: Producción de Modas",
+                  "code": "00832",
+                  "actividadId": "1189"
+                },
+                {
+                  "nombre": "Fotografía",
+                  "code": "00843",
+                  "actividadId": "1200"
+                }
+              ]
+            },
+            {
+              "nombre": "Tecnología y Producción de Indumentaria y Textil IV",
+              "code": "01401",
+              "actividadId": "3280"
+            },
+            {
+              "nombre": "Taller de Diseño de Indumentaria y Textil VII",
+              "code": "01400",
+              "actividadId": "3279"
+            },
+            {
+              "nombre": "Optativa III",
+              "code": "GE060",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Historia del Textil y la Indumentaria II",
+                  "code": "00336",
+                  "actividadId": "770"
+                },
+                {
+                  "nombre": "Estética",
+                  "code": "00796",
+                  "actividadId": "1153"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación I",
+                  "code": "00900",
+                  "actividadId": "1274"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Optativa V",
+              "code": "GE062",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Introducción a la Comercialización",
+                  "code": "00324",
+                  "actividadId": "759"
+                },
+                {
+                  "nombre": "Métodos del Diseño",
+                  "code": "00818",
+                  "actividadId": "1175"
+                },
+                {
+                  "nombre": "Antropología de la Comunicación II",
+                  "code": "00901",
+                  "actividadId": "1275"
+                },
+                {
+                  "nombre": "Seminario de Formulación de Proyecto",
+                  "code": "01155",
+                  "actividadId": "2427"
+                },
+                {
+                  "nombre": "Fotografía de Producto",
+                  "code": "01532",
+                  "actividadId": "3719"
+                },
+                {
+                  "nombre": "Textiles e Innovación",
+                  "code": "01568",
+                  "actividadId": "3924"
+                },
+                {
+                  "nombre": "Gestión y Desarrollo de Producto en Empresas de Indumentaria",
+                  "code": "01569",
+                  "actividadId": "3925"
+                }
+              ]
+            },
+            {
+              "nombre": "Optativa VI",
+              "code": "GE063",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Marketing Estratégico",
+                  "code": "00097",
+                  "actividadId": "527"
+                },
+                {
+                  "nombre": "Serigrafía y Estampado",
+                  "code": "00841",
+                  "actividadId": "1198"
+                },
+                {
+                  "nombre": "Tendencias Sociales en el Diseño",
+                  "code": "01567",
+                  "actividadId": "3923"
+                }
+              ]
+            },
+            {
+              "nombre": "Legislación y Práctica Profesional",
+              "code": "00722",
+              "actividadId": "1091"
+            },
+            {
+              "nombre": "Taller de Diseño de Indumentaria y Textil VIII",
+              "code": "01402",
+              "actividadId": "3281"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

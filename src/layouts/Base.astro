@@ -1,16 +1,16 @@
 ---
 import '../styles/global.css';
+import '../styles/plans.css';
 import 'katex/dist/katex.min.css';
-import { getCollection } from 'astro:content';
-import { ESCUELAS } from '../data/catalogo';
-import { SITE_NAME } from '../data/site';
+import { getEstudios } from '../lib/estudios';
+import { SITE_NAME, AUTHOR, CONTACT, mailto } from '../data/site';
 import { u } from '../lib/url';
 import FondoAnimado from '../components/FondoAnimado.astro';
 
-interface Props { title?: string; description?: string }
-const { title, description = 'Guías de estudio con teoría y puntos clave, organizadas por carrera y por materia.' } = Astro.props;
+interface Props { title?: string; description?: string; canonical?: string }
+const { title, canonical, description = 'Guías de estudio con teoría y puntos clave, organizadas por carrera y por materia.' } = Astro.props;
 const pageTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
-const vivas = new Set((await getCollection('carreras')).map((c) => c.id));
+const { escuelas, disponibles } = await getEstudios();
 ---
 <!doctype html>
 <html lang="es">
@@ -18,7 +18,9 @@ const vivas = new Set((await getCollection('carreras')).map((c) => c.id));
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="description" content={description} />
+  <meta name="author" content={AUTHOR} />
   <title>{pageTitle}</title>
+  {canonical && <link rel="canonical" href={canonical} />}
   <link rel="icon" type="image/svg+xml" href={u('favicon.svg')} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,7 +39,7 @@ const vivas = new Set((await getCollection('carreras')).map((c) => c.id));
           <button class="dd-btn" id="ddBtn" aria-expanded="false" aria-controls="ddMenu">Carreras <span aria-hidden="true">▾</span></button>
           <div class="dd-menu" id="ddMenu" hidden>
             <div class="wrap">
-              {ESCUELAS.map((e) => (
+              {escuelas.map((e) => (
                 <div class="g">
                   <b>{e.nombre}</b>
                   {e.areas.map((a) => (
@@ -46,7 +48,7 @@ const vivas = new Set((await getCollection('carreras')).map((c) => c.id));
                       {a.carreras.map((c) => (
                         <a href={u(c.id + '/')}>
                           <span>{c.nombre}</span>
-                          {vivas.has(c.id) && <span class="status live">Disponible</span>}
+                          <span class="status live">Con guías</span>
                         </a>
                       ))}
                     </>
@@ -68,8 +70,8 @@ const vivas = new Set((await getCollection('carreras')).map((c) => c.id));
     <div class="wrap">
       <div class="foot">
         <div><b>{SITE_NAME}</b>Guías de estudio con teoría y puntos clave, organizadas por carrera y por materia.</div>
-        <div><b>Carreras</b><a href={u('informatica/')}>Ingeniería en Informática</a><a href={u()}>Ver todas</a></div>
-        <div><b>Proyecto</b><a href={u('acerca/')}>Acerca de</a><a href={u('contacto/')}>Contacto</a></div>
+        <div><b>Carreras con guías</b>{disponibles.slice(0, 3).map(c => <a href={u(c.id + '/')}>{c.nombre}</a>)}<a href={u()}>Ver todas</a></div>
+        <div><b>{AUTHOR}</b><a href={u('acerca/')}>Acerca de</a><a href={mailto('Contacto desde Planos de estudio')}>{CONTACT}</a></div>
       </div>
       <div class="legal">Proyecto estudiantil independiente, sin afiliación oficial a ninguna universidad. El contenido es de apoyo y no reemplaza el material de la cátedra.</div>
     </div>

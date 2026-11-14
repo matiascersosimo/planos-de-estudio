@@ -1,0 +1,165 @@
+{
+  "version": "P0476-3",
+  "carrera": "047 - TECNICATURA EN GESTIÓN DE PYMES",
+  "fuente": "https://planesdeestudio.unnoba.edu.ar/?planversion=P0476-3",
+  "consulta": "2026-11-14",
+  "plan": [
+    {
+      "anio": "1º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Elementos de Análisis Matemático",
+              "code": "01109",
+              "actividadId": "2245"
+            },
+            {
+              "nombre": "Contabilidad I (Básica)",
+              "code": "00527",
+              "actividadId": "906"
+            },
+            {
+              "nombre": "Introducción a las Ciencias Sociales",
+              "code": "00436",
+              "actividadId": "871"
+            },
+            {
+              "nombre": "Aspectos Sociales e Institucionales de la Universidadidad",
+              "code": "00902",
+              "actividadId": "1276"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Introducción a la Administración",
+              "code": "00434",
+              "actividadId": "455"
+            },
+            {
+              "nombre": "Microeconomía",
+              "code": "00086",
+              "actividadId": "516"
+            },
+            {
+              "nombre": "Derecho Público",
+              "code": "00435",
+              "actividadId": "736"
+            },
+            {
+              "nombre": "Elementos de Álgebra",
+              "code": "01110",
+              "actividadId": "2246"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "2º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Derecho Privado",
+              "code": "00558",
+              "actividadId": "942"
+            },
+            {
+              "nombre": "Análisis Organizacional",
+              "code": "00437",
+              "actividadId": "877"
+            }
+          ]
+        },
+        {
+          "nombre": "2do Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Contabilidad II (Ajuste y Valuación)",
+              "code": "00529",
+              "actividadId": "909"
+            },
+            {
+              "nombre": "Administración de Pymes",
+              "code": "00438",
+              "actividadId": "878"
+            },
+            {
+              "nombre": "Costos para las Decisiones",
+              "code": "00546",
+              "actividadId": "870"
+            },
+            {
+              "nombre": "Comercialización I",
+              "code": "00084",
+              "actividadId": "514"
+            }
+          ]
+        },
+        {
+          "nombre": "Otros requisitos",
+          "materias": [
+            {
+              "nombre": "Electiva",
+              "code": "GE046",
+              "actividadId": null,
+              "opciones": [
+                {
+                  "nombre": "Perspectivas socioculturales sobre ciudadanía",
+                  "code": "OP040",
+                  "actividadId": "976"
+                },
+                {
+                  "nombre": "Herramientas de Informática Básica",
+                  "code": "00948",
+                  "actividadId": "1322"
+                },
+                {
+                  "nombre": "Inglés Técnico",
+                  "code": "01131",
+                  "actividadId": "2350"
+                },
+                {
+                  "nombre": "Educación Superior, Igualdad y Derechos Humanos",
+                  "code": "01552",
+                  "actividadId": "3803"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anio": "3º Año",
+      "cuatrimestres": [
+        {
+          "nombre": "1er Cuatrimestre",
+          "materias": [
+            {
+              "nombre": "Técnica Tributaria",
+              "code": "00903",
+              "actividadId": "1278"
+            },
+            {
+              "nombre": "Seminario Taller Integrador",
+              "code": "00858",
+              "actividadId": "1223"
+            },
+            {
+              "nombre": "Sistemas de Información",
+              "code": "00088",
+              "actividadId": "518"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
