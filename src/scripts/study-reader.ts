@@ -102,10 +102,13 @@ function initStudyReader() {
       select.replaceChildren(new Option('Elegir un tema…', ''));
       sections[current].querySelectorAll<HTMLElement>('h3[id], h4[id]').forEach(h => select.add(new Option(h.textContent ?? '', h.id)));
       if (target && [...select.options].some(option => option.value === target.id)) select.value = target.id;
-      const formulaHeading = [...sections[current].querySelectorAll<HTMLElement>('h3[id]')].find(h => h.textContent?.startsWith('Hoja de fórmulas'));
+      const formulaHeading = [...sections[current].querySelectorAll<HTMLElement>('h3[id]')].find(h => /^(Hoja de fórmulas|Hoja de consulta)/.test(h.textContent ?? ''));
       const formulaLink = $<HTMLAnchorElement>('[data-chapter-formulas]');
       formulaLink.hidden = !formulaHeading;
-      if (formulaHeading) formulaLink.href = `#${formulaHeading.id}`;
+      if (formulaHeading) {
+        formulaLink.href = `#${formulaHeading.id}`;
+        formulaLink.textContent = formulaHeading.textContent?.startsWith('Hoja de consulta') ? 'Conceptos del capítulo ↓' : 'Fórmulas del capítulo ↓';
+      }
       select.closest<HTMLElement>('label')!.hidden = select.options.length === 1;
       setPager('[data-previous]', current - 1);
       setPager('[data-next]', current + 1);

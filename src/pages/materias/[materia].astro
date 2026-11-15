@@ -16,7 +16,8 @@ export async function getStaticPaths() {
 const { materia, carreras } = Astro.props;
 const { Content, headings } = await render(materia);
 const toc = headings.filter((h) => h.depth === 2);
-const generalFormula = toc.find((h) => h.text.toLocaleLowerCase('es').includes('formulario general'));
+const generalFormula = toc.find((h) => /formulario general|consulta general/.test(h.text.toLocaleLowerCase('es')));
+const generalLabel = generalFormula?.text.toLocaleLowerCase('es').includes('consulta general') ? 'Consulta general ↗' : 'Formulario general ↗';
 const chapters = toc.map((h, index) => {
   const next = headings.findIndex((item, i) => i > headings.indexOf(h) && item.depth === 2);
   const children = headings.slice(headings.indexOf(h) + 1, next < 0 ? undefined : next).filter((item) => item.depth === 3);
@@ -38,7 +39,7 @@ const chapters = toc.map((h, index) => {
         <button type="button" data-view="overview" aria-pressed="true">Índice</button>
         <button type="button" data-view="continuous" aria-pressed="false">Lectura continua</button>
       </div>
-      {generalFormula && <a class="study-formula-link" href={`#${generalFormula.slug}`}>Formulario general ↗</a>}
+      {generalFormula && <a class="study-formula-link" href={`#${generalFormula.slug}`}>{generalLabel}</a>}
       <p class="study-progress-label" data-progress-label>El progreso se guarda en este navegador.</p>
     </div>
     <div class="study-progress" data-enhanced hidden><span data-progress-bar></span></div>
