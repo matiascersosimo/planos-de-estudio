@@ -1,0 +1,13 @@
+Programación Imperativa 00364 - ejemplos originales
+Autor: Matias Gabriel Cersosimo
+
+Cada archivo es un programa independiente. Compilar uno por vez, por ejemplo:
+g++ -std=c++11 -Wall -Wextra -pedantic-errors unidad-1.cpp -o unidad-1.exe
+./unidad-1.exe
+
+Las funciones requieren los contratos explicados en la guía. Los ejemplos de
+recursión usan entradas pequeñas y resultados dentro de los tipos utilizados.
+Las listas lineales no admiten ciclos. Las transferencias requieren listas
+disjuntas. No administrar dos veces los mismos nodos como dueños separados.
+Los programas ilustran algoritmos; no persisten datos entre ejecuciones.
+No definir PI_SIN_MAIN para ejecutar las demostraciones habituales.
