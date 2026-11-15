@@ -5,10 +5,9 @@ import 'katex/dist/katex.min.css';
 import { getEstudios } from '../lib/estudios';
 import { SITE_NAME, AUTHOR, CONTACT, mailto } from '../data/site';
 import { u } from '../lib/url';
-import FondoAnimado from '../components/FondoAnimado.astro';
 
 interface Props { title?: string; description?: string; canonical?: string }
-const { title, canonical, description = 'Guías de estudio con teoría y puntos clave, organizadas por carrera y por materia.' } = Astro.props;
+const { title, canonical, description = 'Guías de estudio con teoría, ejemplos y práctica, organizadas por carrera y por materia.' } = Astro.props;
 const pageTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
 const { escuelas, disponibles } = await getEstudios();
 ---
@@ -24,15 +23,14 @@ const { escuelas, disponibles } = await getEstudios();
   <link rel="icon" type="image/svg+xml" href={u('favicon.svg')} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <FondoAnimado />
   <header>
     <div class="wrap bar">
       <a class="brand" href={u()} aria-label={`${SITE_NAME}, inicio`}>
-        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" stroke="#8fd0ff" stroke-width="1.4" aria-hidden="true"><rect x="2" y="2" width="22" height="22" rx="1.5"/><path d="M2 10h22M2 18h22M10 2v22M18 2v22" stroke-opacity=".45"/><circle cx="14" cy="14" r="3.2" fill="#8fd0ff" stroke="none"/></svg>
-        <span class="bn">{SITE_NAME}</span>
+        <span class="brand-mark" aria-hidden="true">P/E</span>
+        <span class="brand-copy">{SITE_NAME}<small>Biblioteca de acceso abierto</small></span>
       </a>
       <nav class="main" aria-label="Principal">
         <div class="dd">
@@ -58,7 +56,8 @@ const { escuelas, disponibles } = await getEstudios();
             </div>
           </div>
         </div>
-        <a href={u('acerca/')}>Acerca de</a>
+        <a href={u('#guias')}>Guías</a>
+        <a href={u('acerca/')}>El proyecto</a>
         <a href={u('contacto/')}>Contacto</a>
       </nav>
     </div>
@@ -69,9 +68,10 @@ const { escuelas, disponibles } = await getEstudios();
   <footer>
     <div class="wrap">
       <div class="foot">
-        <div><b>{SITE_NAME}</b>Guías de estudio con teoría y puntos clave, organizadas por carrera y por materia.</div>
+        <div><b>{SITE_NAME}</b>Guías de estudio con teoría, ejemplos y práctica, organizadas por carrera y por materia.</div>
         <div><b>Carreras con guías</b>{disponibles.slice(0, 3).map(c => <a href={u(c.id + '/')}>{c.nombre}</a>)}<a href={u()}>Ver todas</a></div>
-        <div><b>{AUTHOR}</b><a href={u('acerca/')}>Acerca de</a><a href={mailto('Contacto desde Planos de estudio')}>{CONTACT}</a></div>
+        <div><b>{AUTHOR}</b><a href={u('#guias')}>Guías</a>
+        <a href={u('acerca/')}>El proyecto</a><a href={mailto('Contacto desde Planos de estudio')}>{CONTACT}</a></div>
       </div>
       <div class="legal">Proyecto estudiantil independiente, sin afiliación oficial a ninguna universidad. El contenido es de apoyo y no reemplaza el material de la cátedra.</div>
     </div>

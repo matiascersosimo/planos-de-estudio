@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+.home-page{color-scheme:dark;--concrete:#30312f;--panel:color-mix(in srgb,var(--concrete),white 5%);--ink:#eeeee4;--muted:#b8bbb0;--rule:#666b60;--accent:#e08a70;--pad:20px;--title:'Barlow Condensed',Impact,sans-serif;background:var(--concrete);color:var(--ink);font:400 15px/1.6 'IBM Plex Sans',Arial,sans-serif;overflow-wrap:anywhere}
+.home-page *{box-sizing:border-box}
+.home-page [hidden]{display:none!important}
+.home-page button,.home-page input{font:inherit;color:inherit}
+.home-page button{cursor:pointer}
+.home-page a{color:inherit;text-underline-offset:4px}
+.home-page .bi-wrap{padding:0}
+.home-page .bi-top{display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--rule);padding:21px 0}
+.home-page .bi-brand{display:flex;gap:12px;align-items:center;text-decoration:none}
+.home-page .bi-monogram{flex-shrink:0;white-space:nowrap;font:800 22px/1 var(--title);letter-spacing:-1px;background:var(--ink);color:var(--concrete);padding:6px 7px;border-bottom:5px solid var(--accent)}
+.home-page .bi-brand-name{font-size:12px;line-height:1.3;font-weight:600;text-transform:uppercase;letter-spacing:1.3px}
+.home-page .bi-brand-name small{display:block;color:var(--muted);font-size:9px;letter-spacing:1.3px;font-weight:400;margin-top:4px}
+.home-page .bi-nav{display:flex;gap:24px;align-items:center;font-size:11px;flex-wrap:wrap}
+.home-page .bi-nav button{border:0;background:none;padding:7px 0}
+.home-page .bi-nav button:hover,.home-page .bi-nav a:hover{color:var(--accent)}
+.home-page .bi-nav a{text-decoration:none;color:var(--muted)}
+.home-page .bi-hero{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,.85fr);gap:30px;align-items:end;padding:34px 0 36px}
+.home-page .bi-eyebrow{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+.home-page h1,.home-page h2,.home-page h3,.home-page p{margin:0}
+.home-page h1{font:800 clamp(68px,10.4vw,114px)/.84 var(--title);text-transform:uppercase;letter-spacing:-1px;margin:20px 0 24px;max-width:11ch}
+.home-page h1 .bi-color{color:var(--accent)}
+.home-page .bi-hero-text{font-size:14px;line-height:1.75;color:var(--muted);max-width:43ch}
+.home-page .bi-primary{display:inline-flex;gap:33px;align-items:center;justify-content:space-between;border:0;background:var(--accent);color:#252723;text-decoration:none;padding:12px 17px;font-size:12px;font-weight:600;margin-top:23px}
+.home-page .bi-primary:hover{filter:brightness(1.08)}
+.home-page .bi-structure{height:282px;position:relative;display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;align-items:end;padding-bottom:15px;border-bottom:3px solid var(--ink)}
+.home-page .bi-column{height:77%;background:color-mix(in srgb,var(--concrete),white 13%);display:flex;flex-direction:column;justify-content:space-between;padding:12px 8px;border-top:4px solid var(--ink)}
+.home-page .bi-column:nth-child(2){height:100%;background:color-mix(in srgb,var(--concrete),white 19%)}
+.home-page .bi-column:nth-child(3){height:65%;border-top-color:var(--accent)}
+.home-page .bi-column-num{font:700 30px/1 var(--title);color:var(--ink)}
+.home-page .bi-column-name{writing-mode:vertical-rl;transform:rotate(180deg);font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--ink)}
+.home-page .bi-structure-foot{display:flex;justify-content:space-between;gap:10px;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-top:10px}
+.home-page .bi-meta{display:flex;gap:25px;align-items:center;flex-wrap:wrap;font-size:11px;padding:14px 0;border-top:2px solid var(--ink);border-bottom:1px solid var(--rule);color:var(--muted)}
+.home-page .bi-meta strong{color:var(--ink);font-weight:600}
+.home-page .bi-meta span:last-child{margin-left:auto}
+.home-page .bi-search-section{padding:28px 0 24px}
+.home-page .bi-search-label{font-size:11px;font-weight:500;display:block;margin-bottom:8px}
+.home-page .bi-searchbox{display:flex;align-items:center;gap:14px;border-bottom:2px solid var(--ink);background:var(--panel);padding:4px 15px}
+.home-page .bi-search-glyph{color:var(--accent);font:600 21px var(--title)}
+.home-page .bi-searchbox input{width:100%;min-width:0;border:0;background:none;font-size:15px;padding:12px 0;outline-offset:4px}
+.home-page .bi-searchbox input::placeholder{color:var(--muted);opacity:1}
+.home-page .bi-searchbox button{border:0;background:none;padding:10px 0;font-size:11px;color:var(--accent)}
+.home-page .bi-searchhint{font-size:10px;color:var(--muted);margin-top:8px;min-height:16px}
+.home-page .bi-section{padding:14px 0 31px}
+.home-page .bi-section-head{display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding-bottom:15px;border-bottom:1px solid var(--rule)}
+.home-page .bi-section-head h2{font:700 30px/1 var(--title);letter-spacing:.2px;text-transform:uppercase}
+.home-page .bi-section-head small{font-size:10px;color:var(--muted)}
+.home-page .bi-careers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.home-page .bi-career{border:0;border-bottom:1px solid var(--rule);background:none;display:grid;grid-template-columns:1fr auto;gap:8px;text-align:left;padding:var(--pad) 17px var(--pad) 0;align-content:start}
+.home-page .bi-career:not(:nth-child(3n)){border-right:1px solid var(--rule)}
+.home-page .bi-career:not(:nth-child(3n+1)){padding-left:17px}
+.home-page .bi-career:hover,.home-page .bi-career[aria-expanded=true]{background:var(--panel)}
+.home-page .bi-career-code{grid-column:1/-1;font-size:10px;letter-spacing:1px;color:var(--accent)}
+.home-page .bi-career-name{font-size:13px;line-height:1.45;font-weight:500;max-width:26ch}
+.home-page .bi-career-arrow{color:var(--accent);font-size:15px}
+.home-page .bi-career-count{font-size:10px;color:var(--muted);grid-column:1/-1}
+.home-page .bi-selection{padding:22px;background:var(--panel);border-left:3px solid var(--accent);margin-top:18px}
+.home-page .bi-selection-head{display:flex;justify-content:space-between;gap:14px;align-items:start;margin-bottom:12px}
+.home-page .bi-selection h3{font:600 25px/1.2 var(--title);text-transform:uppercase}
+.home-page .bi-close{font-size:11px;background:none;border:0;padding:5px 0;color:var(--accent);flex-shrink:0}
+.home-page .bi-manual-link{display:flex;justify-content:space-between;gap:14px;align-items:center;border-top:1px solid var(--rule);padding:12px 0;text-decoration:none;font-size:13px}
+.home-page .bi-manual-link span:last-child{color:var(--accent)}
+.home-page .bi-manual-link:hover{color:var(--accent)}
+.home-page .bi-featured{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0}
+.home-page .bi-guide{display:flex;flex-direction:column;text-decoration:none;padding:19px 18px 0 0;gap:13px;align-items:start}
+.home-page .bi-guide:not(:first-child){padding-left:19px;border-left:1px solid var(--rule)}
+.home-page .bi-guide-code{font-size:10px;letter-spacing:1px;color:var(--muted)}
+.home-page .bi-guide h3{font:600 28px/.99 var(--title);text-transform:uppercase;max-width:15ch}
+.home-page .bi-guide:hover h3{color:var(--accent)}
+.home-page .bi-guide p{font-size:11px;line-height:1.65;color:var(--muted);flex:1}
+.home-page .bi-guide-open{font-size:11px;color:var(--accent);padding-top:6px}
+.home-page .bi-about{display:grid;grid-template-columns:1fr 1.4fr;gap:40px;border-top:2px solid var(--ink);padding:26px 0 29px}
+.home-page .bi-about h2{font:700 32px/.98 var(--title);text-transform:uppercase;max-width:13ch;margin-top:12px}
+.home-page .bi-about p{font-size:13px;line-height:1.8;color:var(--muted)}
+.home-page .bi-author{display:block;font-size:11px;color:var(--ink);margin-top:15px;font-weight:500}
+.home-page .bi-footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:17px 0;border-top:1px solid var(--rule);font-size:10px;color:var(--muted)}
+.home-page .bi-footer a{color:var(--ink)}
+.home-page .bi-legal{font-size:9px;line-height:1.6;color:var(--muted);padding:0 0 20px}
+.home-page .bi-results{padding:0 0 26px}
+.home-page .bi-results-label{font-size:10px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin:15px 0}
+.home-page .bi-results .bi-manual-link small{display:block;font-size:10px;color:var(--muted);margin-top:3px}
+@media(max-width:680px){.home-page .bi-wrap{padding:0}.home-page .bi-top{align-items:start;flex-wrap:wrap;gap:17px}.home-page .bi-nav{width:100%;gap:12px 24px}.home-page .bi-hero{grid-template-columns:1fr .7fr;gap:16px;padding:27px 0}.home-page h1{font-size:clamp(58px,12.5vw,84px);max-width:11ch}.home-page .bi-structure{height:240px;gap:5px}.home-page .bi-column{padding:10px 6px}.home-page .bi-column-name{font-size:10px}.home-page .bi-meta{gap:8px 20px}.home-page .bi-meta span:last-child{margin-left:0;width:100%}.home-page .bi-careers{grid-template-columns:repeat(2,minmax(0,1fr))}.home-page .bi-career:not(:nth-child(3n)){border-right:0}.home-page .bi-career:not(:nth-child(3n+1)){padding-left:0}.home-page .bi-career:nth-child(odd){border-right:1px solid var(--rule);padding-right:12px}.home-page .bi-career:nth-child(even){padding-left:12px}.home-page .bi-featured{grid-template-columns:1fr}.home-page .bi-guide{padding:20px 0;gap:10px;border-bottom:1px solid var(--rule)}.home-page .bi-guide:not(:first-child){border-left:0;padding-left:0}.home-page .bi-guide h3{max-width:none;font-size:30px}.home-page .bi-about{gap:22px;grid-template-columns:1fr}.home-page .bi-about h2{max-width:22ch}.home-page .bi-section-head{align-items:start;flex-wrap:wrap;gap:8px}.home-page .bi-searchbox input{font-size:16px}.home-page .bi-nav button,.home-page .bi-nav a,.home-page .bi-close,.home-page .bi-searchbox button{min-height:44px;display:flex;align-items:center}}
+@media(max-width:450px){.home-page .bi-hero{grid-template-columns:1fr}.home-page h1{font-size:clamp(44px,15.5vw,68px);max-width:12ch}.home-page .bi-architecture{display:none}.home-page .bi-eyebrow{font-size:9px;letter-spacing:1.1px}.home-page .bi-careers{grid-template-columns:1fr}.home-page .bi-career:nth-child(odd){border-right:0;padding-right:0}.home-page .bi-career:nth-child(even){padding-left:0}.home-page .bi-career-name{max-width:none}.home-page .bi-selection{padding:16px}.home-page .bi-selection-head{flex-wrap:wrap}.home-page .bi-nav{gap:8px 20px}}
+
+.home-page{padding-top:0;padding-bottom:0}.home-page .bi-section-head h2{display:block}.home-page .bi-section-head h2::after{display:none}.home-page .bi-about h2{display:block}.home-page .bi-about h2::after{display:none}.home-page .bi-career{text-decoration:none}.home-page .bi-featured{padding-bottom:10px}.home-page .bi-about{margin-top:10px}
+/* Los titulares conservan palabras completas en pantallas intermedias. */
+.home-page h1 .bi-color{white-space:nowrap}
+@media(max-width:680px){.home-page .bi-hero{grid-template-columns:minmax(0,1fr)}.home-page .bi-architecture{display:none}}

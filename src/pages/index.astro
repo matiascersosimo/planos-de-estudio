@@ -1,115 +1,114 @@
 ---
 import Base from '../layouts/Base.astro';
-import Row from '../components/Row.astro';
+import '../styles/home.css';
 import { getEstudios } from '../lib/estudios';
 import { u } from '../lib/url';
 import { AUTHOR } from '../data/site';
 
-const { disponibles: carreras, materias, escuelas } = await getEstudios();
-const porId = new Map(carreras.map(c => [c.id, c]));
-const nMaterias = new Set([...materias.values()].filter(m => m.disponible).map(m => m.manualId)).size;
-
-// Texto normalizado (sin tildes, en minúsculas) para que el buscador encuentre "informatica" o "Informática".
+const { disponibles, materias, escuelas } = await getEstudios();
+const porId = new Map(disponibles.map(c => [c.id, c]));
+const carreras = escuelas.flatMap(e => e.areas.flatMap(a => a.carreras.map(c => porId.get(c.id)!)));
+const guias = [...materias.values()]
+  .filter(m => m.disponible && m.manual && m.id === m.manualId)
+  .map(m => ({ id: m.manualId, nombre: m.manual!.data.nombre, code: m.data.code, resumen: m.manual!.data.resumen ?? '' }))
+  .sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'));
+const destacados = ['algebra-y-geometria-analitica', 'fisica-1', 'analisis-matematico-ii'].flatMap(id => guias.filter(g => g.id === id));
+const descripciones: Record<string, string> = {
+  'algebra-y-geometria-analitica': 'Matrices, sistemas y espacios vectoriales. Un recorrido acompañado, desde los primeros cálculos.',
+  'fisica-1': 'Movimiento, fuerzas y energía. Conceptos, problemas desarrollados y hojas de fórmulas.',
+  'analisis-matematico-ii': 'Funciones de varias variables, integración y series. Desarrollo y material de consulta por unidad.',
+};
 const norm = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 ---
-<Base>
-  <div class="hero"><div class="wrap"><div class="sheet">
-    <h1>Guías de estudio para toda tu carrera</h1>
-    <p class="lead">Teoría, fórmulas y puntos clave de cada materia, ordenados para estudiar y para repasar antes de rendir.</p>
-    <div class="titleblock">
-      <div><small>Autor</small>{AUTHOR}</div>
-      <div><small>Carreras</small>{carreras.length}</div>
-      <div><small>Materias</small>{nMaterias}</div>
-    </div>
-  </div></div></div>
-
-  <div class="wrap">
-    <div class="search" role="search">
-      <label for="q">Buscar carrera</label>
-      <div class="box">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8fd0ff" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>
-        <input id="q" type="search" autocomplete="off" placeholder="Ej: informática, sistemas, ingeniería" />
+<Base description="Guías para aprender desde el primer paso. Teoría, ejemplos y práctica, organizados por materia y carrera.">
+  <div class="wrap home-page">
+    <section class="bi-hero" aria-labelledby="home-title">
+      <div>
+        <div class="bi-eyebrow">Acceso público / Conocimiento compartido</div>
+        <h1 id="home-title">Entender es<br /><span class="bi-color">construir.</span></h1>
+        <p class="bi-hero-text">Guías para aprender desde el primer paso. Teoría, ejemplos y práctica, organizados para avanzar por tu cuenta.</p>
+        <a class="bi-primary" href="#carreras">Encontrá tu carrera <span aria-hidden="true">↓</span></a>
       </div>
-      <p class="meta" id="qmeta" aria-live="polite"></p>
-    </div>
+      <div class="bi-architecture" aria-hidden="true">
+        <div class="bi-structure">
+          <div class="bi-column"><span class="bi-column-num">01</span><span class="bi-column-name">Comprender</span></div>
+          <div class="bi-column"><span class="bi-column-num">02</span><span class="bi-column-name">Relacionar</span></div>
+          <div class="bi-column"><span class="bi-column-num">03</span><span class="bi-column-name">Resolver</span></div>
+        </div>
+        <div class="bi-structure-foot"><span>Materia / Método</span><span>Práctica / Autonomía</span></div>
+      </div>
+    </section>
 
-    <p class="none" id="sinResultados" hidden>
-      No encontramos carreras que coincidan. ¿Falta la tuya? <a href={u('contacto/')}>Escribinos</a>.
-    </p>
+    <div class="bi-meta"><span><strong>{guias.length}</strong> guías disponibles</span><span><strong>{carreras.length}</strong> carreras con material</span><span>Una misma materia. Una misma guía.</span></div>
 
-    <p class="catalogue-note">Mostramos las carreras que ya tienen al menos una guía. Los planes están contrastados con la versión enlazada por UNNOBA; las guías se incorporan por materia.</p>
-    {escuelas.map((e) => (
-      <section class="block esc">
-        <h2>{e.nombre}</h2>
-        <p class="sub">{e.completo}</p>
-        {e.areas.map((a) => (
-          <div class="area">
-            <h3 class="grp">{a.nombre}</h3>
-            <div class="list">
-              {a.carreras.map((c) => (
-                <div data-carrera data-q={norm([c.nombre, c.code, a.nombre, e.nombre, e.completo].join(' '))}>
-                  <Row
-                    href={u(c.id + '/')}
-                    code={c.code}
-                    nombre={c.nombre}
-                    desc={`Plan ${porId.get(c.id)!.entry.data.planVersion} · ${porId.get(c.id)!.guias} ${porId.get(c.id)!.guias === 1 ? 'guía disponible' : 'guías disponibles'}.`}
-                    estado="Con guías"
-                    live={true}
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
-      </section>
-    ))}
+    <section class="bi-search-section" role="search" aria-label="Buscar carreras y materias" data-home-search hidden>
+      <label class="bi-search-label" for="q">¿Qué querés estudiar?</label>
+      <div class="bi-searchbox"><span class="bi-search-glyph" aria-hidden="true">/</span><input id="q" type="search" placeholder="Buscá una carrera o una materia…" autocomplete="off" /><button type="button" data-clear hidden>Limpiar</button></div>
+      <p class="bi-searchhint" id="qmeta" aria-live="polite">Por ejemplo: Informática, Álgebra o Física.</p>
+    </section>
+
+    <section class="bi-results" data-results hidden aria-label="Resultados de búsqueda">
+      <div data-result-group>
+        <h2 class="bi-results-label">Carreras</h2>
+        {carreras.map(c => <a class="bi-manual-link" data-search-result data-q={norm(`${c.nombre} ${c.code}`)} href={u(`${c.id}/`)}><span>{c.nombre}<small>{c.guias} {c.guias === 1 ? 'guía disponible' : 'guías disponibles'}</small></span><span aria-hidden="true">↗</span></a>)}
+      </div>
+      <div data-result-group>
+        <h2 class="bi-results-label">Guías</h2>
+        {guias.map(g => <a class="bi-manual-link" data-search-result data-q={norm(`${g.nombre} ${g.code}`)} href={u(`materias/${g.id}/`)}><span>{g.nombre}<small>Guía compartida por materia</small></span><span aria-hidden="true">↗</span></a>)}
+      </div>
+    </section>
+
+    <section class="bi-section" id="carreras" data-home-section aria-labelledby="careers-title">
+      <div class="bi-section-head"><h2 id="careers-title">01 / Tu carrera</h2><small>Solo aparecen carreras con guías disponibles.</small></div>
+      <div class="bi-careers">
+        {carreras.map(c => <a class="bi-career" data-carrera href={u(`${c.id}/`)}><span class="bi-career-code">{c.code}</span><span class="bi-career-name">{c.nombre}</span><span class="bi-career-arrow" aria-hidden="true">↗</span><span class="bi-career-count">{c.guias} {c.guias === 1 ? 'guía disponible' : 'guías disponibles'}</span></a>)}
+      </div>
+    </section>
+
+    <section class="bi-section" id="guias" data-home-section aria-labelledby="guides-title">
+      <div class="bi-section-head"><h2 id="guides-title">02 / Para empezar</h2><small>Elegí una guía y entrá directamente al contenido.</small></div>
+      <div class="bi-featured">
+        {destacados.map(g => <a class="bi-guide" href={u(`materias/${g.id}/`)}><span class="bi-guide-code">{g.code} / Guía de estudio</span><h3>{g.nombre}</h3><p>{descripciones[g.id]}</p><span class="bi-guide-open">Abrir guía ↗</span></a>)}
+      </div>
+    </section>
+
+    <section class="bi-about" id="proyecto" aria-labelledby="project-title">
+      <div><div class="bi-eyebrow">El proyecto</div><h2 id="project-title">Dar estructura<br />al aprendizaje.</h2></div>
+      <div><p>Planos de estudio reúne materiales organizados por materia y conectados con los planes de cada carrera. Una biblioteca que crece con una idea: hacer más claro el camino entre una pregunta y su comprensión.</p><span class="bi-author">Autoría: {AUTHOR}</span></div>
+    </section>
   </div>
 </Base>
 
-<style>
-  .search { margin: 48px 0 0; }
-  .search label { display: block; font: 500 0.78rem var(--mono); color: var(--accent); margin-bottom: 8px; letter-spacing: 0.02em; }
-  .box { position: relative; }
-  .box svg { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); pointer-events: none; }
-  .search input {
-    width: 100%; font: inherit; font-size: 1.05rem; color: var(--ink);
-    background: rgba(10, 34, 67, 0.85); border: 1px solid var(--line-strong);
-    border-radius: 0; padding: 14px 16px 14px 46px;
-  }
-  .search input::placeholder { color: var(--ink-dim); }
-  .search input:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .meta { min-height: 1.4em; margin: 8px 2px 0; font-size: 0.82rem; color: var(--ink-dim); }
-  .none { padding: 36px 0; color: var(--ink-dim); }
-  .none a { color: var(--accent); }
-</style>
-
 <script>
-  const input = document.getElementById('q') as HTMLInputElement;
-  const items = [...document.querySelectorAll<HTMLElement>('[data-carrera]')];
-  const areas = [...document.querySelectorAll<HTMLElement>('.area')];
-  const escuelas = [...document.querySelectorAll<HTMLElement>('section.esc')];
-  const sinResultados = document.getElementById('sinResultados') as HTMLElement;
-  const meta = document.getElementById('qmeta') as HTMLElement;
-
+  const search = document.querySelector<HTMLElement>('[data-home-search]');
+  const input = document.querySelector<HTMLInputElement>('#q');
+  const results = document.querySelector<HTMLElement>('[data-results]');
+  const clear = document.querySelector<HTMLButtonElement>('[data-clear]');
+  const status = document.querySelector<HTMLElement>('#qmeta');
+  const items = [...document.querySelectorAll<HTMLElement>('[data-search-result]')];
+  const groups = [...document.querySelectorAll<HTMLElement>('[data-result-group]')];
+  const sections = [...document.querySelectorAll<HTMLElement>('[data-home-section]')];
   const norm = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const visible = (el: HTMLElement) => el.querySelector('[data-carrera]:not([hidden])') !== null;
-
-  function filtrar() {
-    const tokens = norm(input.value).split(/\s+/).filter(Boolean);
-    let n = 0;
-    for (const el of items) {
-      const ok = tokens.every((t) => (el.dataset.q ?? '').includes(t));
-      el.hidden = !ok;
-      if (ok) n++;
+  if (search && input && results && clear && status) {
+    search.hidden = false;
+    function filter() {
+      if (!input || !results || !clear || !status) return;
+      const q = norm(input.value.trim());
+      const tokens = q.split(/\s+/);
+      results.hidden = !q;
+      clear.hidden = !q;
+      sections.forEach(s => s.hidden = Boolean(q));
+      let count = 0;
+      items.forEach(item => {
+        item.hidden = !tokens.every(t => (item.dataset.q ?? '').includes(t));
+        if (!item.hidden) count++;
+      });
+      groups.forEach(group => group.hidden = !group.querySelector('[data-search-result]:not([hidden])'));
+      status.textContent = !q ? 'Por ejemplo: Informática, Álgebra o Física.' : count ? `${count} ${count === 1 ? 'resultado' : 'resultados'}` : 'No hay coincidencias. Probá con otra materia o carrera.';
     }
-    areas.forEach((a) => (a.hidden = !visible(a)));
-    escuelas.forEach((e) => (e.hidden = !visible(e)));
-    sinResultados.hidden = n > 0;
-    meta.textContent = tokens.length ? `${n} ${n === 1 ? 'carrera' : 'carreras'}` : '';
+    input.addEventListener('input', filter);
+    input.addEventListener('keydown', e => { if (e.key === 'Escape') { input.value = ''; filter(); } });
+    clear.addEventListener('click', () => { input.value = ''; filter(); input.focus(); });
+    document.querySelectorAll<HTMLAnchorElement>('a[href$="#guias"], a[href^="#"]').forEach(link => link.addEventListener('click', () => { input.value = ''; filter(); }));
   }
-
-  input.addEventListener('input', filtrar);
-  input.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') { input.value = ''; filtrar(); }
-  });
 </script>
