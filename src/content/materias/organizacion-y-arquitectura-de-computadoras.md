@@ -2022,7 +2022,7 @@ La intensidad aritmética I es operaciones por byte transferido desde el nivel d
 
 ### Representar una imagen es definir datos y formato
 
-Una imagen digital puede organizarse como una matriz de altura H y ancho W. Un píxel contiene uno o más canales;cada canal tiene una codificación y profundidad. RGB de ocho bits por canal requiere tres bytes por píxel en un modelo sin relleno nicompresión. La profundidad no cambia cuántos píxeles hay: cambia cuántos valores puede adoptar cada canal.
+Una imagen digital puede organizarse como una matriz de altura H y ancho W. Un píxel contiene uno o más canales;cada canal tiene una codificación y profundidad. RGB de ocho bits por canal requiere tres bytes por píxel en un modelo sin relleno ni compresión. La profundidad no cambia cuántos píxeles hay: cambia cuántos valores puede adoptar cada canal.
 
 En orden por filas, el índice lineal del píxel(r, c) es rW+c. ParaC canales de un byte, el desplazamiento de su canal k es $C(rW+c)+k$. Esta fórmula supone r entre 0 y H−1, c entre 0 y W−1 y canales intercalados. Un formato planar, una imagen con stride mayor que W·C o con otra organización necesita otra cuenta. No se extrapola la fórmula sin mirar el almacenamiento.
 
@@ -2048,7 +2048,7 @@ La rasterización y el trazado derayos son enfoques distintos que pueden combina
 
 ### Práctica razonada
 
-**30.1.** Imagen 1920×1080 RGBA de un byte por canal. **Respuesta:**8.294.400 bytes sin cabeceras, compresión nirelleno adicional.
+**30.1.** Imagen 1920×1080 RGBA de un byte por canal. **Respuesta:** 8.294.400 bytes sin cabeceras, compresión ni relleno adicional.
 
 **30.2.** Píxel(2,3), W=10, C=3, canal 1. **Respuesta:** desplazamiento$3(2\cdot10+3)+1=70$ bytes bajo el formato intercalado definido.
 
