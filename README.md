@@ -1,40 +1,78 @@
 # Planos de estudio
 
-Guías de estudio con Astro. Desarrollo: `npm install`, `npm run dev`. Compilación: `npm run build`. Dirección local: http://localhost:4321/planos-de-estudio/.
+Un espacio para estudiar, comprender y practicar, organizado por carrera y por materia.
 
-## Organización y fuentes
+**Planos de estudio** es un proyecto personal de **Matias Gabriel Cersosimo** que reúne guías de estudio y planes de carreras de la Universidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA). La propuesta es acercar el material a quien está aprendiendo: conectar las ideas, explicar las decisiones y ofrecer un recorrido que pueda seguirse a un ritmo propio.
 
-- `src/data/catalogo.ts`: identidad de las 21 carreras del catálogo del proyecto.
-- `src/content/carreras/*.md`: plan por carrera, versión, fuente institucional, fecha, nombres locales y alternativas de optativas.
-- `src/data/materias-oficiales.json`: registro de 589 códigos de asignatura o requisito de los 20 planes consultados; es metadata, no son 589 manuales.
-- `src/content/materias/*.md`: una sola fuente Markdown por materia; hay 45 archivos existentes, 12 con contenido.
-- `src/lib/estudios.ts`: cruza planes y manuales, valida referencias y calcula disponibilidad para toda la web.
-- `public/planes/`: copias imprimibles HTML y datos JSON de cada versión.
-- `Externo/planes-estudio-unnoba-2026-11-14/`: originales HTML descargados, fuentes y huellas SHA-256.
+**[Visitar el sitio](https://matiascersosimo.github.io/planos-de-estudio/)**
 
-Se consultaron las versiones enlazadas desde https://elegi.unnoba.edu.ar/ el 2026-11-14. Las alternativas se conservan dentro de su requisito, sin convertirlas en materias obligatorias adicionales. Las copias locales no incluyen correlatividades; consultar la fuente oficial para condiciones académicas.
+## Una forma de acompañar el estudio
 
-Enfermería Universitaria enlaza el mismo plan P0286-2 de la Licenciatura. Se conserva la referencia con una nota explícita, sin atribuir el plan completo de cinco años al título de tres años.
+Una fórmula puede servir para recordar un tema. Aprenderlo requiere entender qué significa, cuándo se puede usar y cómo llegar a una respuesta con ella.
 
-## Materias compartidas
+Ese es el criterio que guía el desarrollo y la revisión de los manuales:
 
-La identidad se determina por código institucional. Cada carrera referencia el mismo id de asignatura y conserva su denominación local. No se fusionan códigos diferentes por similitud de nombre sin verificar una equivalencia oficial.
+- **Empezar por la base.** Recuperar los conocimientos previos necesarios antes de avanzar hacia conceptos nuevos.
+- **Mostrar el razonamiento.** Explicar por qué se elige un método y desarrollar los pasos intermedios de los ejemplos.
+- **Practicar con autonomía creciente.** Pasar de un ejercicio acompañado a otro con pistas y, finalmente, a una resolución propia.
+- **Comprobar lo aprendido.** Incluir respuestas razonadas, condiciones de validez y formas de detectar errores.
+- **Consultar sin perder el contexto.** Reunir fórmulas y conceptos en hojas por capítulo, por unidad y en un formulario general.
 
-El manual se genera una sola vez en `/materias/<id>/`. Las direcciones anteriores `/<carrera>/<id>/` redirigen a esa página y mantienen consulta y fragmento del capítulo. El progreso se guarda por id de materia en el navegador.
+La profundidad del material importa más que la cantidad de temas publicados. El proyecto sigue creciendo tanto con nuevas materias como con la revisión de las guías existentes.
 
-Para escribir una guía, buscar el código en `materias-oficiales.json` y crear o completar `src/content/materias/<id>.md` usando exactamente ese id y código. El frontmatter contiene `nombre`, `code` (texto entre comillas para conservar ceros iniciales) y `resumen`. Los encabezados `##` forman las secciones del lector. Para una asignatura nueva, agregar su registro único y referenciarlo desde los períodos del plan correspondiente. Los nombres locales se guardan en `nombresEnPlan`; las alternativas se guardan en `opciones`.
+## Qué ofrece el sitio
 
-## Visibilidad
+- Navegación por carrera, plan de estudios y materia, con acceso a las guías disponibles.
+- Un lector con índice, búsqueda de capítulos y opción de lectura continua.
+- Registro de secciones estudiadas y posibilidad de retomar la lectura. El progreso se guarda en el navegador, sin una cuenta adicional.
+- Ejemplos resueltos, ejercicios, gráficos y material de consulta según la materia.
+- Ejemplos de código descargables en las guías de programación que los incluyen.
 
-Una carrera aparece en portada, buscador y menú cuando alguna asignatura de su plan, incluidas alternativas, tiene un Markdown con cuerpo de contenido. Los archivos con solo frontmatter no cuentan. Actualmente se muestran 9 carreras; las otras 12 conservan sus planes pero no generan páginas públicas vacías. Al completar una guía se recalcula la disponibilidad en el siguiente build.
+Las carreras que comparten una materia consultan un mismo manual. Así, las mejoras llegan a todos sus lectores y el contenido se mantiene en un solo lugar. Los planes permiten distinguir las materias con guía de las que todavía están pendientes.
 
-Cada carrera permite consultar el plan completo o activar «Mostrar solo materias con guía». Las materias pendientes se identifican sin enlaces a manuales vacíos.
+## Diseño y lectura
 
-## Publicación
+La identidad visual toma referencias de la arquitectura industrial y el brutalismo: fondo gris, tipografía marcada, líneas simples y una paleta contenida. La organización por capítulos busca que cada sesión de estudio tenga un punto de entrada claro, tanto en computadora como en celular.
 
-La base es `/planos-de-estudio/`. Antes de publicar en GitHub Pages, configurar `site` y `base` en `astro.config.mjs` y revisar el correo en `src/data/site.ts`. El workflow existente publica al enviar cambios a `main`; esta revisión no publica ni envía cambios al remoto.
+## Desarrollo local
 
+El sitio está construido con [Astro](https://astro.build/), TypeScript y contenido en Markdown. Las expresiones matemáticas se muestran con KaTeX.
 
-## Actualización · Equivalencia de Física II
+Con Node.js y npm instalados:
 
-El usuario confirmó el 2026-11-14 que Física II (01295) y Física II para Informática (01487) comparten contenido. `src/data/equivalencias-manuales.json` registra esa indicación y ambas asignaturas abren el único manual `fisica-ii-para-informatica.md`. Se conservan los nombres y códigos originales de cada plan, las descargas oficiales y el progreso del lector por manual. Esta confirmación de contenido no se presenta como resolución institucional de acreditación. Ingeniería Industrial, Ingeniería Mecánica e Ingeniería en Alimentos pasan de 4 a 5 guías disponibles; continúan siendo 12 manuales únicos y 9 carreras visibles. Ahora se generan 50 redirecciones de compatibilidad.
+```bash
+npm install
+npm run dev
+```
+
+Abrí [localhost:4321/planos-de-estudio/](http://localhost:4321/planos-de-estudio/).
+
+Para compilar y revisar la versión de producción:
+
+```bash
+npm run build
+npm run preview
+```
+
+### Organización del repositorio
+
+| Ruta | Contenido |
+|---|---|
+| `src/content/materias/` | Manuales de estudio en Markdown. |
+| `src/content/carreras/` | Planes y referencias de cada carrera. |
+| `src/data/` | Catálogo, asignaturas, equivalencias de manuales y datos del sitio. |
+| `src/pages/` | Páginas y rutas del sitio. |
+| `src/styles/` | Estilos de la interfaz y del lector. |
+| `public/` | Gráficos, ejemplos descargables y copias de consulta de los planes. |
+
+La publicación se realiza en GitHub Pages mediante el workflow del repositorio al enviar cambios a `master`.
+
+## Autor y contacto
+
+**Matias Gabriel Cersosimo**
+
+[contacto@matiascersosimo.com](mailto:contacto@matiascersosimo.com)
+
+Si encontrás un error, un paso que necesita más explicación o un tema que sería útil incorporar, podés escribirme indicando la materia y el capítulo. Esas observaciones ayudan a mejorar el recorrido para quienes estudien después.
+
+Planos de estudio es una iniciativa estudiantil independiente, sin afiliación oficial con la universidad. Las guías son material de apoyo; para programas vigentes, correlatividades y condiciones de cursada corresponde consultar las fuentes institucionales y las indicaciones de cada cátedra.
