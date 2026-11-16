@@ -1,0 +1,12 @@
+Laboratorio original de Introducción a la Programación Orientada a Objetos
+Autor: Matias Gabriel Cersosimo
+
+Se compilan todos los fuentes juntos. Con JDK 11 o posterior, crear carpeta salida:
+javac --release 11 -encoding UTF-8 -d salida *.java
+java -cp salida DemoIPOO
+
+Las clases no usan paquetes externos. Patrones y DespachoDoble agrupan clases
+internas para los ejemplos. Para BlueJ, incorporar los fuentes a un proyecto.
+Los casos son docentes y secuenciales; no implementan persistencia ni una
+biblioteca de aplicación completa. Composite requiere estructuras sin ciclos.
+Consultar contratos y explicaciones de la guía antes de cambiar entradas.
